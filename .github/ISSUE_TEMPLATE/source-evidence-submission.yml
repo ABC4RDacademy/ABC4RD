@@ -1,0 +1,27 @@
+name: Source or evidence submission
+description: Submit a source, citation, archived page, or media reference
+title: "Evidence: "
+labels: ["evidence", "research"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Source URL or citation
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: What claim does it support?
+    validations:
+      required: true
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: Confidence
+      options:
+        - primary source
+        - reputable secondary source
+        - needs review
+        - archive only
+

@@ -1,0 +1,39 @@
+name: Partner lead
+description: Track a potential partner, speaker, sponsor, or ecosystem contact
+title: "Partner lead: "
+labels: ["partner", "lead"]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: Target
+      description: Organization, person, conference, project, or media platform.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source
+      description: Link to a public page supporting the lead.
+    validations:
+      required: true
+  - type: dropdown
+    id: fit
+    attributes:
+      label: Fit
+      options:
+        - AI education
+        - Bitcoin education
+        - Green compute / mining
+        - Open-source developer onboarding
+        - Digital credentials
+        - Conference / media
+        - University / community
+  - type: textarea
+    id: next_step
+    attributes:
+      label: Proposed next step
+      description: Keep it small and human-reviewed.
+    validations:
+      required: true
+
