@@ -1,0 +1,11 @@
+stages:
+  - validate
+
+markdown:
+  stage: validate
+  image: node:lts
+  script:
+    - npx --yes markdownlint-cli README.md "*.md" "docs/*.md" ".gitlab/**/*.md" ".github/**/*.md"
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

@@ -1,0 +1,14 @@
+categories:
+  - name: Announcements
+    format: announcement
+  - name: Research
+    format: open-ended
+  - name: Course Development
+    format: open-ended
+  - name: Events
+    format: open-ended
+  - name: Partners
+    format: open-ended
+  - name: Community Help
+    format: question-answer
+
