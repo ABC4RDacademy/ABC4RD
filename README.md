@@ -51,6 +51,12 @@ Use this carefully:
 | `open-source-onboarding` | First GitHub and upstream contribution path |
 | `conference-notes` | Verified conference source tracking |
 | `community-collaboration` | Feedback requests and careful outreach drafts |
+| `open-compute-curriculum` | Open compute, exascale, AI workloads, and scientific computing |
+| `sensor-networks-curriculum` | Sensors, IoT, LPWAN, industrial interoperability, and telemetry integrity |
+| `robotics-systems-curriculum` | ROS 2, Gazebo, MoveIt, simulation, control, and safety |
+| `digital-health-standards-curriculum` | FHIR, WHO SMART Guidelines, open health systems, and privacy |
+| `digital-manufacturing-curriculum` | Digital thread, additive manufacturing, provenance, and standards |
+| `nanomaterials-research-curriculum` | Nanomaterials, simulation, materials data, and responsible development |
 
 ## Core workstreams
 
