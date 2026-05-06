@@ -67,3 +67,12 @@ This roadmap prepares ABC4RDacademy for public development without leaking priva
   pull request templates, and starter issue queues.
 - Keep external outreach draft-only until a maintainer approves the target list
   and message text.
+
+## Current priority: research-center upgrade
+
+- Use [research tracks](research-tracks.md) as the public architecture.
+- Use [contribution ladder](contribution-ladder.md) for student onboarding.
+- Use [public roadmap v2](public-roadmap-v2.md) for external-facing milestones.
+- Use [legal and ethical framework](legal-ethical-framework.md) before publishing
+  crypto, medical, robotics, manufacturing, or nanomaterials materials.
+- Publish weekly digests in `docs/weekly-digests/`.

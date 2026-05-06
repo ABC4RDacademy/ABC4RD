@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-review_required-orange)](docs/license-policy.md)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen)](CONTRIBUTING.md)
 
-**Academic BlockChain for Research & Development (ABC4RD)** is being relaunched as an international blockchain and AI education initiative.
+**Academic BlockChain for Research & Development (ABC4RD)** is being relaunched as an international research and education initiative for Bitcoin, AI, open compute, digital manufacturing, digital health, robotics, sensor networks, nanomaterials, and source-backed open infrastructure.
 
 ![ABC4RD education hero](assets/abc4rd-education-hero.png)
 
@@ -46,15 +46,35 @@ Use this carefully:
 | `LLMAIX2001a` | AI course track and open-source learning modules |
 | `abc4rd-research` | Evidence, citations, media kit, public source review |
 | `abc4rd-community` | Charter, governance, community operations |
+| `bitcoin-developer-curriculum` | Bitcoin developer education |
+| `bitcoin-reading-list` | Source-backed Bitcoin reading paths |
+| `open-source-onboarding` | First GitHub and upstream contribution path |
+| `conference-notes` | Verified conference source tracking |
+| `community-collaboration` | Feedback requests and careful outreach drafts |
 
 ## Core workstreams
 
 - **AI education:** LLMAIX2001a, Storyteller AI, model foundations, deployment, AI literacy.
 - **Bitcoin education:** Bitcoin foundations, Lightning, Nostr, custody, treasury, mining, open source.
+- **Open compute:** exascale, data center infrastructure, reproducible AI, scientific workloads.
+- **Sensors and robotics:** IoT, LPWAN, ROS, Gazebo, MoveIt, simulation, safety boundaries.
+- **Digital health:** WHO SMART Guidelines, FHIR, open health systems, privacy, interoperability.
+- **Digital manufacturing:** digital thread, additive manufacturing, industrial standards, provenance.
+- **Nanomaterials:** nanoeducation, simulation, materials data, safety, responsible development.
 - **Green compute:** energy, mining, responsible infrastructure, climate and ecology literacy.
 - **Digital credentials:** course records, certificates, verifiable learning pathways.
 - **Community:** GitHub Issues, Discussions, Telegram, Discord, and public learning groups.
 - **Evidence:** public sources before public claims.
+
+## Research system
+
+- [Research tracks](docs/research-tracks.md)
+- [Contribution ladder](docs/contribution-ladder.md)
+- [Public roadmap v2](docs/public-roadmap-v2.md)
+- [Public roles](docs/roles.md)
+- [Legal and ethical framework](docs/legal-ethical-framework.md)
+- [Visual identity](docs/visual-identity.md)
+- [Latest research digest](docs/weekly-digests/2026-05-06-research-digest.md)
 
 ## GitHub collaboration
 
@@ -79,6 +99,8 @@ Use Discussions for broader conversation:
 ## Roadmap
 
 See [docs/github-roadmap.md](docs/github-roadmap.md).
+
+For the external-facing roadmap, see [docs/public-roadmap-v2.md](docs/public-roadmap-v2.md).
 
 For the current GitLab operating plan, see [docs/group-roadmap.md](docs/group-roadmap.md).
 
