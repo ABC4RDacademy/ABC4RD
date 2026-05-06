@@ -2,11 +2,11 @@
 
 ## What changed
 
-- 
+- TODO
 
 ## Why it matters
 
-- 
+- TODO
 
 ## Evidence and sources
 

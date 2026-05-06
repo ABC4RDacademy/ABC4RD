@@ -6,7 +6,7 @@ Describe the smallest useful contribution.
 
 ## Scope
 
-- 
+- TODO
 
 ## Acceptance checklist
 

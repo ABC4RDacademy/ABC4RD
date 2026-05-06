@@ -6,7 +6,7 @@ State the claim or reference being checked.
 
 ## Source candidates
 
-- 
+- TODO
 
 ## Verification checklist
 

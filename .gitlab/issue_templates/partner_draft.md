@@ -6,7 +6,7 @@ Name the organization, community, or audience.
 
 ## Draft purpose
 
-- 
+- TODO
 
 ## Approval checklist
 
