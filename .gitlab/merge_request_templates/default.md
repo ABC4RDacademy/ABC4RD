@@ -1,28 +1,28 @@
 # Merge Request
 
-## Summary
+## What changed
 
--
+- 
 
-## Type
+## Why it matters
 
-- [ ] Documentation
-- [ ] Course or research content
-- [ ] Community or event operations
-- [ ] GitLab infrastructure
-- [ ] Website or publishing pipeline
+- 
 
-## Source discipline
+## Evidence and sources
 
-- [ ] Public claims are backed by links or existing repository sources.
-- [ ] Draft, strategy, and target language is clearly labeled.
-- [ ] No credentials, private emails, internal contracts, or CRM data are included.
+- [ ] No new public claims were added.
+- [ ] New or changed claims include sources.
+- [ ] Source dates, authors, and URLs are recorded where available.
+- [ ] Translation changes preserve the canonical source text.
 
-## Outreach and publication
+## Contributor path
 
-- [ ] This change does not send invitations, publish posts, or claim partnerships.
-- [ ] Any external message is included as a draft for maintainer approval.
+- [ ] This is suitable for a first contributor, or the complexity is explained.
+- [ ] Related issues are linked.
+- [ ] Maintainer review path is clear.
 
-## Review notes
+## Checks
 
--
+- [ ] Markdown/content checks pass locally where applicable.
+- [ ] Links were reviewed.
+- [ ] Partner/outreach text remains draft-only unless explicitly approved.
