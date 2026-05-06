@@ -6,12 +6,12 @@ ABC4RD Academy is an international blockchain, AI, and science education initiat
 
 | You are | Go here | Useful output |
 | --- | --- | --- |
-| Student | [LLMAIX2001a](../llmaix2001a) | AI course modules, labs, and beginner issues |
-| Researcher | [ABC4RD Research](../abc4rd-research) | evidence policy, citation maps, source review |
-| Developer | [Applied Research Labs](../applied-research-labs) | open-source prototypes, CI, reproducible demos |
-| Bitcoin educator | [Bitcoin Education](../bitcoin-education) | Bitcoin, Lightning, Nostr, custody, mining literacy |
-| Community builder | [ABC4RD Community](../abc4rd-community) | governance, onboarding, events, contributor care |
-| Scientist | [Science Labs](../science-labs) | fundamental science notes, ecology, climate, compute |
+| Student | [LLMAIX2001a](https://gitlab.com/abc4rd-academy/llmaix2001a) | AI course modules, labs, and beginner issues |
+| Researcher | [ABC4RD Research](https://gitlab.com/abc4rd-academy/abc4rd-research) | evidence policy, citation maps, source review |
+| Developer | [Applied Research Labs](https://gitlab.com/abc4rd-academy/applied-research-labs) | open-source prototypes, CI, reproducible demos |
+| Bitcoin educator | [Bitcoin Education](https://gitlab.com/abc4rd-academy/bitcoin-education) | Bitcoin, Lightning, Nostr, custody, mining literacy |
+| Community builder | [ABC4RD Community](https://gitlab.com/abc4rd-academy/abc4rd-community) | governance, onboarding, events, contributor care |
+| Scientist | [Science Labs](https://gitlab.com/abc4rd-academy/science-labs) | fundamental science notes, ecology, climate, compute |
 
 ## Flagship
 
