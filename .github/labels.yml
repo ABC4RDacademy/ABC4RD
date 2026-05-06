@@ -2,6 +2,18 @@ labels:
   - name: area:ai-education
     color: "1d76db"
     description: AI course, labs, literacy, and learning pathway work.
+  - name: area:agents
+    color: "5319e7"
+    description: AI agents, tool use, orchestration, and approval-gated workflows.
+  - name: area:agi
+    color: "0052cc"
+    description: AGI literacy, evaluations, preparedness, and governance.
+  - name: area:asi-safety
+    color: "d93f0b"
+    description: ASI safety, alignment, scalable oversight, and red-team work.
+  - name: area:blockchain-trust
+    color: "f9d0c4"
+    description: Credentials, provenance, attestations, incentives, and Bitcoin workflows.
   - name: area:bitcoin-education
     color: "f9d0c4"
     description: Bitcoin, Lightning, Nostr, custody, mining, and treasury education.

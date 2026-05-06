@@ -26,6 +26,17 @@ Output:
 - one good first issue per module;
 - link from `ABC4RD` to the course repository roadmap.
 
+### Publish the frontier innovation strategy
+
+Labels: `area:ai-education`, `area:research`, `needs:evidence`
+
+Output:
+
+- source-backed public thesis for AI agents, AGI, ASI, and blockchain trust;
+- link from the main README;
+- matching issue set in `LLMAIX2001a`;
+- safe wording that avoids claiming existing AGI or ASI.
+
 ### Prepare the research citation pack
 
 Labels: `area:research`, `needs:evidence`, `priority:high`
