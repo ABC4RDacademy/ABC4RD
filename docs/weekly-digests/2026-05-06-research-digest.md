@@ -23,16 +23,29 @@
 
 ## Issues Opened
 
-- Expand multilingual open literature index.
-- Draft convergence curriculum modules.
-- Verify Bitcoin and digital manufacturing traceability sources.
+- ABC4RD research track buildouts for Bitcoin, open compute, robotics and
+  sensors, digital health, digital manufacturing, and nanomaterials.
+- Source verification: first 50+ literature index entries.
+- First lesson issues for the six new curriculum repositories.
 
-## External Contribution
+## Pull Requests And External Contribution
 
-- OpenMRS PR: <https://github.com/openmrs/openmrs-core/pull/6083>
-  - Scope: documentation-only README build badge update.
+- LLMAIX2001a PR:
+  <https://github.com/ABC4RDacademy/LLMAIX2001a/pull/8>
+  - Scope: improve Module 01 runnable bigram lab with CLI parameters,
+    exercises, glossary, and unit tests.
+  - Reason: make the flagship product visibly runnable and contributor-ready.
+- OpenMRS documentation PR:
+  <https://github.com/openmrs/openmrs-contrib-rest-api-docs/pull/183>
+  - Scope: documentation-only GitHub capitalization fix.
   - Reason: establish a small, concrete external contribution pattern for
     digital health/open-source literacy.
+
+## Corrections
+
+- A previous draft referenced an OpenMRS core pull request number. The active
+  external contribution tracked for this digest is the OpenMRS REST API docs
+  pull request linked above.
 
 ## Topics Requiring Expert Review
 
@@ -49,3 +62,4 @@
 - Summarize one source in 150-300 words.
 - Propose one beginner exercise.
 - Identify one external documentation issue, but do not open it until reviewed.
+- Run the Module 01 bigram lab and open a small improvement issue or PR.
