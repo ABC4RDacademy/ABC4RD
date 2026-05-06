@@ -38,7 +38,10 @@ and human-approved.
 | --- | --- | --- |
 | GitHub | Public source of truth | Issues, Discussions, pull requests, labels, pinned repositories |
 | GitLab | Controlled mirror or sprint workspace | Protected branch, issue board, validation pipeline |
-| Bitbucket | Atlassian-facing mirror or partner review workspace | Branch restrictions, starter issues, PR template, validation pipeline |
+| Bitbucket | Public Atlassian-facing mirror or partner review workspace | Branch restrictions, starter drafts, PR template, validation pipeline |
+
+See also [Operating dashboard](operating-dashboard.md) and
+[Platform sync](platform-sync.md).
 
 ## Public activity rules
 

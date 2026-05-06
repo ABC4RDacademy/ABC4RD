@@ -78,6 +78,8 @@ See [docs/github-roadmap.md](docs/github-roadmap.md).
 ## Operating loop
 
 - [ABC4RD operating loop](docs/operating-loop.md)
+- [Operating dashboard](docs/operating-dashboard.md)
+- [Platform sync](docs/platform-sync.md)
 - [Event activation pipeline](docs/event-activation-pipeline.md)
 - [GitHub issue backlog](docs/github-issue-backlog.md)
 - [GitLab activation](docs/gitlab-activation.md)
