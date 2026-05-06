@@ -29,7 +29,7 @@
 
 ## External Contribution
 
-- OpenMRS PR: https://github.com/openmrs/openmrs-core/pull/6083
+- OpenMRS PR: <https://github.com/openmrs/openmrs-core/pull/6083>
   - Scope: documentation-only README build badge update.
   - Reason: establish a small, concrete external contribution pattern for
     digital health/open-source literacy.
