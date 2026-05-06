@@ -1,0 +1,39 @@
+name: Weekly operating package
+description: Plan one week of course, research, event, partner, community, and platform work
+title: "Weekly package: "
+labels: ["status:draft", "area:community"]
+body:
+  - type: input
+    id: week
+    attributes:
+      label: Week
+      description: Use YYYY-MM-DD for the package start date.
+      placeholder: "2026-05-06"
+    validations:
+      required: true
+  - type: textarea
+    id: outcomes
+    attributes:
+      label: Weekly outcomes
+      description: List the course, research, event, partner, community, and platform outputs.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Public sources
+      description: Add official URLs, repository docs, or evidence links.
+    validations:
+      required: true
+  - type: textarea
+    id: approval
+    attributes:
+      label: Approval gates
+      description: Note any outreach, publication, medical, financial, or safety review requirements.
+    validations:
+      required: true
+  - type: textarea
+    id: recap
+    attributes:
+      label: Recap draft
+      description: Draft the Telegram, Discord, X, GitHub, GitLab, or Jira recap text.

@@ -77,10 +77,18 @@ Use this carefully:
 - [Research tracks](docs/research-tracks.md)
 - [Contribution ladder](docs/contribution-ladder.md)
 - [Public roadmap v2](docs/public-roadmap-v2.md)
+- [90-day starter work items](docs/starter-work-items-90-day.md)
 - [Public roles](docs/roles.md)
 - [Legal and ethical framework](docs/legal-ethical-framework.md)
 - [Visual identity](docs/visual-identity.md)
 - [Latest research digest](docs/weekly-digests/2026-05-06-research-digest.md)
+
+## Start here
+
+- [Weekly operating package](docs/weekly-operating-package-2026-05-06.md)
+- [Jira, GitHub, and GitLab task routing](docs/jira-github-gitlab-task-routing.md)
+- [LLMAIX2001a course update draft](docs/course-update-llmaix2001a-2026-05-06.md)
+- [Partner and event drafts](docs/partner-event-drafts-2026-05-06.md)
 
 ## GitHub collaboration
 
@@ -115,6 +123,7 @@ For the current GitLab operating plan, see [docs/group-roadmap.md](docs/group-ro
 - [ABC4RD operating loop](docs/operating-loop.md)
 - [Operating dashboard](docs/operating-dashboard.md)
 - [Platform sync](docs/platform-sync.md)
+- [Jira/GitHub/GitLab task routing](docs/jira-github-gitlab-task-routing.md)
 - [Site information architecture](docs/site-information-architecture.md)
 - [Event activation pipeline](docs/event-activation-pipeline.md)
 - [Frontier innovation strategy](docs/frontier-innovation-strategy.md)
@@ -127,7 +136,11 @@ For the current GitLab operating plan, see [docs/group-roadmap.md](docs/group-ro
 - [Partner draft queue](docs/partner-draft-queue.md)
 - [Partner and event launch pipeline](docs/partner-event-launch-pipeline.md)
 - [Metrics dashboard](docs/metrics-dashboard.md)
+- [Weekly operating package](docs/weekly-operating-package-2026-05-06.md)
+- [LLMAIX2001a course update draft](docs/course-update-llmaix2001a-2026-05-06.md)
+- [Partner and event drafts](docs/partner-event-drafts-2026-05-06.md)
 - [30 starter issues](docs/starter-issues-30.md)
+- [90-day starter work items](docs/starter-work-items-90-day.md)
 - [Outreach drafts](docs/outreach-drafts.md)
 
 ## Safety
