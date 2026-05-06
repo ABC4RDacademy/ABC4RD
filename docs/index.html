@@ -4,17 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ABC4RD Academy</title>
-  <meta name="description" content="ABC4RD Academy is an international blockchain and AI education initiative with public repositories, source-backed research, and contributor-friendly learning paths.">
+  <meta name="description" content="ABC4RD Academy is a source-backed research and education center for Bitcoin, AI, open compute, robotics, digital health, manufacturing, nanomaterials, and blockchain trust.">
   <style>
     :root {
       color-scheme: light;
       --ink: #17202a;
-      --muted: #54616d;
-      --line: #d6dde5;
-      --paper: #f5f7fa;
+      --muted: #586570;
+      --line: #d8e0e6;
+      --paper: #f7f8f6;
       --green: #0f766e;
-      --rust: #9a3412;
-      --blue: #1d4ed8;
+      --gold: #b88924;
+      --blue: #245ea8;
+      --clay: #9b5f48;
       --charcoal: #20262d;
     }
     * { box-sizing: border-box; }
@@ -22,18 +23,18 @@
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
       color: var(--ink);
-      background: white;
+      background: #fbfcfb;
       line-height: 1.5;
     }
     a { color: var(--blue); text-decoration-thickness: 1px; }
     header {
-      min-height: 86vh;
+      min-height: 74vh;
       display: grid;
-      align-items: end;
-      padding: 28px 24px 48px;
+      align-items: center;
+      padding: 104px 24px 52px;
       color: white;
       background:
-        linear-gradient(90deg, rgba(12, 17, 23, 0.86), rgba(12, 17, 23, 0.46)),
+        linear-gradient(90deg, rgba(9, 14, 18, 0.9), rgba(9, 14, 18, 0.58)),
         url("https://raw.githubusercontent.com/ABC4RDacademy/ABC4RD/main/assets/abc4rd-education-hero.png") center / cover;
     }
     .wrap { width: min(1120px, 100%); margin: 0 auto; }
@@ -64,15 +65,70 @@
     .nav-links { display: flex; flex-wrap: wrap; gap: 14px; font-size: 14px; }
     h1 {
       margin: 0 0 14px;
-      max-width: 780px;
-      font-size: clamp(42px, 8vw, 82px);
-      line-height: 0.98;
+      max-width: 760px;
+      font-size: clamp(42px, 7vw, 72px);
+      line-height: 1;
       letter-spacing: 0;
     }
     h2 { margin: 0 0 16px; font-size: 28px; letter-spacing: 0; }
     h3 { margin: 0 0 8px; font-size: 18px; letter-spacing: 0; }
     p { max-width: 780px; }
     .lead { margin: 0; max-width: 760px; font-size: 20px; color: #eef3f7; }
+    .hero-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+      gap: 28px;
+      align-items: end;
+    }
+    .hero-kicker {
+      margin: 0 0 14px;
+      color: #d7c28a;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 20px;
+    }
+    .hero-meta span {
+      border: 1px solid rgba(255, 255, 255, 0.32);
+      border-radius: 999px;
+      padding: 6px 10px;
+      color: #eef3f7;
+      background: rgba(255, 255, 255, 0.08);
+      font-size: 13px;
+    }
+    .signal-panel {
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      border-radius: 8px;
+      padding: 18px;
+      background: rgba(16, 20, 24, 0.72);
+      box-shadow: 0 18px 48px rgba(0, 0, 0, 0.22);
+    }
+    .signal-panel h2 {
+      margin-bottom: 12px;
+      color: white;
+      font-size: 20px;
+    }
+    .signal-panel dl {
+      display: grid;
+      gap: 12px;
+      margin: 0;
+    }
+    .signal-panel dt {
+      color: #9bc9c2;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .signal-panel dd {
+      margin: 2px 0 0;
+      color: #f4f7f6;
+    }
     .button-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
     .button {
       display: inline-flex;
@@ -92,6 +148,20 @@
     }
     .button.primary { background: var(--green); border-color: var(--green); }
     section .button.primary { color: white; }
+    .proof-strip {
+      padding: 16px 24px;
+      background: #101418;
+      color: #dfe7e4;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+    }
+    .proof-strip .wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .proof-strip a { color: #d7c28a; }
     section, footer { padding: 40px 24px; }
     .band { background: var(--paper); border-block: 1px solid var(--line); }
     .grid {
@@ -124,7 +194,8 @@
     ul { padding-left: 20px; }
     footer { color: var(--muted); border-top: 1px solid var(--line); }
     @media (max-width: 720px) {
-      header { min-height: 82vh; padding-top: 92px; }
+      header { min-height: auto; padding-top: 118px; }
+      .hero-layout { grid-template-columns: 1fr; }
       .nav-inner { align-items: flex-start; flex-direction: column; }
       .nav-links { gap: 10px; }
       .lead { font-size: 18px; }
@@ -152,16 +223,49 @@
   </nav>
 
   <header>
-    <div class="wrap">
-      <h1>ABC4RD Academy</h1>
-      <p class="lead">International research and education with a public 2017 origin, a flagship Storyteller AI course, Bitcoin learning, AI agents, AGI/ASI safety literacy, blockchain trust systems, open compute, robotics, digital health, digital manufacturing, nanomaterials, and source-backed open infrastructure.</p>
-      <div class="button-row">
-        <a class="button primary" href="https://github.com/ABC4RDacademy/ABC4RD">Open the main hub</a>
-        <a class="button" href="https://github.com/ABC4RDacademy/LLMAIX2001a">Start LLMAIX2001a</a>
-        <a class="button" href="https://github.com/ABC4RDacademy/LLMAIX2001a/tree/main/labs/module-01-bigram">Run Module 01</a>
+    <div class="wrap hero-layout">
+      <div>
+        <p class="hero-kicker">Source-backed research and education center</p>
+        <h1>ABC4RD Academy</h1>
+        <p class="lead">A public learning hub for Bitcoin, AI agents, AGI/ASI literacy, blockchain trust, open compute, robotics, digital health, manufacturing, and nanomaterials.</p>
+        <div class="hero-meta" aria-label="Focus areas">
+          <span>2017 public origin</span>
+          <span>Runnable labs</span>
+          <span>Verified sources</span>
+          <span>Contributor ladder</span>
+        </div>
+        <div class="button-row">
+          <a class="button primary" href="https://github.com/ABC4RDacademy/LLMAIX2001a/tree/main/labs/module-01-bigram">Run Module 01</a>
+          <a class="button" href="https://github.com/ABC4RDacademy/ABC4RD">Open the hub</a>
+          <a class="button" href="https://github.com/ABC4RDacademy/ABC4RD/discussions">Join Discussions</a>
+        </div>
       </div>
+      <aside class="signal-panel" aria-label="Current public signal">
+        <h2>Current Public Signal</h2>
+        <dl>
+          <div>
+            <dt>Flagship</dt>
+            <dd>LLMAIX2001a Module 01 is runnable and tested.</dd>
+          </div>
+          <div>
+            <dt>Research</dt>
+            <dd>Evidence, source maps, and digest updates are public.</dd>
+          </div>
+          <div>
+            <dt>Community</dt>
+            <dd>Discussions are open with focused research categories.</dd>
+          </div>
+        </dl>
+      </aside>
     </div>
   </header>
+
+  <div class="proof-strip">
+    <div class="wrap">
+      <span>Proof before promotion: code, sources, issues, and discussions first.</span>
+      <a href="https://github.com/ABC4RDacademy/ABC4RD/discussions/15">Research-center upgrade</a>
+    </div>
+  </div>
 
   <section id="start">
     <div class="wrap">
