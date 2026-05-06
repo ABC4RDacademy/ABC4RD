@@ -15,4 +15,3 @@ ABC4RD Academy welcomes contributors from different countries, languages, discip
 - Publishing private contact details or credentials.
 - Spam or misleading partner claims.
 - Unsupported claims presented as fact.
-

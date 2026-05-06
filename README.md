@@ -13,6 +13,8 @@ This is the main public hub for ABC4RD Academy:
 - organization roadmap;
 - website and docs direction;
 - publishing and safety policy;
+- weekly operating loop and event activation pipeline;
+- GitHub, GitLab, and Bitbucket publishing coordination;
 - issue templates for public collaboration;
 - source-backed partner and ecosystem briefs;
 - coordination links to course, research, and community repositories.
@@ -73,6 +75,18 @@ Use Discussions for broader conversation:
 
 See [docs/github-roadmap.md](docs/github-roadmap.md).
 
+## Operating loop
+
+- [ABC4RD operating loop](docs/operating-loop.md)
+- [Event activation pipeline](docs/event-activation-pipeline.md)
+- [GitHub issue backlog](docs/github-issue-backlog.md)
+- [GitLab activation](docs/gitlab-activation.md)
+- [GitLab starter issues](docs/gitlab-starter-issues.md)
+- [Bitbucket activation](docs/bitbucket-activation.md)
+- [Bitbucket starter issues](docs/bitbucket-starter-issues.md)
+- [Partner activity queue](docs/partner-activity-queue.md)
+- [Outreach drafts](docs/outreach-drafts.md)
+
 ## Safety
 
 ABC4RD uses a draft-first publishing model:
@@ -86,10 +100,10 @@ See [docs/publishing-safety.md](docs/publishing-safety.md).
 
 ## Channels
 
-- Website: http://abc4rd.org/
-- GitHub org: https://github.com/ABC4RDacademy
-- X: https://x.com/academy_abc4rd
-- Telegram channel: https://www.t.me/abc4rdchannel
-- Telegram bot: https://www.t.me/abc4rd_bot
-- Telegram chat: https://www.t.me/abc4rdchat
-- Discord: https://discord.com/invite/3AgRv6wKPQ
+- Website: [abc4rd.org](http://abc4rd.org/)
+- GitHub org: [ABC4RDacademy](https://github.com/ABC4RDacademy)
+- X: [@academy_abc4rd](https://x.com/academy_abc4rd)
+- Telegram channel: [abc4rdchannel](https://www.t.me/abc4rdchannel)
+- Telegram bot: [abc4rd_bot](https://www.t.me/abc4rd_bot)
+- Telegram chat: [abc4rdchat](https://www.t.me/abc4rdchat)
+- Discord: [ABC4RD invite](https://discord.com/invite/3AgRv6wKPQ)

@@ -1,0 +1,43 @@
+labels:
+  - name: area:ai-education
+    color: "1d76db"
+    description: AI course, labs, literacy, and learning pathway work.
+  - name: area:bitcoin-education
+    color: "f9d0c4"
+    description: Bitcoin, Lightning, Nostr, custody, mining, and treasury education.
+  - name: area:community
+    color: "0e8a16"
+    description: Community operations, governance, onboarding, and public support.
+  - name: area:events
+    color: "fbca04"
+    description: Conferences, workshops, meetups, and event activation.
+  - name: area:partners
+    color: "5319e7"
+    description: Partner mapping, outreach drafts, and collaboration opportunities.
+  - name: area:research
+    color: "0052cc"
+    description: Evidence, citation review, source maps, and media-kit materials.
+  - name: area:site
+    color: "c2e0c6"
+    description: Website, docs navigation, OpenGraph, and publishing integration.
+  - name: good first issue
+    color: "7057ff"
+    description: Small, clear task suitable for a first public contribution.
+  - name: help wanted
+    color: "008672"
+    description: Task where public contributor support is welcome.
+  - name: needs:approval
+    color: "b60205"
+    description: Requires human approval before external publication or outreach.
+  - name: needs:evidence
+    color: "d93f0b"
+    description: Needs public source review before claims can be treated as factual.
+  - name: priority:high
+    color: "b60205"
+    description: Important near-term work for public credibility or operations.
+  - name: status:draft
+    color: "ededed"
+    description: Draft work that is not ready for public publication.
+  - name: status:review
+    color: "fbca04"
+    description: Ready for source, editorial, or maintainer review.

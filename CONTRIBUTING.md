@@ -25,4 +25,3 @@ Thanks for helping build ABC4RD Academy in public.
 - Claims are backed by public sources.
 - The tone is useful, not hype-driven.
 - No credentials, private emails, or internal-only details are included.
-
