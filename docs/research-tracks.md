@@ -197,7 +197,7 @@ Key sources:
 - <https://smart.who.int/>
 - <https://www.fhir.org/>
 - <https://www.healthit.gov/isp/fhir-introduction>
-- <https://openmrs.org/documentation/>
+- <https://openmrs.org/product/>
 - <https://github.com/openmrs>
 - <https://docs.gnuhealth.org/>
 - <https://www.openmhealth.org/organization/about/>
@@ -240,7 +240,7 @@ Key sources:
 - <https://www.mtconnect.org/about>
 - <https://opcfoundation.org/about/what-is-opc/>
 - <https://store.astm.org/products-services/standards-and-publications/standards/additive-manufacturing-standards.html>
-- <https://www.ap242.org/ap242-standard.html>
+- <https://www.prostep.org/en/medialibrary/fact-sheets/iso-10303-242-step-ap242>
 - <https://www.nist.gov/programs-projects/systems-integration-additive-manufacturing>
 
 Learning topics:
@@ -318,9 +318,8 @@ Key sources:
 - <https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program>
 - <https://www.nist.gov/smart-manufacturing>
 - <https://www.nano.gov/reports-resources>
-- <https://www.finra.org/investors/insights/crypto-assets>
+- <https://www.finra.org/investors/investing/investment-products/crypto-assets/learn-more>
 - <https://www.sec.gov/securities-topics/crypto-assets>
-- <https://www.fda.gov/medical-devices/digital-health-center-excellence>
 
 Learning topics:
 
