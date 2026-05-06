@@ -1,0 +1,37 @@
+name: Source review
+description: Verify a public source for ABC4RD Academy research or curriculum
+title: "Source review: "
+labels: ["area:research", "needs:evidence"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Source URL
+      description: Official or public source link.
+    validations:
+      required: true
+  - type: input
+    id: institution
+    attributes:
+      label: Institution / author
+      description: Who owns or published the source?
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Proposed status
+      options:
+        - verified
+        - requires verification
+        - license unclear
+        - rejected
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: Intended ABC4RD Academy use
+      description: Curriculum, essay, digest, outreach draft, or source map.
+    validations:
+      required: true

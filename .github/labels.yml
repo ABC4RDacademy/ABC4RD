@@ -44,6 +44,15 @@ labels:
   - name: needs:evidence
     color: "d93f0b"
     description: Needs public source review before claims can be treated as factual.
+  - name: source-verification
+    color: "1d76db"
+    description: Source needs review for claim support and public use.
+  - name: requires-verification
+    color: "fbca04"
+    description: Useful lead, but not verified enough for public claims.
+  - name: license-unclear
+    color: "d93f0b"
+    description: License or redistribution rights need review.
   - name: priority:high
     color: "b60205"
     description: Important near-term work for public credibility or operations.
