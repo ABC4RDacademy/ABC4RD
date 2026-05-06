@@ -1,5 +1,10 @@
 # ABC4RD
 
+[![GitLab pipeline](https://gitlab.com/abc4rd-academy/abc4rd/badges/main/pipeline.svg)](https://gitlab.com/abc4rd-academy/abc4rd/-/pipelines)
+[![Open issues](https://img.shields.io/badge/work_items-open-blue)](https://gitlab.com/abc4rd-academy/abc4rd/-/work_items)
+[![License](https://img.shields.io/badge/license-review_required-orange)](docs/license-policy.md)
+[![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen)](CONTRIBUTING.md)
+
 **Academic BlockChain for Research & Development (ABC4RD)** is being relaunched as an international blockchain and AI education initiative.
 
 ![ABC4RD education hero](assets/abc4rd-education-hero.png)
@@ -75,6 +80,8 @@ Use Discussions for broader conversation:
 
 See [docs/github-roadmap.md](docs/github-roadmap.md).
 
+For the current GitLab operating plan, see [docs/group-roadmap.md](docs/group-roadmap.md).
+
 ## Operating loop
 
 - [ABC4RD operating loop](docs/operating-loop.md)
@@ -88,6 +95,9 @@ See [docs/github-roadmap.md](docs/github-roadmap.md).
 - [Bitbucket activation](docs/bitbucket-activation.md)
 - [Bitbucket starter issues](docs/bitbucket-starter-issues.md)
 - [Partner activity queue](docs/partner-activity-queue.md)
+- [Partner draft queue](docs/partner-draft-queue.md)
+- [Metrics dashboard](docs/metrics-dashboard.md)
+- [30 starter issues](docs/starter-issues-30.md)
 - [Outreach drafts](docs/outreach-drafts.md)
 
 ## Safety
