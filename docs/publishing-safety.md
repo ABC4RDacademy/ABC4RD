@@ -68,4 +68,3 @@ Avoid unless formally confirmed:
 - "sponsored by";
 - "working with BTC Inc";
 - "approved by Bitcoin Magazine".
-

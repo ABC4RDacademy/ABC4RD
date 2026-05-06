@@ -17,6 +17,8 @@ This roadmap prepares ABC4RDacademy for public development without leaking priva
 - Add concise repository descriptions and topics.
 - Enable Issues and Discussions.
 - Create the six discussion categories listed in `docs/discussions.md`.
+- Apply the shared label set from `.github/labels.yml`.
+- Use the pull request template for source discipline and safety checks.
 
 ## Phase 3: Content pipeline
 
@@ -47,6 +49,7 @@ This roadmap prepares ABC4RDacademy for public development without leaking priva
 - Open one event issue per opportunity.
 - Connect every event target to a course, workshop, article, or learning module.
 - Avoid claiming partnership unless confirmed publicly or by approved written agreement.
+- Use `docs/event-activation-pipeline.md` before outreach or publication.
 
 ## Phase 7: Open-source course development
 
@@ -56,3 +59,11 @@ This roadmap prepares ABC4RDacademy for public development without leaking priva
 - Use public pull requests for course content, labs, translations, and evidence updates.
 - Publish milestone notes quarterly.
 
+## Platform expansion
+
+- Use GitHub as the public source of truth until maintainers approve a migration.
+- Use GitLab for controlled mirrors, sprint boards, and validation experiments.
+- Use Bitbucket for Atlassian-facing mirrors, partner review, branch restrictions,
+  pull request templates, and starter issue queues.
+- Keep external outreach draft-only until a maintainer approves the target list
+  and message text.

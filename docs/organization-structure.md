@@ -22,6 +22,17 @@ Evidence and public research repository. It should hold citation maps, source re
 
 Community and governance repository. It should hold the public charter, governance model, community operations, event playbooks, and contribution pathways.
 
+## Platform mirrors
+
+GitHub remains the current public source of truth. GitLab and Bitbucket may be
+used as controlled mirrors, sprint workspaces, partner review spaces, or CI/CD
+experiments after credentials and permissions are approved.
+
+- GitHub: organization profile, public issues, discussions, pull requests.
+- GitLab: issue board, protected branch, validation pipeline, starter issues.
+- Bitbucket: repository page, branch restrictions, PR template, starter issues,
+  and Atlassian-facing review flow.
+
 ## Operating model
 
 - Keep content work public when possible.
@@ -30,4 +41,3 @@ Community and governance repository. It should hold the public charter, governan
 - Use discussions for broad community work.
 - Use pull requests for reviewable changes.
 - Keep public claims tied to sources.
-

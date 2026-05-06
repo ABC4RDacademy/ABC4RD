@@ -14,4 +14,3 @@ Enable GitHub Discussions for the organization-facing repositories and create th
 ## Setup notes
 
 GitHub does not fully manage Discussions categories through normal repository files. Treat this document as the source of truth, then create categories manually in repository settings or with approved GitHub API commands after `gh auth login`.
-

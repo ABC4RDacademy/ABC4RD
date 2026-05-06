@@ -10,4 +10,3 @@ Please report security issues privately to the project maintainers. Do not open 
 - Rotate credentials if exposure is suspected.
 - Use least-privilege tokens for bots and integrations.
 - Keep generated channel posts in draft mode until human approval.
-

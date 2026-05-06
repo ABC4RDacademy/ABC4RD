@@ -31,4 +31,3 @@ ABC4RD Academy is an international blockchain and AI education initiative buildi
 ## Public language boundary
 
 ABC4RD does not claim partner status unless it is publicly confirmed or approved in writing. Partner leads should be tracked as proposals until confirmed.
-
