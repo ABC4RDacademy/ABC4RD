@@ -77,6 +77,7 @@ Use this carefully:
 - [Research tracks](docs/research-tracks.md)
 - [Contribution ladder](docs/contribution-ladder.md)
 - [Public roadmap v2](docs/public-roadmap-v2.md)
+- [Public launch package](docs/public-launch-package.md)
 - [90-day starter work items](docs/starter-work-items-90-day.md)
 - [Public roles](docs/roles.md)
 - [Legal and ethical framework](docs/legal-ethical-framework.md)
@@ -87,8 +88,11 @@ Use this carefully:
 
 - [Weekly operating package](docs/weekly-operating-package-2026-05-06.md)
 - [Jira, GitHub, and GitLab task routing](docs/jira-github-gitlab-task-routing.md)
+- [Public launch package](docs/public-launch-package.md)
 - [LLMAIX2001a course update draft](docs/course-update-llmaix2001a-2026-05-06.md)
 - [Partner and event drafts](docs/partner-event-drafts-2026-05-06.md)
+- [Weekly recap draft](docs/weekly-recap-2026-05-06.md)
+- Work item templates: [GitHub](docs/templates/github-issue-template.md), [GitLab](docs/templates/gitlab-work-item-template.md), [Jira](docs/templates/jira-task-template.md)
 
 ## GitHub collaboration
 
@@ -136,9 +140,11 @@ For the current GitLab operating plan, see [docs/group-roadmap.md](docs/group-ro
 - [Partner draft queue](docs/partner-draft-queue.md)
 - [Partner and event launch pipeline](docs/partner-event-launch-pipeline.md)
 - [Metrics dashboard](docs/metrics-dashboard.md)
+- [Public launch package](docs/public-launch-package.md)
 - [Weekly operating package](docs/weekly-operating-package-2026-05-06.md)
 - [LLMAIX2001a course update draft](docs/course-update-llmaix2001a-2026-05-06.md)
 - [Partner and event drafts](docs/partner-event-drafts-2026-05-06.md)
+- [Weekly recap draft](docs/weekly-recap-2026-05-06.md)
 - [30 starter issues](docs/starter-issues-30.md)
 - [90-day starter work items](docs/starter-work-items-90-day.md)
 - [Outreach drafts](docs/outreach-drafts.md)

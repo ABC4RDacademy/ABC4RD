@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">ABC4RD Academy avatar</title>
+  <desc id="desc">Square social avatar for ABC4RD Academy.</desc>
+  <rect width="512" height="512" rx="96" fill="#f5f7fa"/>
+  <rect x="38" y="38" width="436" height="436" rx="76" fill="#17202a"/>
+  <circle cx="390" cy="122" r="34" fill="#0f766e"/>
+  <path d="M108 340 190 168h48l82 172h-52l-15-34h-80l-14 34h-51Zm82-74h46l-23-55-23 55Z" fill="#ffffff"/>
+  <path d="M322 178h56c42 0 70 24 70 62 0 24-12 43-33 54l43 46h-58l-34-40v40h-44V178Zm44 84h10c18 0 29-8 29-23 0-14-11-23-29-23h-10v46Z" fill="#ffffff"/>
+  <path d="M104 390h304" stroke="#1d4ed8" stroke-width="16" stroke-linecap="round"/>
+  <path d="M104 122h210" stroke="#9a3412" stroke-width="16" stroke-linecap="round"/>
+</svg>

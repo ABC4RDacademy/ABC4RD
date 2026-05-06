@@ -39,6 +39,125 @@ Approval decision:
 - Next state after approval: `draft issue`.
 - Do not contact organizers until exact target and message are approved.
 
+## Selected Five Draft Targets
+
+These are the first five candidates. They were chosen because each has a clear
+education angle, public source, and low-risk first artifact.
+
+| Target | Type | Public source | First artifact | State |
+| --- | --- | --- | --- | --- |
+| Bitcoin 2026 Open Source Hub | Event/community | <https://2026.b.tc/opensource> | Open-source learner workshop outline | Watch |
+| Bitcoin Amsterdam | Event | <https://eu.b.tc/> | European Bitcoin education source note | Watch |
+| Bitcoin Optech | Education/research | <https://bitcoinops.org/en/about/> | Beginner reading path and source checklist | Draft |
+| Open Compute Project | Open compute ecosystem | <https://www.opencompute.org/> | AI/open compute literacy source note | Draft |
+| OpenMRS | Digital health open source | <https://openmrs.org/> | Digital health standards learning path | Draft |
+
+## Draft 1: Bitcoin 2026 Open Source Hub
+
+Do not send without approval.
+
+```text
+Hello [name/team],
+
+ABC4RD Academy is preparing a small public education artifact around Bitcoin
+open-source onboarding and AI-assisted learning workflows.
+
+We are watching the Bitcoin 2026 Open Source Hub and drafting a workshop outline
+for learners who want to understand Bitcoin development, source review, and
+contributor norms.
+
+Public draft: [artifact link]
+
+This is not a partnership, sponsorship, or speaking request. We would only value
+one pointer to the best public resource beginners should read first.
+
+Best,
+[sender]
+```
+
+## Draft 2: Bitcoin Amsterdam
+
+Do not send without approval.
+
+```text
+Hello [name/team],
+
+ABC4RD Academy is building source-backed Bitcoin and AI education materials. We
+are preparing a European event watch note around Bitcoin education,
+open-source contribution, and university-friendly learning sessions.
+
+Public draft: [artifact link]
+
+This message is a request for public-source feedback only. It does not announce
+partnership or participation.
+
+Best,
+[sender]
+```
+
+## Draft 3: Bitcoin Optech
+
+Do not send without approval.
+
+```text
+Hello [name/team],
+
+ABC4RD Academy is preparing a beginner reading path for Bitcoin technical
+education. Bitcoin Optech appears to be one of the strongest public resources
+for learners who want to move from general Bitcoin literacy toward engineering
+topics.
+
+Public draft: [artifact link]
+
+We are not asking for endorsement. If there is one public Optech page or
+newsletter series beginners should start with, we would appreciate the pointer.
+
+Best,
+[sender]
+```
+
+## Draft 4: Open Compute Project
+
+Do not send without approval.
+
+```text
+Hello [name/team],
+
+ABC4RD Academy is building an AI and open compute literacy track. We are
+drafting a source-backed note that helps learners connect AI workloads, data
+center infrastructure, open hardware, energy literacy, and reproducible
+research.
+
+Public draft: [artifact link]
+
+This is an education artifact for review, not an affiliation claim. If there is
+one OCP public project page beginners should read first, we would value the
+pointer.
+
+Best,
+[sender]
+```
+
+## Draft 5: OpenMRS
+
+Do not send without approval.
+
+```text
+Hello [name/team],
+
+ABC4RD Academy is preparing a digital health standards learning path for
+students. The goal is open-source literacy and safe source review, not medical
+advice or clinical deployment guidance.
+
+Public draft: [artifact link]
+
+We are not asking for endorsement. If there is one public OpenMRS contributor
+or learning resource beginners should start with, we would value the pointer.
+
+Best,
+[sender]
+```
+
 ## Event Watch: Bitcoin Asia / Hong Kong
 
 Source status:

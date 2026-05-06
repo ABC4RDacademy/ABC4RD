@@ -37,6 +37,16 @@ Recommended badges:
 - `status-active`
 - `status-draft`
 
+## Assets
+
+- Mark: `assets/abc4rd-mark.svg`
+- Avatar: `assets/abc4rd-avatar.svg`
+- Hero: `assets/abc4rd-education-hero.png`
+
+Use the SVG mark for repository avatars and compact profile surfaces. Use the
+hero image for first-screen site context and social previews when a wide image
+is needed.
+
 ## Repository README Pattern
 
 1. One-sentence purpose.

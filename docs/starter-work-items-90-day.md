@@ -5,6 +5,35 @@ items, or Jira tasks without changing the core scope.
 
 ## Week 1: Launch Discipline
 
+## 20 Public Launch Work Items
+
+| ID | Title | Primary platform | Output |
+| --- | --- | --- | --- |
+| L01 | Publish public launch package | GitHub | Launch package doc and README links |
+| L02 | Create weekly operating package issue | GitHub or GitLab | Weekly issue from template |
+| L03 | Create Jira project proposal | Jira | Project key, components, board columns |
+| L04 | Publish LLMAIX2001a Module 01 update | GitHub | Course update issue and recap link |
+| L05 | Draft Module 02 outline | GitHub | Next course issue |
+| L06 | Build Bitcoin education source checklist | GitHub | Research issue and source table |
+| L07 | Build AI/open compute source checklist | GitHub | Research issue and source table |
+| L08 | Open Bitcoin 2026 Open Source Hub watch | GitHub/Jira | Event watch issue |
+| L09 | Open Bitcoin Amsterdam watch | GitHub/Jira | Event watch issue |
+| L10 | Draft Bitcoin Optech feedback request | GitHub/Jira | Approval-gated partner draft |
+| L11 | Draft Open Compute Project feedback request | GitHub/Jira | Approval-gated partner draft |
+| L12 | Draft OpenMRS feedback request | GitHub/Jira | Approval-gated partner draft |
+| L13 | Publish first weekly recap draft | GitHub | Draft recap document |
+| L14 | Update landing page Partners section | GitHub | Website section and links |
+| L15 | Add ABC4RD mark and avatar assets | GitHub | SVG assets and visual identity note |
+| L16 | Create good-first-issue index | GitHub | Contributor onboarding issue |
+| L17 | Create translation parity checklist | GitHub | Internationalization issue |
+| L18 | Verify Bitbucket public mirror | Bitbucket | Public URL and pipeline status |
+| L19 | Sync GitLab protected branch through MR | GitLab | Merge request |
+| L20 | Prepare next weekly digest | GitHub | Draft digest file |
+
+Use `docs/templates/github-issue-template.md`,
+`docs/templates/gitlab-work-item-template.md`, or
+`docs/templates/jira-task-template.md` when converting these items.
+
 ### Publish the first weekly operating package
 
 Tags: `area:platform-sync`, `area:community`, `priority:high`

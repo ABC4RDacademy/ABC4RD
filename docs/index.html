@@ -52,7 +52,14 @@
       gap: 16px;
       align-items: center;
     }
-    .brand { font-weight: 700; letter-spacing: 0; }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+    .brand img { width: 30px; height: 30px; border-radius: 8px; }
     .nav a { color: white; }
     .nav-links { display: flex; flex-wrap: wrap; gap: 14px; font-size: 14px; }
     h1 {
@@ -127,13 +134,18 @@
 <body>
   <nav class="nav" aria-label="Primary">
     <div class="nav-inner">
-      <div class="brand">ABC4RD Academy</div>
+      <div class="brand">
+        <img src="https://raw.githubusercontent.com/ABC4RDacademy/ABC4RD/main/assets/abc4rd-mark.svg" alt="">
+        <span>ABC4RD Academy</span>
+      </div>
       <div class="nav-links">
         <a href="#start">Start</a>
         <a href="#courses">Courses</a>
+        <a href="#research-tracks">Research</a>
+        <a href="#partners">Partners</a>
+        <a href="#weekly-signal">Weekly</a>
         <a href="#frontier-ai">Frontier AI</a>
         <a href="#community">Community</a>
-        <a href="#research">Research</a>
         <a href="#contact">Contact</a>
       </div>
     </div>
@@ -159,6 +171,11 @@
           <h3>Weekly Package</h3>
           <p>The current operating packet for course, research, events, partners, community, and platform sync.</p>
           <a href="https://github.com/ABC4RDacademy/ABC4RD/blob/main/docs/weekly-operating-package-2026-05-06.md">Open the package</a>
+        </article>
+        <article class="card">
+          <h3>Public Launch</h3>
+          <p>The launch bundle connecting README, site, roadmap, digest, starter work, and partner/event pipeline.</p>
+          <a href="https://github.com/ABC4RDacademy/ABC4RD/blob/main/docs/public-launch-package.md">Review launch package</a>
         </article>
         <article class="card">
           <h3>Task Routing</h3>
@@ -230,7 +247,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="research-tracks">
     <div class="wrap">
       <h2>Research Tracks</h2>
       <div class="grid">
@@ -244,7 +261,36 @@
     </div>
   </section>
 
-  <section>
+  <section class="band" id="partners">
+    <div class="wrap">
+      <h2>Partners</h2>
+      <p>Partner and event work starts as source-backed drafts with an approval gate. No message is sent, no partnership is claimed, and no private data is published without review.</p>
+      <div class="grid">
+        <article class="card">
+          <h3>Bitcoin 2026 Open Source Hub</h3>
+          <p>Watch item for Bitcoin open-source onboarding, workshop ideas, and contributor literacy.</p>
+          <a href="https://github.com/ABC4RDacademy/ABC4RD/blob/main/docs/partner-event-drafts-2026-05-06.md">Read draft</a>
+        </article>
+        <article class="card">
+          <h3>Bitcoin Optech</h3>
+          <p>Draft feedback request for a beginner technical reading path with no endorsement claim.</p>
+          <a href="https://github.com/ABC4RDacademy/ABC4RD/blob/main/docs/partner-event-drafts-2026-05-06.md">Review message</a>
+        </article>
+        <article class="card">
+          <h3>Open Compute Project</h3>
+          <p>Draft source request for AI, open compute, data center, and energy literacy materials.</p>
+          <a href="https://github.com/ABC4RDacademy/ABC4RD/blob/main/docs/partner-event-drafts-2026-05-06.md">Review message</a>
+        </article>
+        <article class="card">
+          <h3>OpenMRS</h3>
+          <p>Draft digital health open-source learning request with medical-safety boundaries.</p>
+          <a href="https://github.com/ABC4RDacademy/ABC4RD/blob/main/docs/partner-event-drafts-2026-05-06.md">Review message</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="weekly-signal">
     <div class="wrap">
       <h2>Weekly Operating Signal</h2>
       <ul>
@@ -257,6 +303,7 @@
       <div class="button-row">
         <a class="button primary" href="https://github.com/ABC4RDacademy/ABC4RD/blob/main/docs/weekly-operating-package-2026-05-06.md">Weekly package</a>
         <a class="button" href="https://github.com/ABC4RDacademy/ABC4RD/blob/main/docs/partner-event-drafts-2026-05-06.md">Partner/event drafts</a>
+        <a class="button" href="https://github.com/ABC4RDacademy/ABC4RD/blob/main/docs/weekly-recap-2026-05-06.md">Recap draft</a>
       </div>
     </div>
   </section>

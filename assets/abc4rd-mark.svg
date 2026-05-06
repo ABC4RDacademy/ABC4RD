@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">ABC4RD Academy mark</title>
+  <desc id="desc">A geometric ABC4RD monogram for research and education.</desc>
+  <rect width="512" height="512" rx="72" fill="#17202a"/>
+  <path d="M96 356 184 156h48l88 200h-54l-16-42h-88l-16 42H96Zm82-86h56l-28-73-28 73Z" fill="#f5f7fa"/>
+  <path d="M318 156h58c50 0 84 28 84 72 0 30-16 54-43 65l53 63h-62l-44-54h-1v54h-45V156Zm45 102h13c24 0 38-11 38-30s-14-30-38-30h-13v60Z" fill="#0f766e"/>
+  <path d="M78 402h356" stroke="#1d4ed8" stroke-width="18" stroke-linecap="round"/>
+  <path d="M78 110h356" stroke="#9a3412" stroke-width="18" stroke-linecap="round"/>
+</svg>
