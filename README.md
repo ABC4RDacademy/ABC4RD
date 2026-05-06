@@ -79,6 +79,7 @@ See [docs/github-roadmap.md](docs/github-roadmap.md).
 
 - [ABC4RD operating loop](docs/operating-loop.md)
 - [Event activation pipeline](docs/event-activation-pipeline.md)
+- [Frontier innovation strategy](docs/frontier-innovation-strategy.md)
 - [GitHub issue backlog](docs/github-issue-backlog.md)
 - [GitLab activation](docs/gitlab-activation.md)
 - [GitLab starter issues](docs/gitlab-starter-issues.md)
