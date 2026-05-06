@@ -2,14 +2,13 @@ image: node:lts
 
 pipelines:
   default:
+    - step:
+        name: Validate Markdown
+        script:
+          - npx --yes markdownlint-cli README.md "*.md" "docs/*.md" ".github/**/*.md" ".gitlab/**/*.md" ".bitbucket/**/*.md"
+  pull-requests:
+    "**":
       - step:
-              name: Validate Markdown
-                      script:
-                                - npx --yes markdownlint-cli README.md "*.md" "docs/*.md" ".github/**/*.md" ".gitlab/**/*.md" ".bitbucket/**/*.md"
-                                  pull-requests:
-                                      "**":
-                                            - step:
-                                                      name: Validate Markdown
-                                                                script:
-                                                                            - npx --yes markdownlint-cli README.md "*.md" "docs/*.md" ".github/**/*.md" ".gitlab/**/*.md" ".bitbucket/**/*.md"
-                                                                            
+          name: Validate Markdown
+          script:
+            - npx --yes markdownlint-cli README.md "*.md" "docs/*.md" ".github/**/*.md" ".gitlab/**/*.md" ".bitbucket/**/*.md"

@@ -1,0 +1,30 @@
+name: Event activation
+description: Plan a conference, workshop, meetup, or hackathon activation
+title: "Event: "
+labels: ["event"]
+body:
+  - type: input
+    id: event
+    attributes:
+      label: Event
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source
+    validations:
+      required: true
+  - type: textarea
+    id: education_angle
+    attributes:
+      label: Education angle
+      description: Connect the event to a course, workshop, lab, or research note.
+    validations:
+      required: true
+  - type: textarea
+    id: draft_output
+    attributes:
+      label: Draft output
+      description: What should ABC4RD prepare?
+

@@ -1,4 +1,4 @@
-# Pull Request
+# Merge Request
 
 ## Summary
 
@@ -9,7 +9,7 @@
 - [ ] Documentation
 - [ ] Course or research content
 - [ ] Community or event operations
-- [ ] Bitbucket infrastructure
+- [ ] GitLab infrastructure
 - [ ] Website or publishing pipeline
 
 ## Source discipline
@@ -22,11 +22,6 @@
 
 - [ ] This change does not send invitations, publish posts, or claim partnerships.
 - [ ] Any external message is included as a draft for maintainer approval.
-
-## Platform sync
-
-- [ ] GitHub/GitLab/Bitbucket docs or issue queues are updated when relevant.
-- [ ] Branch restrictions and protected-branch assumptions still hold.
 
 ## Review notes
 

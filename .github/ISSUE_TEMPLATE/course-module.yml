@@ -1,0 +1,25 @@
+name: Course module
+description: Propose an AI, Bitcoin, open-source, or digital credentials module
+title: "Module: "
+labels: ["course", "module"]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Learning outcome
+      description: What should a learner be able to do?
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: Module outline
+      description: Add lessons, labs, readings, or deliverables.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Public sources, docs, repositories, or papers.
+

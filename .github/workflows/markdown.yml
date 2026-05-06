@@ -1,0 +1,25 @@
+name: Markdown checks
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Markdown lint
+        uses: DavidAnson/markdownlint-cli2-action@v18
+        with:
+          globs: "**/*.md"
+      - name: Link check
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --accept 200,206,429 "**/*.md"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
