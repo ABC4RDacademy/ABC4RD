@@ -6,7 +6,7 @@ State the claim or reference being checked.
 
 ## Source candidates
 
-- 
+- Add canonical source URLs, publication dates, authors, and archive links.
 
 ## Verification checklist
 

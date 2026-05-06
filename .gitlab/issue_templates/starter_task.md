@@ -6,7 +6,7 @@ Describe the smallest useful contribution.
 
 ## Scope
 
-- 
+- Add the files, docs, or issue links that define the task boundary.
 
 ## Acceptance checklist
 

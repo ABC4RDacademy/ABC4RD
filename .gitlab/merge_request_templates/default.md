@@ -2,11 +2,11 @@
 
 ## What changed
 
-- 
+- Summarize the repository change.
 
 ## Why it matters
 
-- 
+- Explain the learner, research, community, or platform value.
 
 ## Evidence and sources
 

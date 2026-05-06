@@ -6,7 +6,7 @@ Name the organization, community, or audience.
 
 ## Draft purpose
 
-- 
+- Add the specific education artifact, audience, and desired first response.
 
 ## Approval checklist
 
