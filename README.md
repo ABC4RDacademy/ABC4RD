@@ -81,6 +81,7 @@ See [docs/github-roadmap.md](docs/github-roadmap.md).
 - [Operating dashboard](docs/operating-dashboard.md)
 - [Platform sync](docs/platform-sync.md)
 - [Event activation pipeline](docs/event-activation-pipeline.md)
+- [Frontier innovation strategy](docs/frontier-innovation-strategy.md)
 - [GitHub issue backlog](docs/github-issue-backlog.md)
 - [GitLab activation](docs/gitlab-activation.md)
 - [GitLab starter issues](docs/gitlab-starter-issues.md)
