@@ -11,7 +11,7 @@ Discord, and X.
 | Website | Canonical public narrative | Publish only approved, source-backed pages |
 | GitHub | Public source of truth and community work | Issues, discussions, labels, pull requests |
 | GitLab | Sprint board, CI mirror, and Pages dashboard | Protected branch, validation pipeline, mirror checks |
-| Bitbucket | Atlassian-facing public mirror and review surface | Public repository, branch restrictions, PR template, pipeline |
+| Bitbucket | Atlassian-facing public mirror and review surface | Public repository, branch restrictions, PR template, pipeline, Jira links |
 | Telegram | Short public updates | Draft-first, approved links only |
 | Discord | Community discussion | Draft-first, moderated, no private claims |
 | X | Discovery and recap channel | Short threads with source-backed claims |
@@ -37,11 +37,11 @@ Discord, and X.
 
 ## Current task routing
 
-Bitbucket issue creation is blocked for the current repository token, so task
-tracking should use GitHub Issues or GitLab issues until Bitbucket issue access
-is explicitly enabled. Bitbucket should still hold the mirror, README, PR
-template, branch restrictions, pipeline, and the starter issue drafts in
-`docs/bitbucket-starter-issues.md`.
+Native Bitbucket Issues are no longer the target for new ABC4RD task tracking
+because Atlassian is sunsetting Bitbucket Issues and Wikis in 2026. Use Jira,
+GitHub Issues, or GitLab work items for execution. Bitbucket should still hold
+the mirror, README, PR template, branch restrictions, pipeline, and the starter
+work-item drafts in `docs/bitbucket-starter-issues.md`.
 
 ## Partner approval gate
 

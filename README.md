@@ -122,7 +122,7 @@ For the current GitLab operating plan, see [docs/group-roadmap.md](docs/group-ro
 - [GitLab activation](docs/gitlab-activation.md)
 - [GitLab starter issues](docs/gitlab-starter-issues.md)
 - [Bitbucket activation](docs/bitbucket-activation.md)
-- [Bitbucket starter issues](docs/bitbucket-starter-issues.md)
+- [Bitbucket/Jira starter work items](docs/bitbucket-starter-issues.md)
 - [Partner activity queue](docs/partner-activity-queue.md)
 - [Partner draft queue](docs/partner-draft-queue.md)
 - [Partner and event launch pipeline](docs/partner-event-launch-pipeline.md)

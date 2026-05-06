@@ -10,7 +10,7 @@ must stay consistent.
 | --- | --- | --- |
 | GitHub | Public source of truth | Roadmap, issues, discussions, labels, PRs |
 | GitLab | Sprint and Pages mirror | CI status, issue board, Pages/dashboard |
-| Bitbucket | Public Atlassian mirror | README, docs, PR template, branch rules, pipeline |
+| Bitbucket | Public Atlassian mirror | README, docs, PR template, branch rules, pipeline, Jira links |
 
 ## Sync checklist
 
@@ -27,8 +27,9 @@ must stay consistent.
 - Repository `abc4rd/abc4rd` is public.
 - `main` has branch restrictions and merge checks.
 - Bitbucket Pipelines is enabled and validates Markdown.
-- Bitbucket Issues are not available through the current repository token; use
-  GitHub/GitLab for task execution and keep Bitbucket starter drafts in docs.
+- Native Bitbucket Issues and Wikis are being sunset by Atlassian. For this
+  repository, use Jira, GitHub Issues, or GitLab work items for task execution
+  and keep Bitbucket starter drafts in docs.
 
 ## Public links
 
