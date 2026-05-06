@@ -115,6 +115,9 @@ See [docs/publishing-safety.md](docs/publishing-safety.md).
 
 - Website: [abc4rd.org](http://abc4rd.org/)
 - GitHub org: [ABC4RDacademy](https://github.com/ABC4RDacademy)
+- GitLab group: [abc4rd-academy](https://gitlab.com/abc4rd-academy)
+- Bitbucket workspace: [abc4rd](https://bitbucket.org/abc4rd/)
+- Bitbucket repository: [abc4rd/abc4rd](https://bitbucket.org/abc4rd/abc4rd/src/main/)
 - X: [@academy_abc4rd](https://x.com/academy_abc4rd)
 - Telegram channel: [abc4rdchannel](https://www.t.me/abc4rdchannel)
 - Telegram bot: [abc4rd_bot](https://www.t.me/abc4rd_bot)

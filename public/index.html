@@ -4,17 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ABC4RD Academy</title>
-  <meta name="description" content="Open education ecosystem for AI, blockchain, Bitcoin, science, research, and contributor-friendly labs.">
+  <meta name="description" content="ABC4RD Academy is an international blockchain and AI education initiative with public repositories, source-backed research, and contributor-friendly learning paths.">
   <style>
     :root {
       color-scheme: light;
       --ink: #17202a;
-      --muted: #5c6670;
-      --line: #d7dde3;
-      --paper: #f7f9fb;
-      --accent: #0f766e;
-      --accent-2: #9a3412;
+      --muted: #54616d;
+      --line: #d6dde5;
+      --paper: #f5f7fa;
+      --green: #0f766e;
+      --rust: #9a3412;
       --blue: #1d4ed8;
+      --charcoal: #20262d;
     }
     * { box-sizing: border-box; }
     body {
@@ -24,21 +25,62 @@
       background: white;
       line-height: 1.5;
     }
-    header, section, footer { padding: 32px 24px; }
-    .wrap { max-width: 1120px; margin: 0 auto; }
+    a { color: var(--blue); text-decoration-thickness: 1px; }
     header {
-      border-bottom: 1px solid var(--line);
-      background: linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
+      min-height: 86vh;
+      display: grid;
+      align-items: end;
+      padding: 28px 24px 48px;
+      color: white;
+      background:
+        linear-gradient(90deg, rgba(12, 17, 23, 0.86), rgba(12, 17, 23, 0.46)),
+        url("https://raw.githubusercontent.com/ABC4RDacademy/ABC4RD/main/assets/abc4rd-education-hero.png") center / cover;
     }
+    .wrap { width: min(1120px, 100%); margin: 0 auto; }
+    .nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 18px 24px;
+    }
+    .nav-inner {
+      width: min(1120px, 100%);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+    }
+    .brand { font-weight: 700; letter-spacing: 0; }
+    .nav a { color: white; }
+    .nav-links { display: flex; flex-wrap: wrap; gap: 14px; font-size: 14px; }
     h1 {
-      margin: 0 0 12px;
-      font-size: clamp(36px, 7vw, 72px);
-      line-height: 0.95;
+      margin: 0 0 14px;
+      max-width: 780px;
+      font-size: clamp(42px, 8vw, 82px);
+      line-height: 0.98;
       letter-spacing: 0;
     }
-    h2 { margin: 0 0 16px; font-size: 26px; }
-    p { max-width: 760px; }
-    .lead { font-size: 20px; color: var(--muted); }
+    h2 { margin: 0 0 16px; font-size: 28px; letter-spacing: 0; }
+    h3 { margin: 0 0 8px; font-size: 18px; letter-spacing: 0; }
+    p { max-width: 780px; }
+    .lead { margin: 0; max-width: 760px; font-size: 20px; color: #eef3f7; }
+    .button-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      min-height: 42px;
+      padding: 9px 13px;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.55);
+      color: white;
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .button.primary { background: var(--green); border-color: var(--green); }
+    section, footer { padding: 40px 24px; }
+    .band { background: var(--paper); border-block: 1px solid var(--line); }
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -50,35 +92,54 @@
       padding: 16px;
       background: white;
     }
-    .card h3 { margin: 0 0 8px; font-size: 18px; }
-    a { color: var(--blue); text-decoration-thickness: 1px; }
-    .button-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
-    .button {
-      display: inline-flex;
-      align-items: center;
-      min-height: 40px;
-      padding: 8px 12px;
-      border-radius: 6px;
-      border: 1px solid var(--line);
-      color: var(--ink);
-      text-decoration: none;
-      background: white;
+    .card p { margin-bottom: 12px; color: var(--muted); }
+    .links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 10px;
+      margin-top: 16px;
     }
-    .primary { background: var(--accent); color: white; border-color: var(--accent); }
-    .band { background: var(--paper); border-block: 1px solid var(--line); }
+    .link-tile {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: white;
+      text-decoration: none;
+      color: var(--charcoal);
+    }
+    .link-tile span { display: block; color: var(--muted); font-size: 13px; }
     ul { padding-left: 20px; }
     footer { color: var(--muted); border-top: 1px solid var(--line); }
+    @media (max-width: 720px) {
+      header { min-height: 82vh; padding-top: 92px; }
+      .nav-inner { align-items: flex-start; flex-direction: column; }
+      .nav-links { gap: 10px; }
+      .lead { font-size: 18px; }
+    }
   </style>
 </head>
 <body>
+  <nav class="nav" aria-label="Primary">
+    <div class="nav-inner">
+      <div class="brand">ABC4RD Academy</div>
+      <div class="nav-links">
+        <a href="https://github.com/ABC4RDacademy">GitHub</a>
+        <a href="https://gitlab.com/abc4rd-academy">GitLab</a>
+        <a href="https://bitbucket.org/abc4rd/">Bitbucket</a>
+        <a href="https://www.t.me/abc4rdchannel">Telegram</a>
+        <a href="https://discord.com/invite/3AgRv6wKPQ">Discord</a>
+      </div>
+    </div>
+  </nav>
+
   <header>
     <div class="wrap">
       <h1>ABC4RD Academy</h1>
-      <p class="lead">Open education for AI, blockchain, Bitcoin, science, applied research, evidence discipline, and contributor-friendly labs.</p>
+      <p class="lead">International blockchain and AI education with public repositories, source-backed research, Bitcoin learning, open-source practice, and a draft-first community operating rhythm.</p>
       <div class="button-row">
-        <a class="button primary" href="https://gitlab.com/abc4rd-academy/abc4rd">Start at the command center</a>
-        <a class="button" href="https://gitlab.com/abc4rd-academy/llmaix2001a">Study LLMAIX2001a</a>
-        <a class="button" href="https://gitlab.com/abc4rd-academy/abc4rd/-/work_items">Find open work</a>
+        <a class="button primary" href="https://github.com/ABC4RDacademy/ABC4RD">Open the main hub</a>
+        <a class="button" href="https://gitlab.com/abc4rd-academy/abc4rd">View GitLab mirror</a>
+        <a class="button" href="https://bitbucket.org/abc4rd/abc4rd/src/main/">View Bitbucket mirror</a>
       </div>
     </div>
   </header>
@@ -89,23 +150,23 @@
       <div class="grid">
         <article class="card">
           <h3>Students</h3>
-          <p>Follow course modules, labs, beginner issues, and translation tasks.</p>
-          <a href="https://gitlab.com/abc4rd-academy/llmaix2001a">LLMAIX2001a course</a>
+          <p>Follow modules, labs, starter issues, and translation tasks.</p>
+          <a href="https://github.com/ABC4RDacademy/LLMAIX2001a">LLMAIX2001a course</a>
         </article>
         <article class="card">
           <h3>Researchers</h3>
-          <p>Review sources, citations, claims, media-kit language, and evidence policy.</p>
-          <a href="https://gitlab.com/abc4rd-academy/abc4rd-research">Research repository</a>
+          <p>Review sources, citations, claims, and media-kit wording.</p>
+          <a href="https://github.com/ABC4RDacademy/abc4rd-research">Research repository</a>
         </article>
         <article class="card">
           <h3>Developers</h3>
-          <p>Build reproducible demos, CI examples, applied experiments, and prototypes.</p>
-          <a href="https://gitlab.com/abc4rd-academy/applied-research-labs">Applied labs</a>
+          <p>Build reproducible demos, CI examples, prototypes, and learning tools.</p>
+          <a href="https://github.com/ABC4RDacademy/ABC4RD/issues">Open work</a>
         </article>
         <article class="card">
           <h3>Partners</h3>
-          <p>Start from draft-first outreach, public artifacts, and source-backed proposals.</p>
-          <a href="https://gitlab.com/abc4rd-academy/abc4rd/-/blob/main/docs/partner-draft-queue.md">Partner queue</a>
+          <p>Start with a public artifact, a precise draft, and approval before outreach.</p>
+          <a href="https://github.com/ABC4RDacademy/ABC4RD/blob/main/docs/partner-activity-queue.md">Partner queue</a>
         </article>
       </div>
     </div>
@@ -113,31 +174,34 @@
 
   <section class="band">
     <div class="wrap">
-      <h2>What We Build</h2>
+      <h2>Weekly Operating Signal</h2>
       <ul>
-        <li>LLMAIX2001a: Storyteller AI Course from language models to deployment.</li>
-        <li>Bitcoin education: foundations, Lightning, Nostr, custody, mining, treasury literacy.</li>
-        <li>Research discipline: public claims, citation packs, evidence policy, and media-kit review.</li>
-        <li>Science labs: fundamental science, ecology, climate, compute, and research literacy.</li>
-        <li>Community operations: onboarding, events, governance, and contributor care.</li>
+        <li>One course update candidate.</li>
+        <li>One research source or evidence note.</li>
+        <li>One event watch item with official source links.</li>
+        <li>One partner draft tied to a public artifact.</li>
+        <li>One community recap draft for review before posting.</li>
       </ul>
     </div>
   </section>
 
   <section>
     <div class="wrap">
-      <h2>Work In Public</h2>
-      <p>ABC4RD Academy measures useful activity: contributors, opened and closed work items, merged merge requests, course modules, labs, citations, translations, stars, forks, published artifacts, and approved partner conversations.</p>
-      <div class="button-row">
-        <a class="button" href="https://gitlab.com/abc4rd-academy/abc4rd/-/blob/main/docs/group-roadmap.md">Roadmap</a>
-        <a class="button" href="https://gitlab.com/abc4rd-academy/abc4rd/-/blob/main/docs/metrics-dashboard.md">Metrics</a>
-        <a class="button" href="https://gitlab.com/abc4rd-academy/abc4rd/-/blob/main/docs/starter-issues-30.md">Starter issues</a>
+      <h2>One Public Contour</h2>
+      <p>GitHub, GitLab, and Bitbucket carry the same public narrative: protected main branch, validation pipeline, source-backed docs, approval-gated outreach, and weekly visible work.</p>
+      <div class="links">
+        <a class="link-tile" href="https://github.com/ABC4RDacademy/ABC4RD">GitHub<span>Source of truth</span></a>
+        <a class="link-tile" href="https://gitlab.com/abc4rd-academy/abc4rd">GitLab<span>CI, Pages, sprint mirror</span></a>
+        <a class="link-tile" href="https://bitbucket.org/abc4rd/abc4rd/src/main/">Bitbucket<span>Atlassian mirror</span></a>
+        <a class="link-tile" href="https://x.com/academy_abc4rd">X<span>Discovery and recap drafts</span></a>
+        <a class="link-tile" href="https://www.t.me/abc4rdchannel">Telegram<span>Approved short updates</span></a>
+        <a class="link-tile" href="https://discord.com/invite/3AgRv6wKPQ">Discord<span>Community discussion</span></a>
       </div>
     </div>
   </section>
 
   <footer>
-    <div class="wrap">ABC4RD Academy keeps public claims source-backed and outreach draft-first until maintainer approval.</div>
+    <div class="wrap">ABC4RD Academy keeps public claims source-backed and partner/community outreach approval-gated.</div>
   </footer>
 </body>
 </html>

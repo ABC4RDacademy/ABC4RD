@@ -24,7 +24,7 @@ must stay consistent.
 ## Bitbucket status
 
 - Project `ABC4RD Academy` is public.
-- Repository `abc4rd/ABC4RD` is public.
+- Repository `abc4rd/abc4rd` is public.
 - `main` has branch restrictions and merge checks.
 - Bitbucket Pipelines is enabled and validates Markdown.
 - Bitbucket Issues are not available through the current repository token; use
