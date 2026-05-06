@@ -51,6 +51,12 @@ Use this carefully:
 | `open-source-onboarding` | First GitHub and upstream contribution path |
 | `conference-notes` | Verified conference source tracking |
 | `community-collaboration` | Feedback requests and careful outreach drafts |
+| `open-compute-curriculum` | Open compute, exascale, AI workloads, and scientific computing |
+| `sensor-networks-curriculum` | Sensors, IoT, LPWAN, industrial interoperability, and telemetry integrity |
+| `robotics-systems-curriculum` | ROS 2, Gazebo, MoveIt, simulation, control, and safety |
+| `digital-health-standards-curriculum` | FHIR, WHO SMART Guidelines, open health systems, and privacy |
+| `digital-manufacturing-curriculum` | Digital thread, additive manufacturing, provenance, and standards |
+| `nanomaterials-research-curriculum` | Nanomaterials, simulation, materials data, and responsible development |
 
 ## Core workstreams
 
@@ -109,15 +115,17 @@ For the current GitLab operating plan, see [docs/group-roadmap.md](docs/group-ro
 - [ABC4RD operating loop](docs/operating-loop.md)
 - [Operating dashboard](docs/operating-dashboard.md)
 - [Platform sync](docs/platform-sync.md)
+- [Site information architecture](docs/site-information-architecture.md)
 - [Event activation pipeline](docs/event-activation-pipeline.md)
 - [Frontier innovation strategy](docs/frontier-innovation-strategy.md)
 - [GitHub issue backlog](docs/github-issue-backlog.md)
 - [GitLab activation](docs/gitlab-activation.md)
 - [GitLab starter issues](docs/gitlab-starter-issues.md)
 - [Bitbucket activation](docs/bitbucket-activation.md)
-- [Bitbucket starter issues](docs/bitbucket-starter-issues.md)
+- [Bitbucket/Jira starter work items](docs/bitbucket-starter-issues.md)
 - [Partner activity queue](docs/partner-activity-queue.md)
 - [Partner draft queue](docs/partner-draft-queue.md)
+- [Partner and event launch pipeline](docs/partner-event-launch-pipeline.md)
 - [Metrics dashboard](docs/metrics-dashboard.md)
 - [30 starter issues](docs/starter-issues-30.md)
 - [Outreach drafts](docs/outreach-drafts.md)
@@ -138,7 +146,7 @@ See [docs/publishing-safety.md](docs/publishing-safety.md).
 - Website: [abc4rd.org](http://abc4rd.org/)
 - GitHub org: [ABC4RDacademy](https://github.com/ABC4RDacademy)
 - GitLab group: [abc4rd-academy](https://gitlab.com/abc4rd-academy)
-- Bitbucket workspace: [abc4rd](https://bitbucket.org/abc4rd/)
+- Bitbucket workspace: [abc4rd](https://bitbucket.org/abc4rd/abc4rd/src/main/)
 - Bitbucket repository: [abc4rd/abc4rd](https://bitbucket.org/abc4rd/abc4rd/src/main/)
 - X: [@academy_abc4rd](https://x.com/academy_abc4rd)
 - Telegram channel: [abc4rdchannel](https://www.t.me/abc4rdchannel)

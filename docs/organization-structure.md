@@ -30,8 +30,8 @@ experiments after credentials and permissions are approved.
 
 - GitHub: organization profile, public issues, discussions, pull requests.
 - GitLab: issue board, protected branch, validation pipeline, starter issues.
-- Bitbucket: repository page, branch restrictions, PR template, starter issues,
-  and Atlassian-facing review flow.
+- Bitbucket: repository page, branch restrictions, PR template, Jira or
+  external tracker links, and Atlassian-facing review flow.
 
 ## Operating model
 

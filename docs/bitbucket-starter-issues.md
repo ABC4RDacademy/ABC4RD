@@ -1,10 +1,16 @@
-# Bitbucket Starter Issues
+# Bitbucket Starter Work Items
 
-These issues are ready to create in Bitbucket after the workspace, repository,
-and fresh token are configured.
+These work items are ready to create in Jira, GitHub Issues, or GitLab work
+items after the Bitbucket repository is linked as the Atlassian mirror.
 
-Bitbucket issues do not map one-to-one to GitHub labels, so use status tags in
-the issue body and keep the same naming discipline as `.github/labels.yml`.
+Native Bitbucket Issues are not the ABC4RD task target for new repositories.
+Atlassian announced that Bitbucket Issues and Wikis can no longer be enabled for
+repositories where they were not already used, and existing features are being
+removed from Bitbucket Cloud in August 2026.
+
+Use the same naming discipline as `.github/labels.yml`. If the work item lives
+in Jira, keep the status tags in the issue body and link the Bitbucket pull
+request or commit.
 
 ## Priority issues
 
@@ -44,7 +50,7 @@ Output:
 - one research evidence issue;
 - one community recap draft.
 
-### Draft announcement pack: GitHub, GitLab, Bitbucket, Telegram, Discord, X
+### Draft announcement pack: GitHub, GitLab, Jira, Bitbucket, Telegram, Discord, X
 
 Status tags: `area:community`, `status:draft`, `needs:approval`
 
@@ -52,7 +58,7 @@ Output:
 
 - GitHub Discussion draft;
 - GitLab issue or project update draft;
-- Bitbucket issue update draft;
+- Jira or external tracker update draft linked from Bitbucket;
 - Telegram short post draft;
 - Discord announcement draft;
 - X thread draft.
