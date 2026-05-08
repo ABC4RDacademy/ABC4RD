@@ -76,6 +76,10 @@ Use this carefully:
 
 - [Research tracks](docs/research-tracks.md)
 - [Contribution ladder](docs/contribution-ladder.md)
+- [Repository standard](docs/repository-standard.md)
+- [Trust layer checklist](docs/trust-layer-checklist.md)
+- [IP and publication policy](docs/ip-publication-policy.md)
+- [24/7 operating rhythm](docs/24-7-operating-rhythm.md)
 - [Public roadmap v2](docs/public-roadmap-v2.md)
 - [Public launch package](docs/public-launch-package.md)
 - [90-day starter work items](docs/starter-work-items-90-day.md)
