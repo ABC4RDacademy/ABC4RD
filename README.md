@@ -80,6 +80,8 @@ Use this carefully:
 - [Trust layer checklist](docs/trust-layer-checklist.md)
 - [Repository scorecard](docs/repository-scorecard.md)
 - [Repository promotion matrix](docs/repository-promotion-matrix.md)
+- [Flagship readiness audit](docs/flagship-readiness-audit.md)
+- [Source review batch: 2026-05-09](docs/source-review-batch-2026-05-09.md)
 - [Release checklist](docs/release-checklist.md)
 - [IP and publication policy](docs/ip-publication-policy.md)
 - [24/7 operating rhythm](docs/24-7-operating-rhythm.md)
