@@ -87,6 +87,8 @@ Use this carefully:
 - [Module 03 expansion plan](docs/module-03-expansion-plan.md)
 - [Release checklist](docs/release-checklist.md)
 - [IP and publication policy](docs/ip-publication-policy.md)
+- [GitHub access governance](docs/github-access-governance.md)
+- [Credential rotation runbook](docs/credential-rotation-runbook.md)
 - [24/7 operating rhythm](docs/24-7-operating-rhythm.md)
 - [Public roadmap v2](docs/public-roadmap-v2.md)
 - [Public launch package](docs/public-launch-package.md)
@@ -171,6 +173,7 @@ ABC4RD uses a draft-first publishing model:
 
 - public posts require human approval;
 - credentials live only in GitHub Secrets or local `.env` files excluded from git;
+- passwords, tokens, and recovery codes are never shared through chat or public issues;
 - automation may generate drafts, but should not auto-publish externally without review;
 - source-backed claims are preferred over promotional language.
 
