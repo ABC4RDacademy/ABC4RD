@@ -102,6 +102,7 @@ Use this carefully:
 - [Latest research digest](docs/weekly-digests/2026-05-06-research-digest.md)
 - [Release package: v0.2 research infrastructure](docs/releases/v0.2-research-infrastructure.md)
 - [Next milestone: v0.3 source review and releases](docs/milestones/v0.3-source-review-and-releases.md)
+- [GitHub public activation runbook: 2026-05-09](docs/github-public-activation-runbook-2026-05-09.md)
 
 ## Start here
 
