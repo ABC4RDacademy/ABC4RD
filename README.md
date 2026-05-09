@@ -92,6 +92,8 @@ Use this carefully:
 - [Legal and ethical framework](docs/legal-ethical-framework.md)
 - [Visual identity](docs/visual-identity.md)
 - [Latest research digest](docs/weekly-digests/2026-05-06-research-digest.md)
+- [Release package: v0.2 research infrastructure](docs/releases/v0.2-research-infrastructure.md)
+- [Next milestone: v0.3 source review and releases](docs/milestones/v0.3-source-review-and-releases.md)
 
 ## Start here
 
