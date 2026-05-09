@@ -4,6 +4,7 @@
 [![Open issues](https://img.shields.io/badge/work_items-open-blue)](https://gitlab.com/abc4rd-academy/abc4rd/-/work_items)
 [![License](https://img.shields.io/badge/license-review_required-orange)](docs/license-policy.md)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen)](CONTRIBUTING.md)
+[![Security](https://img.shields.io/badge/security-policy-blue)](SECURITY.md)
 
 **Academic BlockChain for Research & Development (ABC4RD)** is being relaunched as an international research and education initiative for Bitcoin, AI, open compute, digital manufacturing, digital health, robotics, sensor networks, nanomaterials, and source-backed open infrastructure.
 
@@ -89,6 +90,8 @@ Use this carefully:
 - [IP and publication policy](docs/ip-publication-policy.md)
 - [GitHub access governance](docs/github-access-governance.md)
 - [Credential rotation runbook](docs/credential-rotation-runbook.md)
+- [Governance](GOVERNANCE.md)
+- [Citation metadata](CITATION.cff)
 - [24/7 operating rhythm](docs/24-7-operating-rhythm.md)
 - [Public roadmap v2](docs/public-roadmap-v2.md)
 - [Public launch package](docs/public-launch-package.md)

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "ABC4RD Academy Research and Education Infrastructure"
+message: "If you use ABC4RD Academy materials, please cite the repository and the specific file or release you used."
+type: dataset
+authors:
+  - name: "ABC4RD Academy"
+repository-code: "https://github.com/ABC4RDacademy/ABC4RD"
+url: "https://abc4rdacademy.github.io/ABC4RD/"
+abstract: "ABC4RD Academy is an independent open research and education initiative building source-backed curricula and public infrastructure for Bitcoin, AI, open compute, robotics, sensor networks, digital health, digital manufacturing, and nanomaterials."
+keywords:
+  - "Bitcoin education"
+  - "open source education"
+  - "AI education"
+  - "open compute"
+  - "digital health"
+  - "digital manufacturing"
+  - "robotics"
+  - "nanomaterials"
+license: "LicenseRef-Review-Required"
+
