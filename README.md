@@ -100,6 +100,8 @@ Use this carefully:
 - [Digital press lab](labs/digital-press-lab/README.md)
 - [Media streaming open-source stack map](docs/media-streaming-open-source-stack-map.md)
 - [Media streaming lab](labs/media-streaming-lab/README.md)
+- [Blockchain lab open-source stack map](docs/blockchain-lab-open-source-stack-map.md)
+- [Blockchain lab](labs/blockchain-lab/README.md)
 - [University map](docs/university-map.md)
 - [Institution map](docs/institution-map.md)
 - [Events and conferences map](docs/events-and-conferences.md)
