@@ -55,6 +55,9 @@ Expected project repository remote:
 https://github.com/ABC4RDacademy/ABC4RD.git
 ```
 
+Project SSH setup is documented in
+[SSH and Project VPN Access Runbook](ssh-and-vpn-access-runbook.md).
+
 ## Fine-Grained Token Rules
 
 Use fine-grained tokens only when necessary.
@@ -99,4 +102,3 @@ Use these names consistently:
 Do not mix in unrelated personal account names in public Academy materials.
 Personal accounts may appear only as normal GitHub commit authors, issue
 participants, reviewers, or collaborators.
-

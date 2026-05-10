@@ -89,6 +89,7 @@ Use this carefully:
 - [Release checklist](docs/release-checklist.md)
 - [IP and publication policy](docs/ip-publication-policy.md)
 - [GitHub access governance](docs/github-access-governance.md)
+- [SSH and project VPN access runbook](docs/ssh-and-vpn-access-runbook.md)
 - [Credential rotation runbook](docs/credential-rotation-runbook.md)
 - [Governance](GOVERNANCE.md)
 - [Citation metadata](CITATION.cff)
