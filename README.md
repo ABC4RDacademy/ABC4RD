@@ -76,6 +76,13 @@ Use this carefully:
 ## Research system
 
 - [Ecosystem map](docs/ecosystem-map.md)
+- [Blockchain Academy manifesto](docs/blockchain-academy-manifesto.md)
+- [Blockchain Academy curriculum](docs/blockchain-academy-curriculum.md)
+- [No hype policy](docs/no-hype-policy.md)
+- [Blockchain use case evaluation framework](docs/blockchain-use-case-evaluation-framework.md)
+- [Blockchain career map](docs/blockchain-career-map.md)
+- [Blockchain research index](docs/blockchain-research-index.md)
+- [First PR program](docs/first-pr-program.md)
 - [University map](docs/university-map.md)
 - [Institution map](docs/institution-map.md)
 - [Events and conferences map](docs/events-and-conferences.md)
