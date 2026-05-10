@@ -85,6 +85,8 @@ Use this carefully:
 - [First PR program](docs/first-pr-program.md)
 - [Website builder lab](labs/website-builder-lab/README.md)
 - [Website builder lab report: 2026-05-10](docs/website-builder-lab-report-2026-05-10.md)
+- [AI Voice open-source watchlist](docs/ai-voice-open-source-watchlist.md)
+- [AI Voice lab](labs/ai-voice-lab/README.md)
 - [University map](docs/university-map.md)
 - [Institution map](docs/institution-map.md)
 - [Events and conferences map](docs/events-and-conferences.md)

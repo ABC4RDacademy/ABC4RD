@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABC4RD Realtime Voice Agent Pipeline</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main>
+    <p class="kicker">Architecture demo</p>
+    <h1>Realtime voice agent pipeline</h1>
+    <div class="flow">
+      <article><span>1</span><h2>Audio input</h2><p>Microphone, call, or uploaded audio.</p></article>
+      <article><span>2</span><h2>STT</h2><p>Whisper, faster-whisper, Vosk, or SpeechBrain.</p></article>
+      <article><span>3</span><h2>Agent</h2><p>LLM chooses response, language, and safe voice profile.</p></article>
+      <article><span>4</span><h2>Policy</h2><p>Blocks impersonation, unsafe cloning, hidden synthetic voice.</p></article>
+      <article><span>5</span><h2>TTS</h2><p>OpenVoice, F5-TTS, Fish Speech, CosyVoice, Piper.</p></article>
+      <article><span>6</span><h2>Output</h2><p>Audio, transcript, logs, consent record.</p></article>
+    </div>
+  </main>
+</body>
+</html>
+

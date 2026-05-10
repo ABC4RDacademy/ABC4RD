@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABC4RD AI Voice Router</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main>
+    <section class="panel">
+      <p class="kicker">AI Voice Lab</p>
+      <h1>Multilingual voice router</h1>
+      <p class="lead">Choose a safe educational voice profile by language and tone. This demo uses browser speech synthesis if available.</p>
+      <label>Language
+        <select id="language">
+          <option value="en-US">English</option>
+          <option value="es-ES">Spanish</option>
+          <option value="fr-FR">French</option>
+          <option value="de-DE">German</option>
+          <option value="ja-JP">Japanese</option>
+          <option value="ko-KR">Korean</option>
+          <option value="zh-CN">Chinese</option>
+          <option value="ru-RU">Russian</option>
+        </select>
+      </label>
+      <label>Tone
+        <select id="tone">
+          <option value="clear">Clear educator</option>
+          <option value="warm">Warm mentor</option>
+          <option value="formal">Formal lecturer</option>
+          <option value="slow">Slow beginner mode</option>
+        </select>
+      </label>
+      <label>Text
+        <textarea id="text">ABC4RD Academy teaches blockchain as verifiable digital infrastructure, not hype.</textarea>
+      </label>
+      <button id="speak">Speak</button>
+      <pre id="profile"></pre>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
+
