@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABC4RD Digital Library Preview</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17202a;
+      --muted: #5f6f7f;
+      --line: #d9e2ec;
+      --soft: #f5f7fa;
+      --panel: #ffffff;
+      --blue: #145ea8;
+      --green: #14785f;
+      --gold: #d99518;
+      --red: #b42318;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--soft);
+      color: var(--ink);
+      line-height: 1.5;
+    }
+
+    .app {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 270px minmax(0, 1fr);
+    }
+
+    aside {
+      background: #101923;
+      color: #eef5fb;
+      padding: 24px 18px;
+    }
+
+    .brand {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: 0;
+      margin-bottom: 5px;
+    }
+
+    .sub {
+      color: #b8c7d7;
+      font-size: 13px;
+      margin-bottom: 24px;
+    }
+
+    .track {
+      padding: 11px 12px;
+      border-radius: 6px;
+      background: rgba(255,255,255,0.06);
+      margin-bottom: 8px;
+    }
+
+    .track.active {
+      background: var(--blue);
+      font-weight: 800;
+    }
+
+    main {
+      padding: 24px;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: flex-start;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(32px, 5vw, 56px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    button {
+      min-height: 40px;
+      border: 0;
+      border-radius: 6px;
+      padding: 10px 14px;
+      color: #fff;
+      background: var(--blue);
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    button.green {
+      background: var(--green);
+    }
+
+    button.dark {
+      background: #334155;
+    }
+
+    .notice {
+      border: 1px solid #f2c779;
+      background: #fff8e6;
+      color: #5d4300;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 18px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(330px, 0.85fr);
+      gap: 18px;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 8px;
+      padding: 18px;
+    }
+
+    .panel h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+      letter-spacing: 0;
+    }
+
+    .search {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 160px 140px;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    input,
+    select {
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 9px 11px;
+      font-size: 15px;
+      background: #fff;
+    }
+
+    .items {
+      display: grid;
+      gap: 12px;
+    }
+
+    .item {
+      border: 1px solid var(--line);
+      background: #fbfdff;
+      border-radius: 8px;
+      padding: 14px;
+    }
+
+    .item h3 {
+      margin: 0 0 6px;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .badge {
+      display: inline-flex;
+      min-height: 25px;
+      align-items: center;
+      padding: 4px 9px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      margin: 4px 5px 0 0;
+      background: #e8f3ff;
+      color: var(--blue);
+    }
+
+    .badge.green {
+      background: #e8f7f0;
+      color: var(--green);
+    }
+
+    .badge.gold {
+      background: #fff4d5;
+      color: #7a5200;
+    }
+
+    .badge.red {
+      background: #fde8e8;
+      color: var(--red);
+    }
+
+    .pipeline {
+      display: grid;
+      gap: 10px;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 36px minmax(0,1fr);
+      gap: 10px;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 10px;
+      background: #fbfdff;
+    }
+
+    .dot {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      background: var(--blue);
+      font-weight: 800;
+    }
+
+    .log {
+      min-height: 80px;
+      padding: 12px;
+      border-radius: 6px;
+      background: #101923;
+      color: #dbe8f3;
+      font-family: Consolas, monospace;
+      font-size: 13px;
+      white-space: pre-wrap;
+    }
+
+    @media (max-width: 980px) {
+      .app,
+      .grid,
+      .search {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        flex-direction: column;
+      }
+
+      .actions {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <div class="brand">ABC4RD Library</div>
+      <div class="sub">Legal digital library, source verification, reading paths</div>
+      <div class="track active">Bitcoin and blockchain</div>
+      <div class="track">AI and open compute</div>
+      <div class="track">Digital health</div>
+      <div class="track">Robotics and sensors</div>
+      <div class="track">Manufacturing</div>
+      <div class="track">Nanomaterials</div>
+      <div class="track">Standards and governance</div>
+    </aside>
+
+    <main>
+      <section class="hero">
+        <div>
+          <h1>Digital Library Pilot</h1>
+          <p class="muted">A first interface for legal books, open access papers, standards, source notes, metadata, and reading paths.</p>
+        </div>
+        <div class="actions">
+          <button onclick="demo('source')">Suggest Source</button>
+          <button class="green" onclick="demo('verify')">Verify License</button>
+          <button class="dark" onclick="demo('path')">Add to Reading Path</button>
+        </div>
+      </section>
+
+      <div class="notice">
+        <strong>Library rule:</strong> upload only public domain, open access, Creative Commons, original Academy materials, or files with explicit permission. Copyrighted books without permission stay as metadata and official links only.
+      </div>
+
+      <div class="grid">
+        <section class="panel">
+          <h2>Library Catalog</h2>
+          <div class="search">
+            <input value="bitcoin cryptography open finance" aria-label="search">
+            <select aria-label="language">
+              <option>All languages</option>
+              <option>English</option>
+              <option>Russian</option>
+              <option>Spanish</option>
+              <option>Chinese</option>
+            </select>
+            <select aria-label="level">
+              <option>All levels</option>
+              <option>Beginner</option>
+              <option>Advanced</option>
+            </select>
+          </div>
+
+          <div class="items">
+            <article class="item">
+              <h3>Bitcoin Developer Reading Path</h3>
+              <div class="meta">ABC4RD Academy collection · English/Russian · beginner to intermediate</div>
+              <span class="badge green">verified</span>
+              <span class="badge">reading path</span>
+              <span class="badge">curriculum linked</span>
+            </article>
+            <article class="item">
+              <h3>Open Access Cryptography Papers</h3>
+              <div class="meta">Official publisher links and DOI metadata · multilingual · advanced</div>
+              <span class="badge gold">requires review</span>
+              <span class="badge">metadata only</span>
+              <span class="badge">Zotero ready</span>
+            </article>
+            <article class="item">
+              <h3>Digital Health Standards Notes</h3>
+              <div class="meta">FHIR, WHO SMART Guidelines, implementation notes · source-backed</div>
+              <span class="badge green">official links</span>
+              <span class="badge">standards</span>
+              <span class="badge">course module</span>
+            </article>
+            <article class="item">
+              <h3>Unverified Uploaded PDF</h3>
+              <div class="meta">Example item blocked until license and source are checked</div>
+              <span class="badge red">blocked</span>
+              <span class="badge">license unclear</span>
+              <span class="badge">no public file</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h2>Source Review Pipeline</h2>
+          <div class="pipeline">
+            <div class="step"><div class="dot">1</div><div><strong>Suggest</strong><br><span class="muted">Student or maintainer submits source.</span></div></div>
+            <div class="step"><div class="dot">2</div><div><strong>Verify</strong><br><span class="muted">Check official source, license, language, topic.</span></div></div>
+            <div class="step"><div class="dot">3</div><div><strong>Store or link</strong><br><span class="muted">Allowed files are stored; copyrighted works are linked only.</span></div></div>
+            <div class="step"><div class="dot">4</div><div><strong>Teach</strong><br><span class="muted">Connect to curriculum, glossary, exercises.</span></div></div>
+          </div>
+
+          <h2 style="margin-top:18px;">Recommended Stack</h2>
+          <span class="badge green">Calibre-Web</span>
+          <span class="badge green">Kavita</span>
+          <span class="badge">Zotero</span>
+          <span class="badge">BookStack</span>
+          <span class="badge">DSpace later</span>
+          <span class="badge">InvenioRDM later</span>
+
+          <h2 style="margin-top:18px;">Demo Log</h2>
+          <div class="log" id="log">Click an action to simulate source handling.</div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    const log = document.getElementById('log');
+
+    function demo(type) {
+      const now = new Date().toLocaleTimeString();
+      const messages = {
+        source: `[${now}] New source suggested.\nStatus: requires verification.\nNext: check official URL, license, language, topic.`,
+        verify: `[${now}] License review completed.\nAllowed: public domain / open access / CC / permission.\nBlocked: unclear copyright or pirated copy.`,
+        path: `[${now}] Source added to reading path.\nTrack: Bitcoin and blockchain.\nLinked module: bitcoin-developer-curriculum.`
+      };
+      log.textContent = messages[type];
+    }
+  </script>
+</body>
+</html>

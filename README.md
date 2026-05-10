@@ -92,6 +92,8 @@ Use this carefully:
 - [CRM stack lab](labs/crm-stack-lab/README.md)
 - [Messenger open-source stack map](docs/messenger-open-source-stack-map.md)
 - [Messenger stack lab](labs/messenger-stack-lab/README.md)
+- [Digital library open-source stack map](docs/digital-library-open-source-stack-map.md)
+- [Digital library lab](labs/digital-library-lab/README.md)
 - [University map](docs/university-map.md)
 - [Institution map](docs/institution-map.md)
 - [Events and conferences map](docs/events-and-conferences.md)
