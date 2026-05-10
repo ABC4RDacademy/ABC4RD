@@ -96,6 +96,8 @@ Use this carefully:
 - [Digital library lab](labs/digital-library-lab/README.md)
 - [Visual publishing open-source stack map](docs/visual-publishing-open-source-stack-map.md)
 - [Visual publishing lab](labs/visual-publishing-lab/README.md)
+- [Digital press open-source stack map](docs/digital-press-open-source-stack-map.md)
+- [Digital press lab](labs/digital-press-lab/README.md)
 - [University map](docs/university-map.md)
 - [Institution map](docs/institution-map.md)
 - [Events and conferences map](docs/events-and-conferences.md)
