@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABC4RD Messenger Preview</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17202a;
+      --muted: #607080;
+      --line: #d9e2ec;
+      --soft: #f4f7fa;
+      --panel: #ffffff;
+      --blue: #145ea8;
+      --green: #168163;
+      --gold: #e7aa24;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--soft);
+      line-height: 1.5;
+    }
+
+    .app {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 270px minmax(0, 1fr) 330px;
+    }
+
+    aside {
+      background: #101923;
+      color: #f0f6fc;
+      padding: 22px 18px;
+    }
+
+    .brand {
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+
+    .sub {
+      color: #b8c7d7;
+      font-size: 13px;
+      margin-bottom: 24px;
+    }
+
+    .room-list {
+      display: grid;
+      gap: 8px;
+    }
+
+    .room {
+      padding: 11px 12px;
+      border-radius: 6px;
+      background: rgba(255,255,255,0.06);
+      color: #e6edf4;
+    }
+
+    .room.active {
+      background: var(--blue);
+      color: #fff;
+      font-weight: 800;
+    }
+
+    main {
+      padding: 22px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 4px;
+      font-size: clamp(30px, 4vw, 46px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    button {
+      min-height: 40px;
+      border: 0;
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-weight: 800;
+      color: #fff;
+      background: var(--blue);
+      cursor: pointer;
+    }
+
+    button.green {
+      background: var(--green);
+    }
+
+    button.dark {
+      background: #334155;
+    }
+
+    .chat {
+      display: grid;
+      gap: 12px;
+    }
+
+    .message {
+      display: grid;
+      grid-template-columns: 42px minmax(0, 1fr);
+      gap: 12px;
+      padding: 14px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .avatar {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--blue), var(--green));
+    }
+
+    .message h3 {
+      margin: 0 0 5px;
+      font-size: 16px;
+    }
+
+    .composer {
+      margin-top: 16px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      padding: 12px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    input {
+      width: 100%;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 10px 12px;
+      font-size: 15px;
+    }
+
+    .right {
+      background: #ffffff;
+      border-left: 1px solid var(--line);
+      padding: 22px 18px;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 14px;
+      background: #fbfdff;
+    }
+
+    .panel h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      letter-spacing: 0;
+    }
+
+    .badge {
+      display: inline-flex;
+      min-height: 26px;
+      align-items: center;
+      padding: 4px 9px;
+      border-radius: 999px;
+      margin: 4px 5px 0 0;
+      font-size: 12px;
+      font-weight: 800;
+      background: #e8f3ff;
+      color: var(--blue);
+    }
+
+    .badge.green {
+      background: #e9f8f1;
+      color: var(--green);
+    }
+
+    .badge.gold {
+      background: #fff5d9;
+      color: #7a5200;
+    }
+
+    .download {
+      display: grid;
+      gap: 8px;
+    }
+
+    .download a {
+      display: block;
+      color: var(--blue);
+      font-weight: 800;
+      text-decoration: none;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .log {
+      min-height: 72px;
+      padding: 10px;
+      border-radius: 6px;
+      background: #101923;
+      color: #dbe8f3;
+      font-family: Consolas, monospace;
+      font-size: 13px;
+      white-space: pre-wrap;
+    }
+
+    @media (max-width: 1040px) {
+      .app {
+        grid-template-columns: 1fr;
+      }
+
+      .right {
+        border-left: 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .topbar {
+        flex-direction: column;
+      }
+
+      .actions {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <div class="brand">ABC4RD Messenger</div>
+      <div class="sub">Academy chat, cohorts, research rooms, office hours</div>
+      <div class="room-list">
+        <div class="room active"># start-here</div>
+        <div class="room"># announcements</div>
+        <div class="room"># bitcoin-foundations</div>
+        <div class="room"># blockchain-foundations</div>
+        <div class="room"># first-pr-help</div>
+        <div class="room"># source-verification</div>
+        <div class="room"># expert-feedback</div>
+        <div class="room"># staff-private</div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="topbar">
+        <div>
+          <h1>Student Messenger Pilot</h1>
+          <p class="muted">A first screen for a self-hosted academy messenger. Use it for onboarding, cohorts, expert Q&A, and open-source contribution rooms.</p>
+        </div>
+        <div class="actions">
+          <button onclick="demo('invite')">Create Invite</button>
+          <button class="green" onclick="demo('download')">Student Download</button>
+          <button class="dark" onclick="demo('moderate')">Moderation Check</button>
+        </div>
+      </div>
+
+      <section class="chat" aria-label="chat preview">
+        <article class="message">
+          <div class="avatar">AA</div>
+          <div>
+            <h3>ABC4RD Admin</h3>
+            <p>Welcome to the Academy messenger. Start with the code of conduct, introduce yourself, and choose your first course room.</p>
+          </div>
+        </article>
+        <article class="message">
+          <div class="avatar">ST</div>
+          <div>
+            <h3>Student</h3>
+            <p>I am starting with Bitcoin foundations and want to make my first GitHub contribution.</p>
+          </div>
+        </article>
+        <article class="message">
+          <div class="avatar">MT</div>
+          <div>
+            <h3>Mentor</h3>
+            <p>Great. Join #first-pr-help, add your GitHub profile, and pick one documentation issue from the weekly digest.</p>
+          </div>
+        </article>
+      </section>
+
+      <div class="composer">
+        <input aria-label="message input" value="Ask a question about onboarding, source review, or your first PR">
+        <button onclick="demo('message')">Send</button>
+      </div>
+    </main>
+
+    <section class="right">
+      <div class="panel">
+        <h2>Recommended Stack</h2>
+        <span class="badge green">Zulip first</span>
+        <span class="badge">Matrix + Element</span>
+        <span class="badge">Mattermost</span>
+        <span class="badge">Rocket.Chat</span>
+        <span class="badge gold">privacy review</span>
+        <p class="muted" style="margin-top: 10px;">Zulip is best for topic-based academy rooms. Matrix + Element is best for long-term sovereign messaging.</p>
+      </div>
+
+      <div class="panel">
+        <h2>Student Download Page</h2>
+        <div class="download">
+          <a href="#">Open Web Chat</a>
+          <a href="#">Download Android App</a>
+          <a href="#">Download iOS App</a>
+          <a href="#">Download Desktop App</a>
+          <a href="#">Use Invite Code</a>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Cost and Timing</h2>
+        <p><strong>Local demo:</strong> same day</p>
+        <p><strong>Working pilot:</strong> 1-2 days</p>
+        <p><strong>Student launch:</strong> 3-7 days</p>
+        <p><strong>Hosting:</strong> about $10-60/month for early stage</p>
+      </div>
+
+      <div class="panel">
+        <h2>Demo Log</h2>
+        <div class="log" id="log">Click an action to simulate onboarding.</div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const log = document.getElementById('log');
+
+    function demo(type) {
+      const now = new Date().toLocaleTimeString();
+      const messages = {
+        invite: `[${now}] Invite created.\nRoom: #start-here\nRole: student\nExpires: 7 days`,
+        download: `[${now}] Student opens messenger.abc4rd.org\nOptions: Web, Android, iOS, Desktop\nNext: accept code of conduct`,
+        moderate: `[${now}] Moderation check passed.\nRules: no spam, no financial advice, no private data in public rooms`,
+        message: `[${now}] Message sent to #start-here.\nCRM link: optional profile record after privacy review`
+      };
+      log.textContent = messages[type];
+    }
+  </script>
+</body>
+</html>

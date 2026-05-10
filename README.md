@@ -90,6 +90,8 @@ Use this carefully:
 - [CRM open-source stack map](docs/crm-open-source-stack-map.md)
 - [CRM upstream interaction plan](docs/crm-open-source-upstream-interaction-plan.md)
 - [CRM stack lab](labs/crm-stack-lab/README.md)
+- [Messenger open-source stack map](docs/messenger-open-source-stack-map.md)
+- [Messenger stack lab](labs/messenger-stack-lab/README.md)
 - [University map](docs/university-map.md)
 - [Institution map](docs/institution-map.md)
 - [Events and conferences map](docs/events-and-conferences.md)
