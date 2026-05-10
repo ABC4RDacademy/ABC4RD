@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABC4RD CRM Cockpit Preview</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17202a;
+      --muted: #5f6f7f;
+      --line: #d8e1ea;
+      --soft: #f5f8fb;
+      --panel: #ffffff;
+      --blue: #155e9f;
+      --green: #14785f;
+      --yellow: #f5b642;
+      --red: #b42318;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--soft);
+      color: var(--ink);
+      line-height: 1.5;
+    }
+
+    .app {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 248px minmax(0, 1fr);
+    }
+
+    aside {
+      background: #101923;
+      color: #eef5fb;
+      padding: 24px 18px;
+    }
+
+    .brand {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: 0;
+      margin-bottom: 6px;
+    }
+
+    .subtitle {
+      color: #b9c7d4;
+      font-size: 13px;
+      margin-bottom: 28px;
+    }
+
+    nav {
+      display: grid;
+      gap: 8px;
+    }
+
+    nav a {
+      color: #dbe8f3;
+      text-decoration: none;
+      padding: 11px 12px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    nav a.active {
+      background: #1f6fb2;
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    main {
+      padding: 24px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .topbar h1 {
+      margin: 0;
+      font-size: clamp(28px, 4vw, 44px);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      min-height: 40px;
+      border: 0;
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-weight: 700;
+      cursor: pointer;
+      background: var(--blue);
+      color: #ffffff;
+    }
+
+    button.secondary {
+      background: var(--green);
+    }
+
+    button.neutral {
+      background: #334155;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+      gap: 18px;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+    }
+
+    .panel h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+      letter-spacing: 0;
+    }
+
+    .profile {
+      display: grid;
+      grid-template-columns: 84px minmax(0, 1fr);
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .avatar {
+      width: 84px;
+      height: 84px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #1f6fb2, #12a176);
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      font-size: 26px;
+      font-weight: 800;
+    }
+
+    .profile h2 {
+      margin-bottom: 4px;
+    }
+
+    .profile p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin: 16px 0;
+    }
+
+    .stat {
+      background: #f8fbfe;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 12px;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 22px;
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 10px;
+    }
+
+    .event {
+      display: grid;
+      grid-template-columns: 92px minmax(0, 1fr);
+      gap: 12px;
+      padding: 12px;
+      background: #fbfdff;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+    }
+
+    .event time {
+      color: var(--muted);
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    .event p {
+      margin: 0;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .mini {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 14px;
+      background: #fbfdff;
+    }
+
+    .mini h3 {
+      margin: 0 0 7px;
+      font-size: 17px;
+      letter-spacing: 0;
+    }
+
+    .mini p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 4px 9px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      background: #e8f3ff;
+      color: #155e9f;
+      margin: 4px 5px 0 0;
+    }
+
+    .badge.green {
+      background: #e8f7f0;
+      color: #14785f;
+    }
+
+    .badge.yellow {
+      background: #fff5d6;
+      color: #805700;
+    }
+
+    .pipeline {
+      display: grid;
+      gap: 10px;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 36px minmax(0, 1fr);
+      gap: 10px;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 10px;
+      background: #fbfdff;
+    }
+
+    .dot {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: var(--blue);
+      color: #ffffff;
+      display: grid;
+      place-items: center;
+      font-weight: 800;
+    }
+
+    .step strong {
+      display: block;
+    }
+
+    .step span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .demo-log {
+      min-height: 86px;
+      background: #0f1720;
+      color: #dbe8f3;
+      border-radius: 6px;
+      padding: 12px;
+      font-family: Consolas, monospace;
+      font-size: 13px;
+      white-space: pre-wrap;
+    }
+
+    @media (max-width: 980px) {
+      .app {
+        grid-template-columns: 1fr;
+      }
+
+      aside {
+        position: static;
+      }
+
+      .grid,
+      .cards,
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <div class="brand">ABC4RD CRM</div>
+      <div class="subtitle">Open-source operations cockpit prototype</div>
+      <nav aria-label="CRM navigation">
+        <a class="active" href="#contact">Contact</a>
+        <a href="#documents">Documents</a>
+        <a href="#calls">Calls</a>
+        <a href="#tasks">Tasks</a>
+        <a href="#pipeline">Bitrix / CRM Pipeline</a>
+        <a href="#stack">Open-Source Stack</a>
+      </nav>
+    </aside>
+
+    <main>
+      <div class="topbar">
+        <div>
+          <h1>ABC4RD Academy CRM Cockpit</h1>
+          <p>One screen for contacts, documents, calls, meetings, tasks, source suggestions, and feedback routing.</p>
+        </div>
+        <div class="actions">
+          <button type="button" onclick="runDemo('source')">Suggest Source</button>
+          <button type="button" class="secondary" onclick="runDemo('meeting')">Create Meeting</button>
+          <button type="button" class="neutral" onclick="runDemo('task')">Send to Bitrix</button>
+        </div>
+      </div>
+
+      <div class="grid">
+        <section class="panel" id="contact">
+          <div class="profile">
+            <div class="avatar">AK</div>
+            <div>
+              <h2>Research Contact Card</h2>
+              <p>Example record for a university lab, open-source maintainer, conference speaker, sponsor, or student contributor.</p>
+            </div>
+          </div>
+
+          <div class="stats">
+            <div class="stat"><strong>12</strong><span>verified sources</span></div>
+            <div class="stat"><strong>4</strong><span>open tasks</span></div>
+            <div class="stat"><strong>3</strong><span>documents</span></div>
+            <div class="stat"><strong>1</strong><span>meeting planned</span></div>
+          </div>
+
+          <div>
+            <span class="badge">Bitcoin education</span>
+            <span class="badge green">CRM review</span>
+            <span class="badge yellow">requires verification</span>
+          </div>
+
+          <h2 style="margin-top: 22px;">Activity Timeline</h2>
+          <div class="timeline">
+            <div class="event">
+              <time>09:20</time>
+              <p>New source suggestion arrived from GitHub issue and was routed to source review.</p>
+            </div>
+            <div class="event">
+              <time>10:10</time>
+              <p>Document attached to the contact record and stored in the document vault.</p>
+            </div>
+            <div class="event">
+              <time>11:30</time>
+              <p>Follow-up task created for responsible coordinator.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="pipeline">
+          <h2>Feedback to Bitrix / CRM Pipeline</h2>
+          <div class="pipeline">
+            <div class="step">
+              <div class="dot">1</div>
+              <div><strong>GitHub / website / chat feedback</strong><span>Issue, form, email, chat, or source suggestion.</span></div>
+            </div>
+            <div class="step">
+              <div class="dot">2</div>
+              <div><strong>Automation router</strong><span>n8n or GitHub Action validates type and priority.</span></div>
+            </div>
+            <div class="step">
+              <div class="dot">3</div>
+              <div><strong>CRM contact and task</strong><span>Contact, organization, source, and responsible owner are connected.</span></div>
+            </div>
+            <div class="step">
+              <div class="dot">4</div>
+              <div><strong>Bitrix internal notification</strong><span>Private operational work stays out of public GitHub.</span></div>
+            </div>
+          </div>
+
+          <h2 style="margin-top: 18px;">Demo Log</h2>
+          <div class="demo-log" id="demoLog">Click a top action to simulate the CRM workflow.</div>
+        </section>
+      </div>
+
+      <div class="grid" style="margin-top: 18px;">
+        <section class="panel" id="documents">
+          <h2>Documents, Calls, Meetings, Tasks</h2>
+          <div class="cards">
+            <div class="mini">
+              <h3>Document Vault</h3>
+              <p>Nextcloud for files, paperless-ngx for OCR/archive, Documenso for signatures.</p>
+            </div>
+            <div class="mini" id="calls">
+              <h3>Call and Video Layer</h3>
+              <p>Jitsi for simple meetings, LiveKit for embedded realtime apps, BigBlueButton for classes.</p>
+            </div>
+            <div class="mini" id="tasks">
+              <h3>Task Routing</h3>
+              <p>Every source suggestion becomes a task with owner, due date, and verification status.</p>
+            </div>
+            <div class="mini">
+              <h3>Support Inbox</h3>
+              <p>Chatwoot can receive website chat, email, Telegram, WhatsApp, SMS, and support messages.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="stack">
+          <h2>Stack Candidates</h2>
+          <div>
+            <span class="badge">Twenty</span>
+            <span class="badge">EspoCRM</span>
+            <span class="badge">Corteza</span>
+            <span class="badge">ERPNext</span>
+            <span class="badge green">NocoBase</span>
+            <span class="badge green">Budibase</span>
+            <span class="badge green">Appsmith</span>
+            <span class="badge green">ToolJet</span>
+            <span class="badge yellow">Nextcloud</span>
+            <span class="badge yellow">paperless-ngx</span>
+            <span class="badge yellow">Documenso</span>
+            <span class="badge">Chatwoot</span>
+            <span class="badge">Jitsi</span>
+            <span class="badge">LiveKit</span>
+            <span class="badge">BigBlueButton</span>
+            <span class="badge">n8n</span>
+          </div>
+          <p style="margin-bottom: 0;">The next technical step is to test Option A: Twenty + Nextcloud + Chatwoot + Jitsi/LiveKit + n8n.</p>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    const log = document.getElementById('demoLog');
+
+    function runDemo(kind) {
+      const now = new Date().toLocaleTimeString();
+      const messages = {
+        source: `[${now}] Source suggestion received.\nCreated CRM note: \"Review open-source CRM stack\".\nStatus: requires verification.\nNext owner: Source verification reviewer.`,
+        meeting: `[${now}] Meeting request created.\nSelected route: Jitsi for simple meeting, LiveKit for embedded product call.\nTask: confirm participant and consent.`,
+        task: `[${now}] Internal task routed.\nPublic GitHub issue remains public.\nPrivate follow-up goes to Bitrix/CRM pipeline with responsible owner.`
+      };
+
+      log.textContent = messages[kind];
+    }
+  </script>
+</body>
+</html>
