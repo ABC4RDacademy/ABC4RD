@@ -5,6 +5,29 @@ activity after safe Academy authentication is restored.
 
 ## 1. Verify Authentication
 
+Use the isolated ABC4RD GitHub CLI wrapper so other local GitHub accounts are
+not changed:
+
+```powershell
+cd "C:\Users\Admin\OneDrive\Документы\ABC4RD\github_work\ABC4RD"
+.\tools\gh-abc4rd.ps1 auth status
+```
+
+If ABC4RD Academy is not authenticated in the isolated config, run:
+
+```powershell
+.\tools\abc4rd-login-gh.ps1
+```
+
+This uses:
+
+```text
+C:\Users\Admin\OneDrive\Документы\ABC4RD\.gh-abc4rd
+```
+
+as the GitHub CLI config directory and does not remove or switch other GitHub
+CLI accounts.
+
 ```powershell
 gh auth status
 git -C "C:\Users\Admin\OneDrive\Документы\ABC4RD\github_work\ABC4RD" remote -v
@@ -111,4 +134,3 @@ gh pr view 6083 --repo openmrs/openmrs-core --web
 Then choose one additional docs-only target from:
 
 - `docs/external-contribution-queue-2026-05-09.md`
-

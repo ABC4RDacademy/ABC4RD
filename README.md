@@ -104,6 +104,7 @@ Use this carefully:
 - [Release package: v0.2 research infrastructure](docs/releases/v0.2-research-infrastructure.md)
 - [Next milestone: v0.3 source review and releases](docs/milestones/v0.3-source-review-and-releases.md)
 - [GitHub public activation runbook: 2026-05-09](docs/github-public-activation-runbook-2026-05-09.md)
+- [Isolated GitHub CLI helper](tools/gh-abc4rd.ps1)
 
 ## Start here
 
