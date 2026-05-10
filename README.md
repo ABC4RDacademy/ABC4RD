@@ -98,6 +98,8 @@ Use this carefully:
 - [Visual publishing lab](labs/visual-publishing-lab/README.md)
 - [Digital press open-source stack map](docs/digital-press-open-source-stack-map.md)
 - [Digital press lab](labs/digital-press-lab/README.md)
+- [Media streaming open-source stack map](docs/media-streaming-open-source-stack-map.md)
+- [Media streaming lab](labs/media-streaming-lab/README.md)
 - [University map](docs/university-map.md)
 - [Institution map](docs/institution-map.md)
 - [Events and conferences map](docs/events-and-conferences.md)
