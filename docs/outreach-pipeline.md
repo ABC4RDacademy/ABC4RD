@@ -21,7 +21,7 @@ accuracy feedback and useful collaboration, not promotion.
 - Do not mass message speakers or sponsors.
 - Do not scrape private contacts.
 - Do not paste private replies into public repos.
-- Do not use Bitrix as a source of public claims.
+- Do not use private CRM notes as a source of public claims.
 
 ## Message Types
 
@@ -33,9 +33,9 @@ accuracy feedback and useful collaboration, not promotion.
 | Guest session invitation | Only after public materials are credible |
 | Thank-you note | After referencing a public talk or paper |
 
-## Bitrix Routing
+## Private CRM Routing
 
-Every meaningful reply should become a Bitrix task or contact note:
+Every meaningful reply should become a private ABC4RD CRM task or contact note:
 
 - source correction;
 - collaboration suggestion;
@@ -47,4 +47,3 @@ Every meaningful reply should become a Bitrix task or contact note:
 - medical/safety concern.
 
 Do not store secrets, private tokens, or confidential documents in GitHub.
-

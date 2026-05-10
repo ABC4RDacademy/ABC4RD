@@ -15,7 +15,7 @@ target for research, citation, contribution, or respectful feedback."
 - No endorsement language without explicit approval.
 - No mass tagging, mass email, or automated outreach.
 - Prefer issues, docs fixes, source suggestions, and narrow accuracy feedback.
-- Move actionable feedback into Bitrix for internal follow-up.
+- Move actionable feedback into the private ABC4RD CRM for internal follow-up.
 
 ## Primary Ecosystem Tracks
 
@@ -42,7 +42,7 @@ target for research, citation, contribution, or respectful feedback."
 3. Improve one ABC4RD module or glossary entry.
 4. Find one upstream docs contribution opportunity.
 5. Publish a weekly digest.
-6. Route actionable feedback to Bitrix.
+6. Route actionable feedback to the private ABC4RD CRM.
 7. Ask for narrow accuracy feedback only after the public artifact is useful.
 
 ## Follow / Watch Strategy
@@ -70,4 +70,3 @@ Useful signals:
 | `watch` | Useful to monitor but not ready for outreach |
 | `contribution target` | Suitable for small docs/source PR |
 | `do not contact yet` | Needs stronger ABC4RD public artifact first |
-

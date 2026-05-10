@@ -1,6 +1,6 @@
 # ABC4RD CRM Open-Source Stack Map
 
-ABC4RD Academy should treat CRM as an operations cockpit, not only as a sales database. The target system should connect contacts, organizations, documents, calls, video meetings, tasks, source suggestions, GitHub feedback, and Bitrix/CRM routing.
+ABC4RD Academy should treat CRM as an operations cockpit, not only as a sales database. The target system should connect contacts, organizations, documents, calls, video meetings, tasks, source suggestions, GitHub feedback, and an independent ABC4RD CRM workflow.
 
 This map is a working research index for open-source CRM, ERP, document management, communications, scheduling, automation, and low-code tools.
 
@@ -17,7 +17,7 @@ flowchart LR
   B --> D["Documents and source files"]
   B --> E["Calls and video meetings"]
   B --> F["Tasks and responsible owner"]
-  B --> G["Bitrix / internal operations pipeline"]
+  B --> G["ABC4RD CRM workflow"]
   D --> H["Nextcloud / Paperless / Documenso"]
   E --> I["Jitsi / LiveKit / BigBlueButton / Asterisk"]
   F --> J["n8n / Budibase / NocoBase automation"]
@@ -37,7 +37,7 @@ flowchart LR
 | Video and voice | [Jitsi Meet](https://github.com/jitsi/jitsi-meet), [LiveKit](https://github.com/livekit/livekit), [BigBlueButton](https://github.com/bigbluebutton/bigbluebutton) | Embedded meetings, classes, realtime audio/video, recordings. | active research |
 | Telephony | [Asterisk](https://github.com/asterisk/asterisk), [FreeSWITCH](https://github.com/signalwire/freeswitch) | SIP/PBX/call routing layer for a future call center. | advanced research |
 | Scheduling | [Cal.diy](https://github.com/calcom/cal.com) | Meeting booking and scheduling infrastructure. | active research |
-| Automation | [n8n](https://github.com/n8n-io/n8n) | Webhooks, routing, CRM/Bitrix/GitHub automation. | active research |
+| Automation | [n8n](https://github.com/n8n-io/n8n) | Webhooks, routing, CRM/GitHub/email/chat automation. | active research |
 | Internal tools | [NocoBase](https://github.com/nocobase/nocobase), [Budibase](https://github.com/budibase/budibase), [Appsmith](https://github.com/appsmithorg/appsmith), [ToolJet](https://github.com/ToolJet/ToolJet) | Build CRM cockpit screens and workflows quickly. | active research |
 
 ## CRM and ERP Candidates
@@ -87,7 +87,7 @@ flowchart LR
 | NocoDB | https://github.com/nocodb/nocodb | Airtable-like database UI | Medium/high | Useful for quick data tables and source review lists. |
 | Baserow | https://github.com/bram2w/baserow | Database/spreadsheet builder | Medium/high | Useful as a light CRM/source-index database. |
 | Directus | https://github.com/directus/directus | Data/API/admin layer | High | Strong if ABC4RD wants a clean data backend and API. |
-| n8n | https://github.com/n8n-io/n8n | Workflow automation | High | Best candidate for GitHub feedback -> CRM/Bitrix task routing. |
+| n8n | https://github.com/n8n-io/n8n | Workflow automation | High | Best candidate for GitHub feedback -> ABC4RD CRM task routing. |
 
 ## Recommended ABC4RD Pilot
 
@@ -97,7 +97,7 @@ flowchart LR
 - Nextcloud for documents.
 - Chatwoot for website/chat/email intake.
 - Jitsi or LiveKit for meetings.
-- n8n for routing feedback to Bitrix/CRM tasks.
+- n8n for routing feedback to ABC4RD CRM tasks.
 
 ### Option B: Low-code operations cockpit
 
@@ -133,4 +133,3 @@ Do not send mass outreach. For each project, ABC4RD Academy should first:
 3. create a short internal source-review note;
 4. identify a concrete documentation improvement;
 5. open a small upstream issue or PR only if useful and specific.
-

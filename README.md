@@ -96,7 +96,6 @@ Use this carefully:
 - [GitHub watchlist](docs/github-watchlist.md)
 - [Website builder open-source watchlist](docs/website-builder-open-source-watchlist.md)
 - [Outreach pipeline](docs/outreach-pipeline.md)
-- [Bitrix24 feedback integration](docs/bitrix-integration.md)
 - [Research tracks](docs/research-tracks.md)
 - [Contribution ladder](docs/contribution-ladder.md)
 - [Repository standard](docs/repository-standard.md)

@@ -343,7 +343,7 @@
         <a href="#documents">Documents</a>
         <a href="#calls">Calls</a>
         <a href="#tasks">Tasks</a>
-        <a href="#pipeline">Bitrix / CRM Pipeline</a>
+        <a href="#pipeline">ABC4RD CRM Pipeline</a>
         <a href="#stack">Open-Source Stack</a>
       </nav>
     </aside>
@@ -357,7 +357,7 @@
         <div class="actions">
           <button type="button" onclick="runDemo('source')">Suggest Source</button>
           <button type="button" class="secondary" onclick="runDemo('meeting')">Create Meeting</button>
-          <button type="button" class="neutral" onclick="runDemo('task')">Send to Bitrix</button>
+          <button type="button" class="neutral" onclick="runDemo('task')">Create CRM Task</button>
         </div>
       </div>
 
@@ -402,7 +402,7 @@
         </section>
 
         <section class="panel" id="pipeline">
-          <h2>Feedback to Bitrix / CRM Pipeline</h2>
+          <h2>Feedback to ABC4RD CRM Pipeline</h2>
           <div class="pipeline">
             <div class="step">
               <div class="dot">1</div>
@@ -418,7 +418,7 @@
             </div>
             <div class="step">
               <div class="dot">4</div>
-              <div><strong>Bitrix internal notification</strong><span>Private operational work stays out of public GitHub.</span></div>
+              <div><strong>Private CRM task</strong><span>Private operational work stays out of public GitHub.</span></div>
             </div>
           </div>
 
@@ -484,7 +484,7 @@
       const messages = {
         source: `[${now}] Source suggestion received.\nCreated CRM note: \"Review open-source CRM stack\".\nStatus: requires verification.\nNext owner: Source verification reviewer.`,
         meeting: `[${now}] Meeting request created.\nSelected route: Jitsi for simple meeting, LiveKit for embedded product call.\nTask: confirm participant and consent.`,
-        task: `[${now}] Internal task routed.\nPublic GitHub issue remains public.\nPrivate follow-up goes to Bitrix/CRM pipeline with responsible owner.`
+        task: `[${now}] Internal task routed.\nPublic GitHub issue remains public.\nPrivate follow-up goes to the ABC4RD CRM pipeline with responsible owner.`
       };
 
       log.textContent = messages[kind];

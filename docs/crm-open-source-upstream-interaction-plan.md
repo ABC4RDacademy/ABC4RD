@@ -28,7 +28,7 @@ No mass outreach. ABC4RD Academy should contact upstream projects only when ther
 | Jitsi Meet | Integration note | Review simple embedded meeting path for contact records. | draft |
 | LiveKit | Architecture note | Review realtime room, recording/export, and AI-agent use cases. | draft |
 | BigBlueButton | Education note | Review webinar/classroom features for Academy sessions. | draft |
-| n8n | Workflow note | Draft GitHub issue/form/chat -> CRM/Bitrix task workflow. | draft |
+| n8n | Workflow note | Draft GitHub issue/form/chat -> ABC4RD CRM task workflow. | draft |
 
 ## Upstream Message Template
 
@@ -78,4 +78,3 @@ Thank you for maintaining this project.
 - Do not paste identical messages across projects.
 - Do not publish private contact data or operational records in GitHub.
 - Do not claim that a project is integrated until a real test or prototype exists.
-

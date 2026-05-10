@@ -41,5 +41,4 @@ When watching a repository, record:
 - Do not follow/unfollow in bulk.
 - Do not tag people without context.
 - Do not represent stars/follows as partnerships.
-- Move useful opportunities into GitHub Issues or Bitrix tasks.
-
+- Move useful opportunities into GitHub Issues or private ABC4RD CRM tasks.

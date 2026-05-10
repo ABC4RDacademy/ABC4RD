@@ -28,7 +28,7 @@ Never commit:
 - private emails;
 - CRM exports;
 - internal contracts;
-- raw Dropbox, Bitrix, Gmail, or iCloud credentials.
+- raw Dropbox, CRM, Gmail, or iCloud credentials.
 
 Use:
 

@@ -169,7 +169,7 @@ The center should produce:
 - external docs contributions;
 - weekly digests;
 - careful outreach drafts;
-- Bitrix-routed internal follow-up;
+- private ABC4RD CRM follow-up;
 - no fake partnerships.
 
 The long-term value is not that ABC4RD Academy knows every field. The value is
@@ -203,4 +203,3 @@ about trust:
 - Who is qualified to review it?
 
 That is the foundation of trustworthy computation.
-

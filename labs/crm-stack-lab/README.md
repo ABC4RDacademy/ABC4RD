@@ -1,6 +1,6 @@
 # ABC4RD CRM Stack Lab
 
-This lab explores how ABC4RD Academy can build an open-source operations cockpit around CRM, documents, calls, meetings, tasks, feedback, GitHub, and Bitrix/CRM routing.
+This lab explores how ABC4RD Academy can build an open-source operations cockpit around CRM, documents, calls, meetings, tasks, feedback, GitHub, and an independent ABC4RD CRM workflow.
 
 The first artifact is a local static preview:
 
@@ -14,7 +14,7 @@ It is not a production CRM. It is a clickable concept file for reviewing the ope
 - Document vault.
 - Call and video meeting panel.
 - Task and owner routing.
-- Feedback to Bitrix/CRM pipeline.
+- Feedback to ABC4RD CRM pipeline.
 - Open-source stack map.
 
 ## Safety and Operations Notes
@@ -23,5 +23,4 @@ It is not a production CRM. It is a clickable concept file for reviewing the ope
 - Do not claim partnership with listed projects.
 - Review licenses before production use.
 - Use GitHub for public research and documentation.
-- Use internal CRM/Bitrix for private operations and personal data.
-
+- Use the private ABC4RD CRM database for operations and personal data.

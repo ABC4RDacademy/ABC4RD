@@ -21,10 +21,10 @@ internal follow-up while keeping public collaboration transparent.
 - Events and conferences map.
 - GitHub watchlist.
 - Outreach pipeline.
-- Bitrix24 feedback integration plan.
+- Private ABC4RD CRM feedback routing plan.
 - Source verification folder.
 - Partnership drafts folder.
-- Bitrix feedback sync workflow.
+- Private CRM feedback routing workflow draft.
 
 ## Public Issues Created
 
@@ -37,7 +37,7 @@ Twenty new source-review and integration issues were created in the main
 - RWA tokenization;
 - DAO governance tooling;
 - GitHub watchlists;
-- Bitrix feedback sync setup and testing.
+- Private CRM feedback routing setup and testing.
 
 ## Public Discussions Created
 
@@ -52,29 +52,20 @@ Ten new discussion threads were opened:
 - robotics and sensors ecosystem;
 - digital health institutions;
 - beginner-friendly contribution opportunities;
-- Bitrix feedback routing.
+- Private ABC4RD CRM feedback routing.
 
-## Bitrix Integration Status
+## Private CRM Integration Status
 
-The workflow exists:
-
-```text
-.github/workflows/bitrix-feedback-sync.yml
-```
-
-It is safe by default. If `BITRIX_WEBHOOK_URL` is not configured, it exits
-without sending data.
-
-Next required human action:
+The previous external CRM workflow has been retired. ABC4RD Academy will use an independent private CRM workflow instead of depending on a third-party CRM by default.
 
 ```text
-Add BITRIX_WEBHOOK_URL as a GitHub repository secret.
+ABC4RD CRM pipeline: GitHub feedback -> private CRM task -> responsible owner
 ```
 
 ## Next Work
 
-1. Add the Bitrix webhook secret.
-2. Test one GitHub issue to Bitrix task sync.
+1. Define the minimum ABC4RD CRM data model.
+2. Test one GitHub issue to private CRM task sync.
 3. Verify the 20 ecosystem source-review issues.
 4. Expand the university and institution maps with GitHub links.
 5. Pick one new external docs contribution target.
@@ -85,6 +76,5 @@ Add BITRIX_WEBHOOK_URL as a GitHub repository secret.
 - No mass outreach was sent.
 - No partnership claims were made.
 - No private contact data was published.
-- No Bitrix webhook URL was committed.
+- No private CRM webhook URL was committed.
 - All maps use official/public sources or `requires verification` status.
-
