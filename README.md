@@ -75,6 +75,13 @@ Use this carefully:
 
 ## Research system
 
+- [Ecosystem map](docs/ecosystem-map.md)
+- [University map](docs/university-map.md)
+- [Institution map](docs/institution-map.md)
+- [Events and conferences map](docs/events-and-conferences.md)
+- [GitHub watchlist](docs/github-watchlist.md)
+- [Outreach pipeline](docs/outreach-pipeline.md)
+- [Bitrix24 feedback integration](docs/bitrix-integration.md)
 - [Research tracks](docs/research-tracks.md)
 - [Contribution ladder](docs/contribution-ladder.md)
 - [Repository standard](docs/repository-standard.md)
@@ -85,6 +92,8 @@ Use this carefully:
 - [Public claims register](docs/public-claims-register.md)
 - [Source review batch: 2026-05-09](docs/source-review-batch-2026-05-09.md)
 - [Source review issue drafts: 2026-05-09](docs/source-review-issue-drafts-2026-05-09.md)
+- [Source verification folder](docs/source-verification/README.md)
+- [Partnership drafts folder](docs/partnership-drafts/README.md)
 - [Module 03 expansion plan](docs/module-03-expansion-plan.md)
 - [Release checklist](docs/release-checklist.md)
 - [IP and publication policy](docs/ip-publication-policy.md)
