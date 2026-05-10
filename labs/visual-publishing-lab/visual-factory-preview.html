@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABC4RD Visual Publishing Factory</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17202a;
+      --muted: #5f6f7f;
+      --line: #d9e2ec;
+      --soft: #f5f7fa;
+      --panel: #ffffff;
+      --blue: #145ea8;
+      --green: #14785f;
+      --gold: #d99518;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--soft);
+      line-height: 1.5;
+    }
+
+    .app {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 280px minmax(0, 1fr);
+    }
+
+    aside {
+      background: #101923;
+      color: #eef5fb;
+      padding: 24px 18px;
+    }
+
+    .brand {
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 5px;
+      letter-spacing: 0;
+    }
+
+    .sub {
+      color: #b8c7d7;
+      font-size: 13px;
+      margin-bottom: 24px;
+    }
+
+    .menu {
+      display: grid;
+      gap: 8px;
+    }
+
+    .menu div {
+      padding: 11px 12px;
+      border-radius: 6px;
+      background: rgba(255,255,255,0.06);
+    }
+
+    .menu .active {
+      background: var(--blue);
+      font-weight: 800;
+    }
+
+    main {
+      padding: 24px;
+    }
+
+    .hero {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(32px, 5vw, 56px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    p { margin: 0; }
+    .muted { color: var(--muted); }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+
+    button {
+      min-height: 40px;
+      border: 0;
+      border-radius: 6px;
+      padding: 10px 14px;
+      background: var(--blue);
+      color: #fff;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    button.green { background: var(--green); }
+    button.dark { background: #334155; }
+
+    .notice {
+      border: 1px solid #f2c779;
+      background: #fff8e6;
+      color: #5d4300;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 18px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-bottom: 18px;
+    }
+
+    .card,
+    .panel {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 8px;
+      padding: 18px;
+    }
+
+    .card h2,
+    .panel h2 {
+      margin: 0 0 8px;
+      font-size: 22px;
+      letter-spacing: 0;
+    }
+
+    .mock {
+      height: 126px;
+      border-radius: 7px;
+      margin-bottom: 12px;
+      background:
+        linear-gradient(135deg, rgba(20,94,168,.95), rgba(20,120,95,.92)),
+        linear-gradient(90deg, #fff 0 25%, transparent 25% 100%);
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-weight: 800;
+      text-align: center;
+      padding: 12px;
+    }
+
+    .mock.gold { background: linear-gradient(135deg, #101923, #d99518); }
+    .mock.gray { background: linear-gradient(135deg, #334155, #145ea8); }
+
+    .badge {
+      display: inline-flex;
+      min-height: 25px;
+      align-items: center;
+      padding: 4px 9px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      margin: 4px 5px 0 0;
+      background: #e8f3ff;
+      color: var(--blue);
+    }
+
+    .badge.green { background: #e8f7f0; color: var(--green); }
+    .badge.gold { background: #fff4d5; color: #7a5200; }
+
+    .wide {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(320px, .9fr);
+      gap: 16px;
+    }
+
+    .pipeline {
+      display: grid;
+      gap: 10px;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 36px minmax(0, 1fr);
+      gap: 10px;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 10px;
+      background: #fbfdff;
+    }
+
+    .dot {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      background: var(--blue);
+      font-weight: 800;
+    }
+
+    .log {
+      min-height: 82px;
+      padding: 12px;
+      border-radius: 6px;
+      background: #101923;
+      color: #dbe8f3;
+      font-family: Consolas, monospace;
+      font-size: 13px;
+      white-space: pre-wrap;
+    }
+
+    @media (max-width: 1040px) {
+      .app,
+      .grid,
+      .wide {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        flex-direction: column;
+      }
+
+      .actions {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <div class="brand">ABC4RD Visual Factory</div>
+      <div class="sub">Sites, decks, posters, certificates, newsletters</div>
+      <div class="menu">
+        <div class="active">Website templates</div>
+        <div>Landing pages</div>
+        <div>Course pages</div>
+        <div>Presentations</div>
+        <div>Certificates</div>
+        <div>Posters</div>
+        <div>Newsletters</div>
+        <div>Deployment</div>
+      </div>
+    </aside>
+
+    <main>
+      <section class="hero">
+        <div>
+          <h1>Visual Publishing Factory</h1>
+          <p class="muted">Choose a template, replace text and licensed images, publish to an ABC4RD-controlled server.</p>
+        </div>
+        <div class="actions">
+          <button onclick="demo('site')">Create Site</button>
+          <button class="green" onclick="demo('deck')">Create Deck</button>
+          <button class="dark" onclick="demo('deploy')">Deploy</button>
+        </div>
+      </section>
+
+      <div class="notice">
+        <strong>Time and money:</strong> first local templates can be ready today for $0. A deployed system needs 1-3 days and about $6-30/month for a VPS. Full production studio takes 3-8 weeks and about $100-500/month.
+      </div>
+
+      <section class="grid">
+        <article class="card">
+          <div class="mock">Course Landing<br>Astro + ready blocks</div>
+          <h2>Course Site</h2>
+          <p class="muted">Reusable page for cohorts, lessons, agenda, teachers, registration.</p>
+          <span class="badge green">1 day</span><span class="badge">$0-15/mo</span>
+        </article>
+        <article class="card">
+          <div class="mock gold">Presentation Deck<br>Slidev / Marp</div>
+          <h2>Presentation</h2>
+          <p class="muted">Markdown-driven branded decks for lectures, pitch, reports, webinars.</p>
+          <span class="badge green">same day</span><span class="badge">$0</span>
+        </article>
+        <article class="card">
+          <div class="mock gray">Certificate / Poster<br>Typst / Paged.js</div>
+          <h2>Print Assets</h2>
+          <p class="muted">Certificates, posters, bulletins, handouts, PDFs, visual announcements.</p>
+          <span class="badge green">1-3 days</span><span class="badge">$0-30/mo</span>
+        </article>
+      </section>
+
+      <section class="wide">
+        <div class="panel">
+          <h2>Recommended Open-Source Stack</h2>
+          <span class="badge green">Astro</span>
+          <span class="badge green">Docusaurus</span>
+          <span class="badge">Webstudio</span>
+          <span class="badge">GrapesJS</span>
+          <span class="badge">Puck</span>
+          <span class="badge">Flowbite</span>
+          <span class="badge">DaisyUI</span>
+          <span class="badge">shadcn/ui</span>
+          <span class="badge gold">Coolify</span>
+          <span class="badge gold">Dokploy</span>
+          <span class="badge">Slidev</span>
+          <span class="badge">Marp</span>
+          <span class="badge">Typst</span>
+          <span class="badge">Penpot</span>
+          <span class="badge">Listmonk</span>
+
+          <h2 style="margin-top:18px;">Publishing Pipeline</h2>
+          <div class="pipeline">
+            <div class="step"><div class="dot">1</div><div><strong>Choose template</strong><br><span class="muted">Course, event, report, poster, certificate, newsletter.</span></div></div>
+            <div class="step"><div class="dot">2</div><div><strong>Replace content</strong><br><span class="muted">Text, licensed images, speaker names, agenda, links.</span></div></div>
+            <div class="step"><div class="dot">3</div><div><strong>Review</strong><br><span class="muted">Brand, mobile layout, accessibility, source/license check.</span></div></div>
+            <div class="step"><div class="dot">4</div><div><strong>Deploy</strong><br><span class="muted">GitHub -> Coolify/Dokploy -> abc4rd.org subdomain.</span></div></div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>Demo Log</h2>
+          <div class="log" id="log">Click an action to simulate publishing.</div>
+          <h2 style="margin-top:18px;">First Deliverables</h2>
+          <p><strong>Today:</strong> visual stack map and preview.</p>
+          <p><strong>1-2 days:</strong> template pack for site/deck/certificate.</p>
+          <p><strong>1-3 days:</strong> first deployed page system.</p>
+          <p><strong>3-8 weeks:</strong> full visual publishing studio.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const log = document.getElementById("log");
+    function demo(type) {
+      const now = new Date().toLocaleTimeString();
+      const messages = {
+        site: `[${now}] Course site generated.\nTemplate: Astro landing page.\nNext: replace text and licensed images.`,
+        deck: `[${now}] Presentation generated.\nStack: Slidev / Marp.\nOutput: web deck + PDF export.`,
+        deploy: `[${now}] Deployment queued.\nGitHub -> Coolify/Dokploy -> abc4rd.org subdomain.\nEstimated cost: $6-30/month MVP.`
+      };
+      log.textContent = messages[type];
+    }
+  </script>
+</body>
+</html>
