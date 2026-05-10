@@ -1,0 +1,27 @@
+:root { --ink: #13201b; --muted: #5c6964; --paper: #f6f7f3; --line: #d9e0da; --green: #0f766e; --blue: #245ea8; --gold: #b88a2b; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--ink); background: #fff; line-height: 1.5; }
+a { color: inherit; }
+.hero { min-height: 86vh; padding: 24px; color: white; background: linear-gradient(120deg, rgba(7, 16, 18, .94), rgba(13, 38, 36, .82)), url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80") center/cover; }
+nav { max-width: 1120px; margin: 0 auto; display: flex; justify-content: space-between; gap: 20px; }
+nav div { display: flex; gap: 18px; }
+nav a { text-decoration: none; color: #e9f3f0; }
+.hero-grid { max-width: 1120px; min-height: 68vh; margin: 0 auto; display: grid; grid-template-columns: 1.4fr .75fr; gap: 36px; align-items: center; }
+.kicker { color: #d5bd76; font-weight: 700; text-transform: uppercase; font-size: 13px; letter-spacing: .08em; }
+h1 { max-width: 720px; margin: 0; font-size: clamp(42px, 7vw, 82px); line-height: .98; letter-spacing: 0; }
+.lead { max-width: 720px; color: #e8f1ee; font-size: 20px; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+.actions a, .primary { display: inline-flex; align-items: center; min-height: 44px; padding: 10px 16px; border: 1px solid rgba(255,255,255,.5); border-radius: 6px; text-decoration: none; }
+.actions .primary, .primary.dark { background: var(--green); border-color: var(--green); color: white; }
+aside { border: 1px solid rgba(255,255,255,.25); border-radius: 8px; padding: 20px; background: rgba(8, 18, 20, .72); }
+aside span { color: #9bd2cb; font-size: 13px; text-transform: uppercase; font-weight: 700; }
+main section { max-width: 1120px; margin: 0 auto; padding: 54px 24px; }
+h2 { font-size: 32px; margin: 0 0 18px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+article, .proof-list p { border: 1px solid var(--line); border-radius: 8px; padding: 18px; background: white; }
+article p, .proof-list p { color: var(--muted); }
+.band { max-width: none; background: var(--paper); border-block: 1px solid var(--line); }
+.band > * { max-width: 1120px; margin-left: auto; margin-right: auto; }
+.proof-list { display: grid; gap: 12px; }
+@media (max-width: 760px) { .hero-grid { grid-template-columns: 1fr; } nav { flex-direction: column; } }
+
