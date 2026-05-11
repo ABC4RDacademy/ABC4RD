@@ -88,6 +88,12 @@ Use this carefully:
 
 ## Research system
 
+- [Launch Sprint 01](docs/launch-sprint-01.md)
+- [GitHub launch issues](docs/github-launch-issues.md)
+- [Course 01: Blockchain Academy](docs/courses/blockchain-academy-from-bitcoin-to-verifiable-infrastructure.md)
+- [Blockchain Foundations certificate template](docs/certificates/blockchain-foundations-certificate.md)
+- [ABC4RD Research Bulletin #1](docs/bulletins/2026-05-11-research-bulletin-001.md)
+- [ERC-20 localnet learning demo](demos/erc20-localnet/README.md)
 - [Flagship course: Blockchain Foundations](docs/flagship-course-blockchain-foundations.md)
 - [Blockchain Foundations modules](modules/blockchain-foundations/01-what-is-trust.md)
 - [Blockchain Foundations student submission template](student-submissions/blockchain-foundations/submission-template.md)
@@ -241,6 +247,8 @@ See [docs/github-roadmap.md](docs/github-roadmap.md).
 For the external-facing roadmap, see [docs/public-roadmap-v2.md](docs/public-roadmap-v2.md).
 
 For the current GitLab operating plan, see [docs/group-roadmap.md](docs/group-roadmap.md).
+
+Current first sprint: [Launch Sprint 01: ABC4RD Academy Public Baseline](docs/launch-sprint-01.md).
 
 ## Operating loop
 
