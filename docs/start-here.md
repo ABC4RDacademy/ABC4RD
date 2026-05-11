@@ -90,3 +90,12 @@ ABC4RD Academy keeps movement visible through a simple operating rhythm:
 - Monthly: certificate and review batch.
 
 See [`docs/weekly-launch-rhythm.md`](weekly-launch-rhythm.md).
+
+Current operating sprint:
+
+- [`Launch Sprint 02: Operating Discipline`](milestones/launch-sprint-02-operating-discipline.md);
+- [`Course 01 operating update: 2026-05-11`](course-updates/2026-05-11-course-01-operating-update.md);
+- [`ERC-20 localnet review: 2026-05-13`](demo-updates/2026-05-13-erc20-localnet-review.md);
+- [`Research Bulletin #2`](bulletins/2026-05-15-research-bulletin-002.md);
+- [`May 2026 certificate review batch`](certificates/review-batch-2026-05.md);
+- [`Native review checklist`](i18n/native-review-checklist.md).

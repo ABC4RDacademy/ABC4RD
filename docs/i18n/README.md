@@ -24,6 +24,10 @@ Canonical source route:
 
 - [../start-here.md](../start-here.md)
 
+Native review checklist:
+
+- [native-review-checklist.md](native-review-checklist.md)
+
 Longer academy overview files remain available:
 
 - [academy-overview.en.md](academy-overview.en.md)
@@ -47,6 +51,7 @@ Translate first:
 2. Start here;
 3. Course 01 summary;
 4. Certificate disclaimer;
-5. Bulletin #1 summary.
+5. Bulletin #1 or #2 summary.
 
-Do not translate the full repository set until Launch Sprint 01 is stable.
+Do not translate the full repository set until Launch Sprint 02 review is
+stable.
