@@ -88,6 +88,11 @@ Use this carefully:
 
 ## Research system
 
+- [Flagship course: Blockchain Foundations](docs/flagship-course-blockchain-foundations.md)
+- [Student Journey v1](docs/student-journey-v1.md)
+- [7-Day Blockchain Foundations Challenge](labs/challenge-hackathon-lab/7-day-blockchain-foundations-challenge.md)
+- [Certificate verification preview](labs/credentials-certificates-lab/certificate-verification-preview.html)
+- [Research Bulletin #1: Infrastructure launch](docs/weekly-digests/2026-05-11-abc4rd-infrastructure-launch.md)
 - [Ecosystem map](docs/ecosystem-map.md)
 - [Blockchain Academy manifesto](docs/blockchain-academy-manifesto.md)
 - [Blockchain Academy curriculum](docs/blockchain-academy-curriculum.md)
