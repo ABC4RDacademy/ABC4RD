@@ -12,6 +12,19 @@
 
 The project has a documented public origin: ABC4RD was covered by Bitcoin Magazine in February 2017 and the article was syndicated by Nasdaq. The relaunch builds on that historical education signal while focusing on current international work: AI education, Bitcoin education, open source, green compute, mining literacy, digital credentials, and community learning.
 
+## Languages
+
+ABC4RD Academy uses English as the primary GitHub working language and is building public entry points in the six official United Nations languages:
+
+- [English](docs/i18n/academy-overview.en.md)
+- [Arabic](docs/i18n/academy-overview.ar.md)
+- [Chinese](docs/i18n/academy-overview.zh.md)
+- [French](docs/i18n/academy-overview.fr.md)
+- [Russian](docs/i18n/academy-overview.ru.md)
+- [Spanish](docs/i18n/academy-overview.es.md)
+
+Translation policy: [docs/i18n/translation-policy.md](docs/i18n/translation-policy.md).
+
 ## What this repository is
 
 This is the main public hub for ABC4RD Academy:
