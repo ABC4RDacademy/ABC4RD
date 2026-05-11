@@ -77,6 +77,9 @@ The first commercial model is intentionally narrow:
 See [`ABC4RD Academy Financial Model v1`](financial-model-v1.md) and
 [`Financial Model v1 milestone`](milestones/financial-model-v1.md).
 
+Russian operating launch map:
+[`Логистическая модель запуска ABC4RD Academy`](launch-logistics-model.ru.md).
+
 ## 7. How To Contribute
 
 Start with one small public artifact:
