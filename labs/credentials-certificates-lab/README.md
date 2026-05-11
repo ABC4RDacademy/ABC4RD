@@ -9,3 +9,7 @@ MVP: 2-7 days. Cost: $0-100/month for a simple verification prototype. Serious c
 First preview:
 
 - `certificate-verification-preview.html`
+
+First course criteria:
+
+- `blockchain-foundations-certificate-criteria.md`

@@ -67,6 +67,14 @@ Template:
 
 - [student-submissions/blockchain-foundations/submission-template.md](../student-submissions/blockchain-foundations/submission-template.md)
 
+Example:
+
+- [student-submissions/blockchain-foundations/example-sample-student.md](../student-submissions/blockchain-foundations/example-sample-student.md)
+
+Review checklist:
+
+- [docs/blockchain-foundations-submission-review-checklist.md](blockchain-foundations-submission-review-checklist.md)
+
 ## Certificate Criteria
 
 To receive a draft ABC4RD Academy completion certificate, a student must:

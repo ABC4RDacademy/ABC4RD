@@ -91,6 +91,8 @@ Use this carefully:
 - [Flagship course: Blockchain Foundations](docs/flagship-course-blockchain-foundations.md)
 - [Blockchain Foundations modules](modules/blockchain-foundations/01-what-is-trust.md)
 - [Blockchain Foundations student submission template](student-submissions/blockchain-foundations/submission-template.md)
+- [Blockchain Foundations sample student submission](student-submissions/blockchain-foundations/example-sample-student.md)
+- [Blockchain Foundations review checklist](docs/blockchain-foundations-submission-review-checklist.md)
 - [Student Journey v1](docs/student-journey-v1.md)
 - [7-Day Blockchain Foundations Challenge](labs/challenge-hackathon-lab/7-day-blockchain-foundations-challenge.md)
 - [Certificate verification preview](labs/credentials-certificates-lab/certificate-verification-preview.html)
