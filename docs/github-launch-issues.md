@@ -1,7 +1,7 @@
 # GitHub Launch Issues
 
 These issue drafts are ready to convert into GitHub issues under the milestone
-`Launch Sprint 01: ABC4RD Academy public baseline`.
+`Launch Sprint 01: International Academy Baseline`.
 
 ## 1. Ship the "What is ABC4RD Academy" homepage
 
@@ -11,6 +11,7 @@ Output:
 
 - first viewport explains ABC4RD Academy in plain language;
 - links to the first course, certificate template, bulletin, and demo;
+- links to `docs/start-here.md` and the six-language entry points;
 - research tracks and public channels remain source-backed and careful;
 - no unverified partnership or endorsement claims.
 
@@ -19,6 +20,7 @@ Acceptance checklist:
 - [ ] Visitor can find the first course in one click.
 - [ ] Visitor can find the first demo in one click.
 - [ ] Visitor can find the first bulletin in one click.
+- [ ] Visitor can find the language entry points in one click.
 - [ ] Homepage links use repository-relative paths for local artifacts.
 
 ## 2. Create Course 01: Blockchain Academy - From Bitcoin to Verifiable Infrastructure

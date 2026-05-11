@@ -12,13 +12,26 @@ ABC4RD Academy uses English as the primary working language for GitHub, with pub
 ## Public Language Entry Points
 
 | Language | File | Status |
-|---|---|---|
-| English | [academy-overview.en.md](academy-overview.en.md) | source |
-| Arabic | [academy-overview.ar.md](academy-overview.ar.md) | draft, requires native review |
-| Chinese | [academy-overview.zh.md](academy-overview.zh.md) | draft, requires native review |
-| French | [academy-overview.fr.md](academy-overview.fr.md) | draft, requires native review |
-| Russian | [academy-overview.ru.md](academy-overview.ru.md) | draft, requires native review |
-| Spanish | [academy-overview.es.md](academy-overview.es.md) | draft, requires native review |
+| --- | --- | --- |
+| English | [start-here.en.md](start-here.en.md) | source |
+| Arabic | [start-here.ar.md](start-here.ar.md) | draft, requires native review |
+| Chinese | [start-here.zh.md](start-here.zh.md) | draft, requires native review |
+| French | [start-here.fr.md](start-here.fr.md) | draft, requires native review |
+| Russian | [start-here.ru.md](start-here.ru.md) | draft, requires native review |
+| Spanish | [start-here.es.md](start-here.es.md) | draft, requires native review |
+
+Canonical source route:
+
+- [../start-here.md](../start-here.md)
+
+Longer academy overview files remain available:
+
+- [academy-overview.en.md](academy-overview.en.md)
+- [academy-overview.ar.md](academy-overview.ar.md)
+- [academy-overview.zh.md](academy-overview.zh.md)
+- [academy-overview.fr.md](academy-overview.fr.md)
+- [academy-overview.ru.md](academy-overview.ru.md)
+- [academy-overview.es.md](academy-overview.es.md)
 
 ## Translation Rule
 
@@ -30,14 +43,10 @@ Do not translate legal, medical, financial, compliance, RWA, security, or safety
 
 Translate first:
 
-1. Academy overview;
-2. Academy Operating System;
-3. AI Production Factory;
-4. Blockchain Lab;
-5. Digital Library;
-6. Digital Press;
-7. Media Hub;
-8. Credentials and Certificates;
-9. Student Portfolio;
-10. Cybersecurity.
+1. What is ABC4RD Academy;
+2. Start here;
+3. Course 01 summary;
+4. Certificate disclaimer;
+5. Bulletin #1 summary.
 
+Do not translate the full repository set until Launch Sprint 01 is stable.
