@@ -11,4 +11,8 @@ build/
 Thumbs.db
 *.log
 *.tmp
+demos/**/artifacts/
+demos/**/cache/
+demos/**/coverage/
+demos/**/coverage.json
 

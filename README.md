@@ -16,14 +16,16 @@ The project has a documented public origin: ABC4RD was covered by Bitcoin Magazi
 
 ABC4RD Academy uses English as the primary GitHub working language and is building public entry points in the six official United Nations languages:
 
-- [English](docs/i18n/academy-overview.en.md)
-- [Arabic](docs/i18n/academy-overview.ar.md)
-- [Chinese](docs/i18n/academy-overview.zh.md)
-- [French](docs/i18n/academy-overview.fr.md)
-- [Russian](docs/i18n/academy-overview.ru.md)
-- [Spanish](docs/i18n/academy-overview.es.md)
+- [English](docs/i18n/start-here.en.md)
+- [Arabic](docs/i18n/start-here.ar.md)
+- [Chinese](docs/i18n/start-here.zh.md)
+- [French](docs/i18n/start-here.fr.md)
+- [Russian](docs/i18n/start-here.ru.md)
+- [Spanish](docs/i18n/start-here.es.md)
 
 Translation policy: [docs/i18n/translation-policy.md](docs/i18n/translation-policy.md).
+
+Canonical entry point: [Start Here](docs/start-here.md).
 
 ## What this repository is
 
@@ -88,6 +90,15 @@ Use this carefully:
 
 ## Research system
 
+- [Start Here](docs/start-here.md)
+- [International Academy Baseline milestone](docs/milestones/launch-sprint-01-international-academy-baseline.md)
+- [Weekly launch rhythm](docs/weekly-launch-rhythm.md)
+- [Launch Sprint 01](docs/launch-sprint-01.md)
+- [GitHub launch issues](docs/github-launch-issues.md)
+- [Course 01: Blockchain Academy](docs/courses/blockchain-academy-from-bitcoin-to-verifiable-infrastructure.md)
+- [Blockchain Foundations certificate template](docs/certificates/blockchain-foundations-certificate.md)
+- [ABC4RD Research Bulletin #1](docs/bulletins/2026-05-11-research-bulletin-001.md)
+- [ERC-20 localnet learning demo](demos/erc20-localnet/README.md)
 - [Flagship course: Blockchain Foundations](docs/flagship-course-blockchain-foundations.md)
 - [Blockchain Foundations modules](modules/blockchain-foundations/01-what-is-trust.md)
 - [Blockchain Foundations student submission template](student-submissions/blockchain-foundations/submission-template.md)
@@ -210,6 +221,9 @@ Use this carefully:
 
 ## Start here
 
+- [Start Here: ABC4RD Academy](docs/start-here.md)
+- [International Academy Baseline milestone](docs/milestones/launch-sprint-01-international-academy-baseline.md)
+- [Weekly launch rhythm](docs/weekly-launch-rhythm.md)
 - [Weekly operating package](docs/weekly-operating-package-2026-05-06.md)
 - [Jira, GitHub, and GitLab task routing](docs/jira-github-gitlab-task-routing.md)
 - [Public launch package](docs/public-launch-package.md)
@@ -245,6 +259,8 @@ See [docs/github-roadmap.md](docs/github-roadmap.md).
 For the external-facing roadmap, see [docs/public-roadmap-v2.md](docs/public-roadmap-v2.md).
 
 For the current GitLab operating plan, see [docs/group-roadmap.md](docs/group-roadmap.md).
+
+Current first sprint: [Launch Sprint 01: ABC4RD Academy Public Baseline](docs/launch-sprint-01.md).
 
 ## Operating loop
 

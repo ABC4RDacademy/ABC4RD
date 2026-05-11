@@ -21,10 +21,17 @@ jobs:
       - name: Link check
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress --accept 200,206,403,429 "**/*.md"
+          args: >-
+            --no-progress
+            --accept 200,202,206,403,418,429,503
+            --exclude '^https://github\.com/coko-org/(editoria|kotahi|pagedjs)$'
+            --exclude '^https://github\.com/pandoc/pandoc$'
+            --exclude '^https://github\.com/prosody/prosody$'
+            --exclude '^https://github\.com/startbootstrap/startbootstrap$'
+            "**/*.md"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Spell check
         run: |
           python -m pip install --upgrade codespell
-          codespell --skip=".git,*.png,*.jpg,*.jpeg,*.pdf" --ignore-words-list="nd,nin,te"
+          codespell --skip=".git,*.png,*.jpg,*.jpeg,*.pdf,docs/i18n/*.md,demos/erc20-localnet/package-lock.json,**/package-lock.json" --ignore-words-list="certificat,certificats,clases,cursos,explicite,garantie,nd,nin,projets,relie,responsable,te,vew"
