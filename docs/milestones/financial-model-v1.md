@@ -17,6 +17,7 @@ uncontrolled offers, token promises, or territory-specific legal complexity.
 
 ## Source Documents
 
+- [Financial Model Map v1](../finance/financial-model-map-v1.md)
 - [ABC4RD Academy Financial Model v1](../financial-model-v1.md)
 - [Financial Decision Log v1](../finance/decision-log-v1.md)
 - [Offer Catalog v1](../finance/offer-catalog-v1.md)
