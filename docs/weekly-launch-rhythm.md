@@ -26,9 +26,9 @@ Output one concrete learning artifact:
 - teacher note;
 - beginner issue.
 
-For Launch Sprint 01, the default Monday artifact is:
+For Launch Sprint 02, the Monday artifact is:
 
-`docs/courses/blockchain-academy-from-bitcoin-to-verifiable-infrastructure.md`
+`docs/course-updates/2026-05-11-course-01-operating-update.md`
 
 ## Wednesday: Lab Or Demo Update
 
@@ -40,9 +40,9 @@ Output one runnable or reviewable lab change:
 - known limitation;
 - learner reflection prompt.
 
-For Launch Sprint 01, the default Wednesday artifact is:
+For Launch Sprint 02, the Wednesday artifact is:
 
-`demos/erc20-localnet/README.md`
+`docs/demo-updates/2026-05-13-erc20-localnet-review.md`
 
 ## Friday: Research Bulletin
 
@@ -54,9 +54,9 @@ Output one public bulletin:
 - what students can do next;
 - what needs maintainer approval.
 
-For Launch Sprint 01, the default Friday artifact is:
+For Launch Sprint 02, the Friday artifact is:
 
-`docs/bulletins/2026-05-11-research-bulletin-001.md`
+`docs/bulletins/2026-05-15-research-bulletin-002.md`
 
 ## Monthly: Certificate And Review Batch
 
@@ -71,9 +71,9 @@ Minimum evidence:
 - reviewer approval;
 - public evidence URL.
 
-For Launch Sprint 01, the default certificate template is:
+For Launch Sprint 02, the monthly certificate artifact is:
 
-`docs/certificates/blockchain-foundations-certificate.md`
+`docs/certificates/review-batch-2026-05.md`
 
 ## Language Rule
 
@@ -87,6 +87,10 @@ Translate only public entry points during this sprint:
 
 All non-English translations remain `draft, requires native review` until a
 fluent reviewer approves them.
+
+Native review uses:
+
+`docs/i18n/native-review-checklist.md`
 
 ## Do Not Do This Week
 

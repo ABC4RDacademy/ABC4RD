@@ -92,7 +92,14 @@ Use this carefully:
 
 - [Start Here](docs/start-here.md)
 - [International Academy Baseline milestone](docs/milestones/launch-sprint-01-international-academy-baseline.md)
+- [Operating Discipline milestone](docs/milestones/launch-sprint-02-operating-discipline.md)
 - [Weekly launch rhythm](docs/weekly-launch-rhythm.md)
+- [Launch Sprint 02 issues](docs/github-launch-sprint-02-issues.md)
+- [Course 01 operating update: 2026-05-11](docs/course-updates/2026-05-11-course-01-operating-update.md)
+- [ERC-20 localnet review: 2026-05-13](docs/demo-updates/2026-05-13-erc20-localnet-review.md)
+- [ABC4RD Research Bulletin #2](docs/bulletins/2026-05-15-research-bulletin-002.md)
+- [May 2026 certificate review batch](docs/certificates/review-batch-2026-05.md)
+- [Native review checklist](docs/i18n/native-review-checklist.md)
 - [Launch Sprint 01](docs/launch-sprint-01.md)
 - [GitHub launch issues](docs/github-launch-issues.md)
 - [Course 01: Blockchain Academy](docs/courses/blockchain-academy-from-bitcoin-to-verifiable-infrastructure.md)
@@ -227,6 +234,7 @@ Use this carefully:
 ## Start here
 
 - [Start Here: ABC4RD Academy](docs/start-here.md)
+- [Launch Sprint 02: Operating Discipline](docs/milestones/launch-sprint-02-operating-discipline.md)
 - [International Academy Baseline milestone](docs/milestones/launch-sprint-01-international-academy-baseline.md)
 - [Weekly launch rhythm](docs/weekly-launch-rhythm.md)
 - [Weekly operating package](docs/weekly-operating-package-2026-05-06.md)
