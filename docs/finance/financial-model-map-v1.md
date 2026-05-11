@@ -556,6 +556,7 @@ Decide:
 
 ## 17. Source Documents
 
+- [Что продает ABC4RD Academy](what-academy-sells.ru.md)
 - [ABC4RD Academy Financial Model v1](../financial-model-v1.md)
 - [Financial Decision Log v1](decision-log-v1.md)
 - [Offer Catalog v1](offer-catalog-v1.md)
