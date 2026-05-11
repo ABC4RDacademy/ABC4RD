@@ -36,14 +36,14 @@ After completing the course, a student should be able to:
 
 | Module | Title | Outcome | Practical Assignment |
 |---|---|---|---|
-| 01 | What Is Trust? | Understand why societies use institutions, ledgers, signatures, audits, and verification. | Write a one-page note comparing trust in a spreadsheet, a bank ledger, and a blockchain. |
-| 02 | Bitcoin and Proof of Work | Understand Bitcoin, UTXO, mining, nodes, fees, keys, and self-custody. | Draw a simple Bitcoin transaction flow and define UTXO, input, output, fee, and signature. |
-| 03 | Ethereum and Smart Contracts | Understand EVM, Solidity, accounts, gas, testnets, and contract calls. | Read a simple ERC-20 contract and explain five functions in plain language. |
-| 04 | Tokens, Credentials, and RWA | Understand token vs claim, NFT vs credential, legal ownership, custody, and attestations. | Evaluate one tokenization use case with the ABC4RD use-case framework. |
-| 05 | DAO and Digital Governance | Understand multisig, voting, proposals, delegation, treasury, and governance risk. | Draft a simple DAO proposal with purpose, budget, risk, and decision rule. |
-| 06 | Oracles, Data, and the Physical World | Understand why blockchains do not automatically know real-world truth. | Build an oracle-risk table for a fake asset registry or sensor system. |
-| 07 | Privacy, Security, and Responsible Deployment | Understand keys, phishing, smart contract bugs, privacy, compliance, and audit gates. | Complete a security checklist for a testnet demo. |
-| 08 | First Open-Source Contribution | Learn GitHub contribution flow and publish a student portfolio artifact. | Open a pull request with a glossary term, source note, or mini-essay. |
+| 01 | [What Is Trust?](../modules/blockchain-foundations/01-what-is-trust.md) | Understand why societies use institutions, ledgers, signatures, audits, and verification. | Write a one-page note comparing trust in a spreadsheet, a bank ledger, and a blockchain. |
+| 02 | [Bitcoin and Proof of Work](../modules/blockchain-foundations/02-bitcoin-and-proof-of-work.md) | Understand Bitcoin, UTXO, mining, nodes, fees, keys, and self-custody. | Draw a simple Bitcoin transaction flow and define UTXO, input, output, fee, and signature. |
+| 03 | [Ethereum and Smart Contracts](../modules/blockchain-foundations/03-ethereum-and-smart-contracts.md) | Understand EVM, Solidity, accounts, gas, testnets, and contract calls. | Read a simple ERC-20 contract and explain five functions in plain language. |
+| 04 | [Tokens, Credentials, and RWA](../modules/blockchain-foundations/04-tokens-credentials-and-rwa.md) | Understand token vs claim, NFT vs credential, legal ownership, custody, and attestations. | Evaluate one tokenization use case with the ABC4RD use-case framework. |
+| 05 | [DAO and Digital Governance](../modules/blockchain-foundations/05-dao-and-digital-governance.md) | Understand multisig, voting, proposals, delegation, treasury, and governance risk. | Draft a simple DAO proposal with purpose, budget, risk, and decision rule. |
+| 06 | [Oracles, Data, and the Physical World](../modules/blockchain-foundations/06-oracles-data-and-physical-world.md) | Understand why blockchains do not automatically know real-world truth. | Build an oracle-risk table for a fake asset registry or sensor system. |
+| 07 | [Privacy, Security, and Responsible Deployment](../modules/blockchain-foundations/07-privacy-security-and-responsible-deployment.md) | Understand keys, phishing, smart contract bugs, privacy, compliance, and audit gates. | Complete a security checklist for a testnet demo. |
+| 08 | [First Open-Source Contribution](../modules/blockchain-foundations/08-first-open-source-contribution.md) | Learn GitHub contribution flow and publish a student portfolio artifact. | Open a pull request with a glossary term, source note, or mini-essay. |
 
 ## First GitHub Task
 
@@ -62,6 +62,10 @@ The file should include:
 - one diagram, table, or glossary entry;
 - one open question;
 - disclaimer: "This is educational work and not financial, legal, medical, or investment advice."
+
+Template:
+
+- [student-submissions/blockchain-foundations/submission-template.md](../student-submissions/blockchain-foundations/submission-template.md)
 
 ## Certificate Criteria
 
@@ -136,4 +140,3 @@ Primary sources to include in the first reading list:
 This course does not provide financial advice, investment advice, legal advice, tax advice, medical advice, or production deployment approval.
 
 All tokens, DAOs, RWA examples, credentials, and smart contracts in the first version are educational prototypes only.
-
