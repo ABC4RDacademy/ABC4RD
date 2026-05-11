@@ -58,6 +58,43 @@ https://github.com/ABC4RDacademy/ABC4RD.git
 Project SSH setup is documented in
 [SSH and Project VPN Access Runbook](ssh-and-vpn-access-runbook.md).
 
+## Project CLI Rule
+
+For this workspace, use the isolated ABC4RD GitHub CLI wrapper for all
+repository operations:
+
+```powershell
+.\tools\gh-abc4rd.ps1
+```
+
+This wrapper sets:
+
+```text
+GH_CONFIG_DIR=C:\Users\Admin\OneDrive\Документы\ABC4RD\.gh-abc4rd
+```
+
+The isolated GitHub CLI config is authenticated as:
+
+```text
+ABC4RDacademy
+```
+
+Do not use the global `gh` session for Academy automation. The global session
+may be authenticated as another account and can return false permission errors
+or create public activity under the wrong identity.
+
+Before GitHub work, verify:
+
+```powershell
+.\tools\gh-abc4rd.ps1 auth status
+.\tools\gh-abc4rd.ps1 repo view ABC4RDacademy/ABC4RD --json "nameWithOwner,viewerPermission,viewerCanAdminister"
+```
+
+Expected result:
+
+- `viewerPermission`: `ADMIN`;
+- `viewerCanAdminister`: `true`.
+
 ## Fine-Grained Token Rules
 
 Use fine-grained tokens only when necessary.

@@ -63,7 +63,21 @@ Review the first certificate template:
 This is an educational completion record. It is not an accredited degree,
 license, employment guarantee, or financial qualification.
 
-## 6. How To Contribute
+## 6. Financial Model
+
+The first commercial model is intentionally narrow:
+
+- one course cohort;
+- one certificate review batch;
+- one institutional starter pack;
+- fiat first;
+- crypto only as a reviewed pilot;
+- language groups before territory-specific selling.
+
+See [`ABC4RD Academy Financial Model v1`](financial-model-v1.md) and
+[`Financial Model v1 milestone`](milestones/financial-model-v1.md).
+
+## 7. How To Contribute
 
 Start with one small public artifact:
 
@@ -80,7 +94,7 @@ Use:
 - [`CONTRIBUTING.md`](../CONTRIBUTING.md);
 - GitHub Issues and Discussions.
 
-## 7. Weekly Rhythm
+## 8. Weekly Rhythm
 
 ABC4RD Academy keeps movement visible through a simple operating rhythm:
 

@@ -13,6 +13,7 @@ draft work and shows where contributors can help immediately.
 | Community collaboration | active | Feedback requests and non-spam outreach templates |
 | GitHub onboarding | active | First PR guide and beginner project paths |
 | Governance and safety | active | License, privacy, medical, financial, robotics, and nanomaterials boundaries |
+| Financial model | active | First offers, pricing, payment intake, treasury buckets, and approval issues |
 
 ## Draft
 
@@ -66,6 +67,7 @@ draft work and shows where contributors can help immediately.
 - Complete one external documentation PR or issue.
 - Publish four weekly research digests.
 - Request accuracy feedback on one narrow source-backed topic.
+- Approve the first fiat payment rail and scholarship ledger.
 
 ### 90 Days
 
