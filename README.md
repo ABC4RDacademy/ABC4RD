@@ -94,6 +94,7 @@ Use this carefully:
 - [International Academy Baseline milestone](docs/milestones/launch-sprint-01-international-academy-baseline.md)
 - [Operating Discipline milestone](docs/milestones/launch-sprint-02-operating-discipline.md)
 - [Financial Model v1 milestone](docs/milestones/financial-model-v1.md)
+- [Financial model map v1](docs/finance/financial-model-map-v1.md)
 - [ABC4RD Academy Financial Model v1](docs/financial-model-v1.md)
 - [Financial decision log v1](docs/finance/decision-log-v1.md)
 - [Money flow v1](docs/finance/money-flow-v1.md)

@@ -7,6 +7,9 @@ works, how language and territory packaging should be handled, and how money is
 accepted. It is an operating model, not legal, tax, investment, or financial
 advice.
 
+For the full section-by-section operating picture, start with
+[Financial Model Map v1](finance/financial-model-map-v1.md).
+
 ## Positioning
 
 ABC4RD Academy sells education, review, practical labs, research briefings, and
