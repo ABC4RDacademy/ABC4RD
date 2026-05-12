@@ -4,6 +4,8 @@ Date: 2026-05-11
 
 Status: draft for public review
 
+![Research bulletin one preview](../../assets/article-previews/2026-05-11-research-bulletin-001.svg)
+
 ## Summary
 
 ABC4RD Academy is organizing its first public baseline around open education,

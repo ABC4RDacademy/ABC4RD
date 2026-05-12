@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Research Bulletin 002 preview</title>
+  <desc id="desc">A thematic preview for the second bulletin focused on operating discipline and weekly rhythm.</desc>
+  <rect width="1600" height="900" fill="#0f172a"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="120" y="175" font-size="34" fill="#93c5fd" font-weight="700">ABC4RD Academy</text>
+    <text x="120" y="255" font-size="72" fill="#f8fafc" font-weight="800">Research Bulletin #2</text>
+    <text x="120" y="320" font-size="34" fill="#cbd5e1">Operating discipline, weekly rhythm, and six-language upkeep</text>
+  </g>
+  <g>
+    <rect x="170" y="450" width="1260" height="90" rx="22" fill="#1e293b"/>
+    <rect x="240" y="430" width="180" height="130" rx="24" fill="#dbeafe"/>
+    <rect x="520" y="430" width="180" height="130" rx="24" fill="#ccfbf1"/>
+    <rect x="800" y="430" width="180" height="130" rx="24" fill="#fef3c7"/>
+    <rect x="1080" y="430" width="180" height="130" rx="24" fill="#e9d5ff"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#17202a" text-anchor="middle">
+    <text x="330" y="505">Start Here</text><text x="610" y="505">Course</text><text x="890" y="505">Demo</text><text x="1170" y="505">Review</text>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#cbd5e1" text-anchor="middle">
+    <text x="330" y="665">Six languages</text><text x="610" y="665">Weekly queue</text><text x="890" y="665">Visible limits</text><text x="1170" y="665">Public cadence</text>
+  </g>
+</svg>

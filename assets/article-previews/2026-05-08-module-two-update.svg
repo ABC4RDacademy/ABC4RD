@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Module Two Update preview</title>
+  <desc id="desc">A thematic preview showing a second layer of modules stacked across multiple tracks.</desc>
+  <rect width="1600" height="900" fill="#111827"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="120" y="175" font-size="34" fill="#7dd3fc" font-weight="700">ABC4RD Academy</text>
+    <text x="120" y="255" font-size="74" fill="#f8fafc" font-weight="800">Module Two Update</text>
+    <text x="120" y="320" font-size="34" fill="#cbd5e1">Second lessons added across six curriculum tracks</text>
+  </g>
+  <g>
+    <rect x="170" y="580" width="180" height="90" rx="18" fill="#1e293b"/><rect x="230" y="460" width="180" height="90" rx="18" fill="#dbeafe"/>
+    <rect x="430" y="580" width="180" height="90" rx="18" fill="#1e293b"/><rect x="490" y="460" width="180" height="90" rx="18" fill="#ccfbf1"/>
+    <rect x="690" y="580" width="180" height="90" rx="18" fill="#1e293b"/><rect x="750" y="460" width="180" height="90" rx="18" fill="#fee2e2"/>
+    <rect x="950" y="580" width="180" height="90" rx="18" fill="#1e293b"/><rect x="1010" y="460" width="180" height="90" rx="18" fill="#fef3c7"/>
+    <rect x="1210" y="580" width="180" height="90" rx="18" fill="#1e293b"/><rect x="1270" y="460" width="180" height="90" rx="18" fill="#e9d5ff"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#17202a" text-anchor="middle">
+    <text x="320" y="515">Module 2</text><text x="580" y="515">Module 2</text><text x="840" y="515">Module 2</text>
+    <text x="1100" y="515">Module 2</text><text x="1360" y="515">Module 2</text>
+  </g>
+  <g stroke="#60a5fa" stroke-width="4" opacity="0.45">
+    <line x1="320" y1="550" x2="260" y2="580"/><line x1="580" y1="550" x2="520" y2="580"/><line x1="840" y1="550" x2="780" y2="580"/>
+    <line x1="1100" y1="550" x2="1040" y2="580"/><line x1="1360" y1="550" x2="1300" y2="580"/>
+  </g>
+</svg>

@@ -1,5 +1,7 @@
 # Module Two Update: 2026-05-08
 
+![Module two update preview](../../assets/article-previews/2026-05-08-module-two-update.svg)
+
 ## Completed
 
 Published second complete lessons across the six adjacent ABC4RD Academy

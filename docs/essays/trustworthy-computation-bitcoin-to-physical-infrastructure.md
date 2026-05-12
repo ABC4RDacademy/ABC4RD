@@ -1,5 +1,7 @@
 # Trustworthy Computation: From Bitcoin to Physical Infrastructure
 
+![Trustworthy computation essay preview](../../assets/article-previews/trustworthy-computation-bitcoin-to-physical-infrastructure.svg)
+
 ## Abstract
 
 Trustworthy computation is not only a software problem. Bitcoin made one form

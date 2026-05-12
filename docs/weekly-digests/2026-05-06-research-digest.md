@@ -1,5 +1,7 @@
 # Research Digest: 2026-05-06
 
+![Research digest preview](../../assets/article-previews/2026-05-06-research-digest.svg)
+
 ## Studied
 
 - Bitcoin and open-source finance education.

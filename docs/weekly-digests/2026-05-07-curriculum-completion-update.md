@@ -1,5 +1,7 @@
 # Curriculum Completion Update: 2026-05-07
 
+![Curriculum completion preview](../../assets/article-previews/2026-05-07-curriculum-completion-update.svg)
+
 ## Completed
 
 Published first complete lessons for four additional ABC4RD Academy curriculum

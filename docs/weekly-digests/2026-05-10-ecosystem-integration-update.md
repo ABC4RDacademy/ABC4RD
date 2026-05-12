@@ -2,6 +2,8 @@
 
 Date: 2026-05-10
 
+![Ecosystem integration preview](../../assets/article-previews/2026-05-10-ecosystem-integration-update.svg)
+
 ## Summary
 
 ABC4RD Academy expanded from a curriculum-and-repository launch into a public

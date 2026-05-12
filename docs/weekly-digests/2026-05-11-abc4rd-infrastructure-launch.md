@@ -4,6 +4,8 @@ Date: 2026-05-11.
 
 Status: public draft.
 
+![Research bulletin one preview](../../assets/article-previews/2026-05-11-research-bulletin-001.svg)
+
 ## Summary
 
 ABC4RD Academy has moved from early repository setup into a public research and educational infrastructure model.
@@ -80,4 +82,3 @@ ABC4RD Academy is not:
 4. Create first beginner-friendly issue.
 5. Prepare a first short video or slide deck for the course.
 6. Translate the public course overview into the six UN languages after source text stabilizes.
-

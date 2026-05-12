@@ -1,5 +1,7 @@
 # Heartbeat Update: 2026-05-07
 
+![Heartbeat update preview](../../assets/article-previews/2026-05-07-heartbeat-update.svg)
+
 ## Completed
 
 - Expanded the first Open Compute lesson:

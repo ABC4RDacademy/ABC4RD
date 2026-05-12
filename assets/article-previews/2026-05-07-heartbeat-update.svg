@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Heartbeat Update preview</title>
+  <desc id="desc">A thematic preview showing a monitoring pulse across compute and digital health work.</desc>
+  <rect width="1600" height="900" fill="#0f172a"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="120" y="175" font-size="34" fill="#93c5fd" font-weight="700">ABC4RD Academy</text>
+    <text x="120" y="255" font-size="74" fill="#f8fafc" font-weight="800">Heartbeat Update</text>
+    <text x="120" y="320" font-size="34" fill="#cbd5e1">Open compute and digital health progress pulse</text>
+  </g>
+  <path d="M120 560 H360 L450 560 L520 430 L605 690 L700 500 L790 560 H1480" stroke="#22d3ee" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <g>
+    <rect x="1020" y="395" width="350" height="110" rx="26" fill="#dbeafe"/><rect x="1020" y="560" width="350" height="110" rx="26" fill="#dcfce7"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#17202a">
+    <text x="1070" y="462">Open Compute lesson expanded</text>
+    <text x="1070" y="627">Digital Health lesson expanded</text>
+  </g>
+</svg>

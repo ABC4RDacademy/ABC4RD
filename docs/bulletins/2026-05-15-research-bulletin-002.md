@@ -4,6 +4,8 @@ Date: 2026-05-15
 
 Status: Friday draft.
 
+![Research bulletin two preview](../../assets/article-previews/2026-05-15-research-bulletin-002.svg)
+
 ## Summary
 
 ABC4RD Academy moved from baseline launch to operating discipline. The priority
