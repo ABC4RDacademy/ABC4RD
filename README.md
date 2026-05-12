@@ -131,6 +131,8 @@ Use this carefully:
 - [Blockchain use case evaluation framework](docs/blockchain-use-case-evaluation-framework.md)
 - [Blockchain career map](docs/blockchain-career-map.md)
 - [Blockchain research index](docs/blockchain-research-index.md)
+- [Blockchain direction taxonomy](docs/blockchain-direction-taxonomy.md)
+- [Blockchain ranking system](docs/blockchain-ranking-system.md)
 - [Index system](docs/index-system.md)
 - [Weekly ranking publication algorithm](docs/weekly-ranking-publication-algorithm.md)
 - [First PR program](docs/first-pr-program.md)
