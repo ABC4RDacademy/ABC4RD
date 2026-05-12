@@ -3,9 +3,9 @@
   <desc id="desc">A thematic preview showing an ecosystem map with institutions, events, and projects connected to the academy.</desc>
   <rect width="1600" height="900" fill="#0b1320"/>
   <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="120" y="175" font-size="34" fill="#67e8f9" font-weight="700">ABC4RD Academy</text>
-    <text x="120" y="255" font-size="70" fill="#f8fafc" font-weight="800">Ecosystem Integration</text>
-    <text x="120" y="320" font-size="34" fill="#cbd5e1">Universities, institutions, conferences, projects, and review routes</text>
+    
+    
+    
   </g>
   <g stroke="#38bdf8" stroke-width="5" opacity="0.32" fill="none">
     <path d="M290 565 C480 330 720 300 920 470 S1280 630 1390 505"/>
@@ -17,7 +17,8 @@
     <circle cx="720" cy="690" r="28"/><circle cx="1180" cy="360" r="30"/>
   </g>
   <g font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#17202a" text-anchor="middle">
-    <text x="290" y="574">ABC4RD</text><text x="610" y="368">Universities</text><text x="920" y="478">Conferences</text>
-    <text x="1390" y="513">Projects</text><text x="720" y="698">Standards</text><text x="1180" y="368">Institutions</text>
+    
+    
   </g>
 </svg>
+

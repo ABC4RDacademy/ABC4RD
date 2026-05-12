@@ -28,6 +28,14 @@ Native review checklist:
 
 - [native-review-checklist.md](native-review-checklist.md)
 
+Publication localization standard:
+
+- [publication-localization-standard.md](publication-localization-standard.md)
+
+Current publication localization register:
+
+- [publication-localization-register.md](publication-localization-register.md)
+
 Longer academy overview files remain available:
 
 - [academy-overview.en.md](academy-overview.en.md)
@@ -55,3 +63,6 @@ Translate first:
 
 Do not translate the full repository set until Launch Sprint 02 review is
 stable.
+
+Publications that are already public-facing should still be tracked in the
+localization register until all six language versions exist.

@@ -18,6 +18,31 @@ Official public translation targets:
 
 Together with English, these are the six official languages of the United Nations.
 
+## Public Publication Rule
+
+Every public article-level ABC4RD material should exist in the six official
+United Nations languages:
+
+- English;
+- Arabic;
+- Chinese;
+- French;
+- Russian;
+- Spanish.
+
+This applies to:
+
+- articles;
+- essays;
+- bulletins;
+- weekly digests;
+- research notes intended for public reading;
+- release notes;
+- milestone notes when they are used as public-facing updates.
+
+If a material exists in only one language, it is not yet fully compliant with
+the ABC4RD multilingual publication standard.
+
 ## Status Labels
 
 Use these labels in translated documents:
@@ -38,6 +63,10 @@ Use these labels in translated documents:
 - Keep source links and attribution intact.
 - Keep thematic preview images aligned across language versions of the same public article.
 - Translate image alt text and captions when the article is translated.
+- If a preview image contains visible words, labels, slogans, or headings, that
+  visible text must match the language of the material that uses it.
+- If localized image variants do not yet exist, use a text-free preview image
+  rather than a preview with mismatched language.
 - If uncertain, mark the translation as `requires native review`.
 
 ## Review Checklist

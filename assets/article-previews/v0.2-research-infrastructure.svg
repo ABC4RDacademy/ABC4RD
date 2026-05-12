@@ -3,9 +3,9 @@
   <desc id="desc">A thematic preview showing trust layer, source review, and repository infrastructure for a release package.</desc>
   <rect width="1600" height="900" fill="#0b1320"/>
   <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="120" y="175" font-size="34" fill="#67e8f9" font-weight="700">ABC4RD Release</text>
-    <text x="120" y="255" font-size="72" fill="#f8fafc" font-weight="800">v0.2 Research Infrastructure</text>
-    <text x="120" y="320" font-size="34" fill="#cbd5e1">Source verification, trust layer, scoring, governance, and release gates</text>
+    
+    
+    
   </g>
   <g>
     <rect x="170" y="445" width="300" height="160" rx="28" fill="#dbeafe"/>
@@ -13,8 +13,9 @@
     <rect x="910" y="445" width="300" height="160" rx="28" fill="#fef3c7"/>
   </g>
   <g font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#17202a" text-anchor="middle">
-    <text x="320" y="520">Trust Layer</text>
-    <text x="690" y="520">Source Review</text>
-    <text x="1060" y="520">Release Gates</text>
+    
+    
+    
   </g>
 </svg>
+

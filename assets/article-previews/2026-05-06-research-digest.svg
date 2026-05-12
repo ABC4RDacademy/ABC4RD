@@ -9,9 +9,9 @@
   </defs>
   <rect width="1600" height="900" fill="url(#bg)"/>
   <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="120" y="170" font-size="34" fill="#93c5fd" font-weight="700">ABC4RD Academy</text>
-    <text x="120" y="250" font-size="74" fill="#f8fafc" font-weight="800">Research Digest</text>
-    <text x="120" y="320" font-size="36" fill="#cbd5e1">Multi-track verification and source review</text>
+    
+    
+    
   </g>
   <g fill="#e2e8f0" opacity="0.95">
     <rect x="120" y="420" width="220" height="120" rx="24"/><rect x="390" y="420" width="220" height="120" rx="24"/>
@@ -21,12 +21,13 @@
     <rect x="1065" y="590" width="220" height="120" rx="24"/>
   </g>
   <g font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#17202a" text-anchor="middle">
-    <text x="230" y="492">Bitcoin</text><text x="500" y="492">Compute</text><text x="770" y="492">Sensors</text>
-    <text x="1040" y="492">Robotics</text><text x="1310" y="492">Health</text><text x="365" y="662">Manufacturing</text>
-    <text x="635" y="662">Nano</text><text x="905" y="662">Sources</text><text x="1175" y="662">Review</text>
+    
+    
+    
   </g>
   <g stroke="#67e8f9" stroke-width="6" opacity="0.4" fill="none">
     <path d="M340 480 H390"/><path d="M610 480 H660"/><path d="M880 480 H930"/><path d="M1150 480 H1200"/>
     <path d="M500 540 V590"/><path d="M770 540 V590"/><path d="M1040 540 V590"/>
   </g>
 </svg>
+

@@ -3,9 +3,9 @@
   <desc id="desc">A thematic preview showing completed curriculum modules in a structured grid.</desc>
   <rect width="1600" height="900" fill="#101923"/>
   <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="120" y="170" font-size="34" fill="#7dd3fc" font-weight="700">ABC4RD Academy</text>
-    <text x="120" y="250" font-size="70" fill="#f8fafc" font-weight="800">Curriculum Completion</text>
-    <text x="120" y="315" font-size="34" fill="#cbd5e1">First complete lessons across adjacent curriculum tracks</text>
+    
+    
+    
   </g>
   <g>
     <rect x="120" y="410" width="320" height="120" rx="24" fill="#dbeafe"/>
@@ -16,11 +16,12 @@
     <rect x="690" y="575" width="320" height="120" rx="24" fill="#dcfce7"/>
   </g>
   <g font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#17202a" text-anchor="middle">
-    <text x="280" y="482">Sensors</text><text x="660" y="482">Robotics</text><text x="1040" y="482">Manufacturing</text>
-    <text x="1370" y="482">Nano</text><text x="470" y="647">Open Compute</text><text x="850" y="647">Digital Health</text>
+    
+    
   </g>
   <g stroke="#22c55e" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M200 473 l30 30 l60 -70"/><path d="M580 473 l30 30 l60 -70"/><path d="M960 473 l30 30 l60 -70"/>
     <path d="M1320 473 l24 24 l48 -58"/><path d="M390 638 l30 30 l60 -70"/><path d="M770 638 l30 30 l60 -70"/>
   </g>
 </svg>
+

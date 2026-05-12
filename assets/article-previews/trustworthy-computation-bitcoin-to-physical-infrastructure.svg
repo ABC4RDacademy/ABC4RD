@@ -3,9 +3,9 @@
   <desc id="desc">A thematic preview showing a bridge from Bitcoin verification to physical infrastructure systems.</desc>
   <rect width="1600" height="900" fill="#0b1320"/>
   <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="120" y="170" font-size="34" fill="#67e8f9" font-weight="700">ABC4RD Academy Essay</text>
-    <text x="120" y="250" font-size="70" fill="#f8fafc" font-weight="800">Trustworthy Computation</text>
-    <text x="120" y="315" font-size="34" fill="#cbd5e1">From Bitcoin verification to robotics, health, sensors, and manufacturing</text>
+    
+    
+    
   </g>
   <g>
     <circle cx="320" cy="560" r="110" fill="#dbeafe"/>
@@ -13,13 +13,14 @@
     <rect x="670" y="520" width="280" height="80" rx="40" fill="#1d4ed8"/>
   </g>
   <g font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">
-    <text x="320" y="572" fill="#17202a">Bitcoin</text>
-    <text x="810" y="572" fill="#f8fafc">Verification Bridge</text>
-    <text x="1240" y="525" fill="#17202a">Sensors</text>
-    <text x="1240" y="575" fill="#17202a">Robotics</text>
-    <text x="1240" y="625" fill="#17202a">Health</text>
+    
+    
+    
+    
+    
   </g>
   <g stroke="#60a5fa" stroke-width="8" opacity="0.45" fill="none">
     <path d="M430 560 H670"/><path d="M950 560 H1130"/>
   </g>
 </svg>
+

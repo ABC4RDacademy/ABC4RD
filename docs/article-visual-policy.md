@@ -6,6 +6,20 @@ image near the top of the document.
 
 This is a publishing standard, not an optional decoration.
 
+## Multilingual Rule
+
+ABC4RD Academy is a six-language publication system. Public article-level
+materials should have six language versions:
+
+- English;
+- Arabic;
+- Chinese;
+- French;
+- Russian;
+- Spanish.
+
+The visual layer must follow the same rule.
+
 ## Purpose
 
 Each preview image should help the reader understand the topic before reading.
@@ -78,6 +92,14 @@ Allowed variation:
 
 The underlying topic should remain the same across language versions.
 
+If a preview image contains visible text:
+
+- the visible text must match the language of the article;
+- each language version should have its own localized preview asset.
+
+If localized preview assets do not yet exist, use a text-free image rather than
+an image with mismatched language.
+
 ## Image Style Rule
 
 Preferred image style:
@@ -129,10 +151,13 @@ Suggested naming:
 Before publishing a new public article:
 
 1. Confirm the subject category.
-2. Create or assign a thematic preview image.
-3. Add translated alt text where needed.
-4. Check that the image does not imply endorsement or partnership.
-5. Publish the article with the image near the top.
+2. Create or assign six language versions or explicitly mark the material as not
+   yet fully localized.
+3. Create or assign a thematic preview image.
+4. Add translated alt text where needed.
+5. If the image contains visible text, localize the image per language.
+6. Check that the image does not imply endorsement or partnership.
+7. Publish the article with the image near the top.
 
 ## Transition Rule
 

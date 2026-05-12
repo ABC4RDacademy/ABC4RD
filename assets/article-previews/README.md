@@ -32,6 +32,24 @@ Use PNG when:
 One visual concept may be reused across the six UN-language versions of the
 same article. Translate the alt text in the document itself.
 
+Default rule:
+
+- prefer text-free preview images that can be reused safely across languages.
+
+If a preview image contains visible text:
+
+- the text must match the language of the material;
+- localized variants should be stored in a language-specific structure.
+
+Suggested path:
+
+- `assets/article-previews/i18n/en/`
+- `assets/article-previews/i18n/ar/`
+- `assets/article-previews/i18n/zh/`
+- `assets/article-previews/i18n/fr/`
+- `assets/article-previews/i18n/ru/`
+- `assets/article-previews/i18n/es/`
+
 ## Safety
 
 Do not place private, licensed, or endorsement-implying artwork here.

@@ -3,9 +3,9 @@
   <desc id="desc">A thematic preview for the first public research bulletin and academy baseline launch.</desc>
   <rect width="1600" height="900" fill="#101923"/>
   <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="120" y="175" font-size="34" fill="#7dd3fc" font-weight="700">ABC4RD Academy</text>
-    <text x="120" y="255" font-size="72" fill="#f8fafc" font-weight="800">Research Bulletin #1</text>
-    <text x="120" y="320" font-size="34" fill="#cbd5e1">Public baseline: course, certificate, demo, and publishing system</text>
+    
+    
+    
   </g>
   <g>
     <rect x="140" y="430" width="280" height="180" rx="28" fill="#dbeafe"/>
@@ -14,9 +14,10 @@
     <rect x="1130" y="430" width="280" height="180" rx="28" fill="#e9d5ff"/>
   </g>
   <g font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#17202a" text-anchor="middle">
-    <text x="280" y="525">Course</text><text x="610" y="525">Demo</text><text x="940" y="525">Certificate</text><text x="1270" y="525">Bulletin</text>
+    
   </g>
   <g stroke="#22c55e" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M232 534 l22 22 l44 -52"/><path d="M562 534 l22 22 l44 -52"/><path d="M892 534 l22 22 l44 -52"/><path d="M1222 534 l22 22 l44 -52"/>
   </g>
 </svg>
+

@@ -3,9 +3,9 @@
   <desc id="desc">A thematic preview showing the first international academy baseline: homepage, course, demo, certificate, bulletin, and six languages.</desc>
   <rect width="1600" height="900" fill="#101923"/>
   <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="120" y="175" font-size="34" fill="#93c5fd" font-weight="700">ABC4RD Milestone</text>
-    <text x="120" y="255" font-size="72" fill="#f8fafc" font-weight="800">Launch Sprint 01</text>
-    <text x="120" y="320" font-size="34" fill="#cbd5e1">Homepage, course, demo, certificate, bulletin, and six-language entry</text>
+    
+    
+    
   </g>
   <g>
     <rect x="120" y="470" width="190" height="110" rx="22" fill="#dbeafe"/>
@@ -16,7 +16,8 @@
     <rect x="1320" y="470" width="160" height="110" rx="22" fill="#dcfce7"/>
   </g>
   <g font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#17202a" text-anchor="middle">
-    <text x="215" y="532">Homepage</text><text x="455" y="532">Course</text><text x="695" y="532">Demo</text>
-    <text x="935" y="532">Certificate</text><text x="1175" y="532">Bulletin</text><text x="1400" y="532">6 Lang</text>
+    
+    
   </g>
 </svg>
+

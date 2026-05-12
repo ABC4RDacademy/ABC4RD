@@ -3,9 +3,9 @@
   <desc id="desc">A thematic preview showing offers, pricing, payments, and approvals in a controlled finance milestone.</desc>
   <rect width="1600" height="900" fill="#0f172a"/>
   <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="120" y="175" font-size="34" fill="#7dd3fc" font-weight="700">ABC4RD Milestone</text>
-    <text x="120" y="255" font-size="76" fill="#f8fafc" font-weight="800">Financial Model v1</text>
-    <text x="120" y="320" font-size="34" fill="#cbd5e1">Offers, pricing, payments, treasury, and approval flow</text>
+    
+    
+    
   </g>
   <g stroke="#38bdf8" stroke-width="6" fill="none" opacity="0.45">
     <path d="M220 570 H520"/><path d="M640 570 H940"/><path d="M1060 570 H1360"/>
@@ -17,6 +17,7 @@
     <rect x="1130" y="500" width="220" height="140" rx="26" fill="#fee2e2"/>
   </g>
   <g font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#17202a" text-anchor="middle">
-    <text x="250" y="580">Offer</text><text x="580" y="580">Pricing</text><text x="910" y="580">Payment</text><text x="1240" y="580">Approval</text>
+    
   </g>
 </svg>
+
