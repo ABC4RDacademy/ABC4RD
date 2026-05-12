@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">ABC4RD Global Public Signal Top 20 preview</title>
+  <desc id="desc">An abstract network-style preview image for a weekly ranking of public signal across blockchain, digital infrastructure, and innovation organizations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#132238"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#06101d" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity="0.16" stroke="#93c5fd" stroke-width="3" fill="none">
+    <path d="M150 720 C360 530 470 560 650 400 S1030 250 1420 360"/>
+    <path d="M220 180 C470 240 620 210 820 320 S1170 520 1460 500"/>
+    <path d="M180 500 C390 430 540 470 740 580 S1140 700 1380 650"/>
+  </g>
+  <g fill="#dbeafe" opacity="0.9">
+    <circle cx="210" cy="710" r="14"/>
+    <circle cx="420" cy="545" r="11"/>
+    <circle cx="640" cy="410" r="16"/>
+    <circle cx="910" cy="302" r="12"/>
+    <circle cx="1410" cy="362" r="18"/>
+    <circle cx="230" cy="182" r="10"/>
+    <circle cx="560" cy="228" r="14"/>
+    <circle cx="810" cy="318" r="11"/>
+    <circle cx="1120" cy="500" r="16"/>
+    <circle cx="1460" cy="500" r="12"/>
+    <circle cx="182" cy="500" r="12"/>
+    <circle cx="510" cy="463" r="9"/>
+    <circle cx="742" cy="580" r="14"/>
+    <circle cx="1128" cy="700" r="10"/>
+    <circle cx="1382" cy="650" r="14"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="120" y="95" width="910" height="520" rx="34" fill="#f8fbff" opacity="0.96"/>
+    <rect x="980" y="130" width="480" height="280" rx="28" fill="url(#card)" opacity="0.96"/>
+    <rect x="980" y="445" width="480" height="170" rx="28" fill="#111827" opacity="0.82"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="170" y="185" font-size="36" fill="#1d4ed8" font-weight="700">ABC4RD Academy</text>
+    <text x="170" y="265" font-size="74" fill="#17202a" font-weight="800">Global Public</text>
+    <text x="170" y="345" font-size="74" fill="#17202a" font-weight="800">Signal Top 20</text>
+    <text x="170" y="410" font-size="28" fill="#334155">Weekly ranking based on technical surface, open activity,</text>
+    <text x="170" y="448" font-size="28" fill="#334155">event signal, documentation quality, and collaboration readiness.</text>
+    <g transform="translate(170 505)">
+      <rect width="150" height="44" rx="22" fill="#dbeafe"/>
+      <text x="24" y="30" font-size="22" fill="#1e3a8a" font-weight="700">Blockchain</text>
+    </g>
+    <g transform="translate(335 505)">
+      <rect width="200" height="44" rx="22" fill="#ccfbf1"/>
+      <text x="24" y="30" font-size="22" fill="#115e59" font-weight="700">Open Compute</text>
+    </g>
+    <g transform="translate(555 505)">
+      <rect width="215" height="44" rx="22" fill="#ffedd5"/>
+      <text x="24" y="30" font-size="22" fill="#9a3412" font-weight="700">Applied Innovation</text>
+    </g>
+    <text x="1040" y="195" font-size="28" fill="#dbeafe" font-weight="700">Index Formula</text>
+    <text x="1040" y="250" font-size="56" fill="#ffffff" font-weight="800">TSI + OAI</text>
+    <text x="1040" y="314" font-size="56" fill="#ffffff" font-weight="800">+ ESI + EDI</text>
+    <text x="1040" y="378" font-size="56" fill="#ffffff" font-weight="800">+ CRI</text>
+    <text x="1035" y="505" font-size="24" fill="#93c5fd" font-weight="700">Reading rule</text>
+    <text x="1035" y="553" font-size="26" fill="#f8fafc">Public signals only.</text>
+    <text x="1035" y="590" font-size="26" fill="#f8fafc">No endorsement claims.</text>
+  </g>
+</svg>

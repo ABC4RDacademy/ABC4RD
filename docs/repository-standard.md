@@ -39,7 +39,10 @@ docs/
   roadmap.md
   glossary.md
   research-notes.md
+  article-visual-policy.md
   weekly-digests/
+assets/
+  article-previews/
 modules/
   01-introduction.md
   02-foundations.md
@@ -88,6 +91,21 @@ Each release should include:
 - open risks;
 - student tasks;
 - next milestone.
+
+## Article Publication Standard
+
+Every public article-level document should include:
+
+- title;
+- date or visible status;
+- short thematic preview image near the top;
+- summary paragraph;
+- source-safe wording.
+
+See:
+
+- `docs/article-visual-policy.md`
+- `docs/templates/article-publication-template.md`
 
 ## Trust Rule
 

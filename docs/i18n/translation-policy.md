@@ -36,6 +36,8 @@ Use these labels in translated documents:
 - Do not soften legal, medical, security, financial, or safety warnings.
 - Do not imply partnership, certification, accreditation, or endorsement unless publicly verified.
 - Keep source links and attribution intact.
+- Keep thematic preview images aligned across language versions of the same public article.
+- Translate image alt text and captions when the article is translated.
 - If uncertain, mark the translation as `requires native review`.
 
 ## Review Checklist
@@ -48,5 +50,6 @@ Before marking a translation as reviewed:
 4. technical terms are not distorted;
 5. disclaimers are preserved;
 6. links still work;
-7. status and date are visible.
-
+7. status and date are visible;
+8. preview image is present when the source article has one;
+9. preview alt text matches the translated topic.

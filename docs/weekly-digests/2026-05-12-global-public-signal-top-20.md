@@ -2,6 +2,8 @@
 
 Date: 2026-05-12
 
+![Global public signal ranking preview](../../assets/article-previews/2026-05-12-global-public-signal-top-20.svg)
+
 ## Purpose
 
 This is ABC4RD Academy's first pilot ranking for global public-signal tracking.

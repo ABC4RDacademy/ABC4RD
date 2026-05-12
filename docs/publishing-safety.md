@@ -16,6 +16,22 @@ Public posting requires human approval for:
 
 Automation may prepare drafts. It should not post externally without explicit approval.
 
+## Visual publishing safety
+
+Every public article should include a thematic preview image, but the image must
+not create legal or trust problems.
+
+Do not publish preview images that:
+
+- imply partnership through third-party logos;
+- reuse copyrighted artwork without permission;
+- look like real event photography when the event was not attended by ABC4RD;
+- contain private faces, private documents, or private screens;
+- exaggerate financial or technical claims.
+
+Prefer original ABC4RD artwork, diagrams, abstract technical compositions, or
+approved screenshots whose subject is the article itself.
+
 ## Secrets
 
 Never commit:

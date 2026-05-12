@@ -42,10 +42,24 @@ Recommended badges:
 - Mark: `assets/abc4rd-mark.svg`
 - Avatar: `assets/abc4rd-avatar.svg`
 - Hero: `assets/abc4rd-education-hero.png`
+- Article previews: `assets/article-previews/`
 
 Use the SVG mark for repository avatars and compact profile surfaces. Use the
 hero image for first-screen site context and social previews when a wide image
 is needed.
+
+## Article Preview Standard
+
+Public articles, essays, bulletins, and weekly digests should use a small
+thematic preview image placed near the top of the document.
+
+Preview images should:
+
+- reflect the actual topic of the article;
+- remain visually restrained and technical;
+- work across the six UN-language versions of the same publication.
+
+See `docs/article-visual-policy.md`.
 
 ## Repository README Pattern
 

@@ -210,6 +210,7 @@ Use this carefully:
 - [Repository promotion matrix](docs/repository-promotion-matrix.md)
 - [Flagship readiness audit](docs/flagship-readiness-audit.md)
 - [Public claims register](docs/public-claims-register.md)
+- [Article visual policy](docs/article-visual-policy.md)
 - [Source review batch: 2026-05-09](docs/source-review-batch-2026-05-09.md)
 - [Source review issue drafts: 2026-05-09](docs/source-review-issue-drafts-2026-05-09.md)
 - [Source verification folder](docs/source-verification/README.md)
