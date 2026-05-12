@@ -49,7 +49,9 @@ highest-scoring entities across the currently published sector rankings.
 - [Index system](index-system.md)
 - [Blockchain ranking system](blockchain-ranking-system.md)
 - [Weekly ranking publication algorithm](weekly-ranking-publication-algorithm.md)
+- [Delta readiness dashboard](weekly-digests/2026-05-12-delta-readiness-dashboard.md)
 - [Weekly delta baseline snapshot](source-verification/weekly-delta-baseline-2026-05-12.csv)
+- [Weekly delta status table](source-verification/weekly-delta-status-2026-05-12.csv)
 
 ## Baseline Status
 

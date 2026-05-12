@@ -36,6 +36,7 @@ Legend:
 | `2026-05-12-education-media-events-research-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 | `2026-05-12-analytics-intelligence-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 | `2026-05-12-cross-sector-top-20` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `2026-05-12-delta-readiness-dashboard` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 
 ## Bulletins
 

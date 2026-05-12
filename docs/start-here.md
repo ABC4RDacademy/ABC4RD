@@ -125,6 +125,7 @@ blockchain directions and a flagship cross-sector list.
 Start here:
 
 - [`ABC4RD Ranking Hub`](ranking-hub.md)
+- [`Delta Readiness Dashboard`](weekly-digests/2026-05-12-delta-readiness-dashboard.md)
 - [`Cross-Sector Top 20`](weekly-digests/2026-05-12-cross-sector-top-20.md)
 - [`Index system`](index-system.md)
 - [`Weekly ranking publication algorithm`](weekly-ranking-publication-algorithm.md)
