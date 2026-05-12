@@ -62,6 +62,12 @@ Legend:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `2026-05-13-erc20-localnet-review` | source | missing | missing | missing | missing | missing | text-free preview required or localized set |
 
+## Core Pages
+
+| Publication | en | ar | zh | fr | ru | es | Preview rule |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `ranking-hub` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+
 ## Releases
 
 | Publication | en | ar | zh | fr | ru | es | Preview rule |

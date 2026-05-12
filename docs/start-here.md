@@ -116,3 +116,15 @@ Current operating sprint:
 - [`Research Bulletin #2`](bulletins/2026-05-15-research-bulletin-002.md);
 - [`May 2026 certificate review batch`](certificates/review-batch-2026-05.md);
 - [`Native review checklist`](i18n/native-review-checklist.md).
+
+## 9. Ranking System
+
+ABC4RD Academy now publishes a source-backed weekly ranking system for
+blockchain directions and a flagship cross-sector list.
+
+Start here:
+
+- [`ABC4RD Ranking Hub`](ranking-hub.md)
+- [`Cross-Sector Top 20`](weekly-digests/2026-05-12-cross-sector-top-20.md)
+- [`Index system`](index-system.md)
+- [`Weekly ranking publication algorithm`](weekly-ranking-publication-algorithm.md)

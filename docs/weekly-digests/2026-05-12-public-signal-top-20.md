@@ -6,6 +6,13 @@ Date: 2026-05-12
 
 ## Purpose
 
+Update note:
+
+This early mixed-basket pilot remains part of the public audit trail, but the
+main flagship cross-sector publication has now moved to:
+
+- [Cross-Sector Top 20](./2026-05-12-cross-sector-top-20.md)
+
 This is ABC4RD Academy's first pilot ranking for public-signal tracking.
 
 It is not a valuation ranking, investment ranking, or partnership list.
