@@ -1,0 +1,121 @@
+direction,baseline_date,entity,rank,total
+exchanges-brokerage-liquidity,2026-05-12,Coinbase,1,121
+exchanges-brokerage-liquidity,2026-05-12,Kraken,2,111
+exchanges-brokerage-liquidity,2026-05-12,Bullish,3,110
+exchanges-brokerage-liquidity,2026-05-12,Gemini,4,109
+exchanges-brokerage-liquidity,2026-05-12,OKX,5,108
+exchanges-brokerage-liquidity,2026-05-12,FalconX,6,106
+exchanges-brokerage-liquidity,2026-05-12,Binance,7,103
+exchanges-brokerage-liquidity,2026-05-12,Robinhood Crypto,8,102
+exchanges-brokerage-liquidity,2026-05-12,Crypto.com Exchange,9,101
+exchanges-brokerage-liquidity,2026-05-12,Deribit,10,100
+exchanges-brokerage-liquidity,2026-05-12,Bitstamp,11,97
+exchanges-brokerage-liquidity,2026-05-12,Bitget,12,97
+exchanges-brokerage-liquidity,2026-05-12,Bybit,13,95
+exchanges-brokerage-liquidity,2026-05-12,Bitso,14,94
+exchanges-brokerage-liquidity,2026-05-12,CEX.IO,15,93
+exchanges-brokerage-liquidity,2026-05-12,Uphold,16,93
+exchanges-brokerage-liquidity,2026-05-12,KuCoin,17,90
+exchanges-brokerage-liquidity,2026-05-12,Mercado Bitcoin,18,89
+exchanges-brokerage-liquidity,2026-05-12,HTX,19,86
+exchanges-brokerage-liquidity,2026-05-12,Bitfinex,20,86
+payments-stablecoins-settlement,2026-05-12,Circle,1,123
+payments-stablecoins-settlement,2026-05-12,Ripple,2,116
+payments-stablecoins-settlement,2026-05-12,Stripe / Bridge,3,115
+payments-stablecoins-settlement,2026-05-12,Paxos,4,110
+payments-stablecoins-settlement,2026-05-12,PayPal USD,5,108
+payments-stablecoins-settlement,2026-05-12,BVNK,6,106
+payments-stablecoins-settlement,2026-05-12,Stellar,7,105
+payments-stablecoins-settlement,2026-05-12,Fireblocks,8,101
+payments-stablecoins-settlement,2026-05-12,Block,9,99
+payments-stablecoins-settlement,2026-05-12,Coinbase,10,99
+payments-stablecoins-settlement,2026-05-12,Monerium,11,98
+payments-stablecoins-settlement,2026-05-12,OpenPayd,12,96
+payments-stablecoins-settlement,2026-05-12,MoonPay,13,95
+payments-stablecoins-settlement,2026-05-12,Zero Hash,14,95
+payments-stablecoins-settlement,2026-05-12,Yellow Card,15,93
+payments-stablecoins-settlement,2026-05-12,Tempo,16,93
+payments-stablecoins-settlement,2026-05-12,BitGo,17,93
+payments-stablecoins-settlement,2026-05-12,Coins.ph,18,88
+payments-stablecoins-settlement,2026-05-12,Transfero,19,87
+payments-stablecoins-settlement,2026-05-12,Mesh,20,87
+protocols,2026-05-12,Ethereum Foundation,1,126
+protocols,2026-05-12,Solana Foundation,2,119
+protocols,2026-05-12,Sui Foundation,3,115
+protocols,2026-05-12,Avalanche,4,112
+protocols,2026-05-12,Polkadot,5,110
+protocols,2026-05-12,Algorand Foundation,6,110
+protocols,2026-05-12,Cosmos,7,107
+protocols,2026-05-12,Ripple / XRPL,8,106
+protocols,2026-05-12,Hedera,9,106
+protocols,2026-05-12,Cardano,10,106
+protocols,2026-05-12,Aptos Foundation,11,106
+protocols,2026-05-12,NEAR Protocol,12,105
+protocols,2026-05-12,Bitcoin Core,13,104
+protocols,2026-05-12,Optimism,14,103
+protocols,2026-05-12,Stellar,15,102
+protocols,2026-05-12,Starknet,16,102
+protocols,2026-05-12,Arbitrum,17,102
+protocols,2026-05-12,Tezos,18,101
+protocols,2026-05-12,DFINITY / Internet Computer,19,101
+protocols,2026-05-12,ZKsync,20,100
+mining,2026-05-12,Hut 8,1,98
+mining,2026-05-12,MARA,2,93
+mining,2026-05-12,Braiins,3,93
+mining,2026-05-12,Riot,4,92
+mining,2026-05-12,Luxor,5,88
+mining,2026-05-12,TeraWulf,6,87
+mining,2026-05-12,Foundry,7,87
+mining,2026-05-12,Bitdeer,8,87
+mining,2026-05-12,CleanSpark,9,84
+mining,2026-05-12,Ocean,10,82
+mining,2026-05-12,Core Scientific,11,82
+mining,2026-05-12,IREN,12,80
+mining,2026-05-12,Cipher Mining,13,80
+mining,2026-05-12,NiceHash,14,77
+mining,2026-05-12,Bitmain,15,74
+mining,2026-05-12,Canaan,16,73
+mining,2026-05-12,F2Pool,17,69
+mining,2026-05-12,Antpool,18,69
+mining,2026-05-12,ViaBTC,19,68
+mining,2026-05-12,MicroBT,20,68
+developer-tools,2026-05-12,OpenZeppelin,1,116
+developer-tools,2026-05-12,Alchemy,2,116
+developer-tools,2026-05-12,The Graph,3,112
+developer-tools,2026-05-12,Chainlink,4,109
+developer-tools,2026-05-12,Tenderly,5,108
+developer-tools,2026-05-12,Safe,6,108
+developer-tools,2026-05-12,QuickNode,7,108
+developer-tools,2026-05-12,Hardhat,8,108
+developer-tools,2026-05-12,Foundry,9,108
+developer-tools,2026-05-12,ConsenSys,10,106
+developer-tools,2026-05-12,thirdweb,11,104
+developer-tools,2026-05-12,WalletConnect,12,104
+developer-tools,2026-05-12,Ledger,13,103
+developer-tools,2026-05-12,Blockscout,14,103
+developer-tools,2026-05-12,Privy,15,101
+developer-tools,2026-05-12,Gelato,16,101
+developer-tools,2026-05-12,Trezor,17,99
+developer-tools,2026-05-12,Snapshot,18,98
+developer-tools,2026-05-12,Gnosis Guild,19,97
+developer-tools,2026-05-12,Aragon,20,97
+dao-governance-treasury,2026-05-12,Safe,1,118
+dao-governance-treasury,2026-05-12,Tally,2,111
+dao-governance-treasury,2026-05-12,Aragon,3,106
+dao-governance-treasury,2026-05-12,Snapshot,4,106
+dao-governance-treasury,2026-05-12,Agora,5,105
+dao-governance-treasury,2026-05-12,Gnosis Guild,6,102
+dao-governance-treasury,2026-05-12,Hats Protocol,7,101
+dao-governance-treasury,2026-05-12,Aave Governance,8,101
+dao-governance-treasury,2026-05-12,Optimism Governance,9,100
+dao-governance-treasury,2026-05-12,Boardroom,10,100
+dao-governance-treasury,2026-05-12,ENS DAO,11,99
+dao-governance-treasury,2026-05-12,Maker / Sky Governance,12,95
+dao-governance-treasury,2026-05-12,Colony,13,95
+dao-governance-treasury,2026-05-12,Questbook,14,95
+dao-governance-treasury,2026-05-12,Uniswap Governance,15,93
+dao-governance-treasury,2026-05-12,Coordinape,16,92
+dao-governance-treasury,2026-05-12,Guild.xyz,17,92
+dao-governance-treasury,2026-05-12,Nouns DAO,18,89
+dao-governance-treasury,2026-05-12,CharmVerse,19,88
+dao-governance-treasury,2026-05-12,JokeRace,20,87

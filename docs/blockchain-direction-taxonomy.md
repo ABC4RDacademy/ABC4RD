@@ -31,12 +31,26 @@ Scope:
 - execution and consensus layer ecosystems
 - core network foundations
 
+Protocol families used inside this direction:
+
+- `l1-general-purpose`
+- `l2-scaling`
+- `payments-chains`
+- `enterprise-chains`
+
 Examples:
 
 - Bitcoin ecosystem maintainers and infrastructure organizations
 - Ethereum ecosystem foundations
 - Solana ecosystem foundations
 - Avalanche, Polkadot, Cosmos, Cardano, Tezos, Near, Aptos, Sui
+
+Operational note:
+
+ABC4RD should still publish one public `protocols` ranking, but every ranked
+entity in that basket should also be assigned to one of the four protocol
+families above. This avoids flattening L1s, L2s, payments-first networks, and
+enterprise-led chains into one undifferentiated block.
 
 ### 2. Mining
 

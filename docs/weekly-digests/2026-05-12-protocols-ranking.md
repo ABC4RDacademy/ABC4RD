@@ -34,6 +34,7 @@ Full method:
 - [Index system](../index-system.md)
 - [Blockchain ranking system](../blockchain-ranking-system.md)
 - [Source table](../source-verification/protocols-ranking-2026-05-12.csv)
+- [Protocol family map](../source-verification/protocol-family-map-2026-05-12.csv)
 
 ## Top 20
 
@@ -60,11 +61,26 @@ Full method:
 | 19 | DFINITY / Internet Computer | 17 | 15 | 14 | 15 | 13 | 15 | 12 | 101 |
 | 20 | ZKsync | 17 | 15 | 14 | 15 | 13 | 14 | 12 | 100 |
 
+## Protocol Family Split
+
+This ranking now sits on top of four protocol families:
+
+- `l1-general-purpose`
+- `l2-scaling`
+- `payments-chains`
+- `enterprise-chains`
+
+The family assignments for this edition are stored in the source layer:
+
+- [protocol-family-map-2026-05-12.csv](../source-verification/protocol-family-map-2026-05-12.csv)
+
 ## First Edition Note
 
 This is the first direction-specific protocols edition. There is no prior
 week-over-week movement table yet. Delta tracking starts with the next weekly
-cycle.
+cycle and uses the published baseline in:
+
+- [weekly-delta-baseline-2026-05-12.csv](../source-verification/weekly-delta-baseline-2026-05-12.csv)
 
 ## Why The Leaders Are High
 

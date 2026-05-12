@@ -22,6 +22,26 @@ Use the direction map in:
 Current operating registry:
 
 - [blockchain-entity-registry-2026-05-12.csv](source-verification/blockchain-entity-registry-2026-05-12.csv)
+- [protocol-family-map-2026-05-12.csv](source-verification/protocol-family-map-2026-05-12.csv)
+- [weekly-delta-baseline-2026-05-12.csv](source-verification/weekly-delta-baseline-2026-05-12.csv)
+
+## Protocol Split
+
+Inside the `protocols` direction, ABC4RD should maintain four families:
+
+1. `l1-general-purpose`
+2. `l2-scaling`
+3. `payments-chains`
+4. `enterprise-chains`
+
+This family split is descriptive first and ranking-first second.
+
+In other words:
+
+- publish one public `protocols` Top 20;
+- keep family assignments visible in the source layer;
+- add family-specific Top 20 tables only when each family has enough stable,
+  source-backed coverage.
 
 ## Index Stack
 
@@ -73,7 +93,7 @@ The weekly publication sequence should be:
 
 - score all seven indices;
 - review score outliers;
-- compare to last week's snapshot;
+- compare to the current delta baseline;
 - write movement notes.
 
 ### Friday
@@ -91,7 +111,25 @@ For every direction, publish:
 - one source table;
 - one preview image;
 - one delta note;
+- one baseline snapshot row set;
 - one localization status record.
+
+## Delta Rule
+
+ABC4RD should treat the first published ranking for a direction as the baseline
+for all future movement notes.
+
+Weekly delta fields should be calculated against the latest published baseline:
+
+- previous rank
+- current rank
+- rank delta
+- previous total
+- current total
+- score delta
+
+If there is no prior baseline, mark the direction as `first edition` instead of
+inventing movement.
 
 ## Gate Rule
 
@@ -118,6 +156,6 @@ When challenged:
 Next implementation step after this seed:
 
 1. create per-direction filtered snapshots from the blockchain registry;
-2. publish the first `protocols` Top 20;
-3. publish the first `mining` Top 20;
-4. publish the first `developer-tools` Top 20.
+2. maintain protocol family assignments for the `protocols` basket;
+3. publish and refresh weekly delta baselines;
+4. expand public rankings direction by direction.

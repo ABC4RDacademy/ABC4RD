@@ -1,0 +1,21 @@
+entity,protocol_family
+Bitcoin Core,l1-general-purpose
+Ethereum Foundation,l1-general-purpose
+Solana Foundation,l1-general-purpose
+Sui Foundation,l1-general-purpose
+Avalanche,l1-general-purpose
+Polkadot,l1-general-purpose
+Cosmos,l1-general-purpose
+Cardano,l1-general-purpose
+Aptos Foundation,l1-general-purpose
+NEAR Protocol,l1-general-purpose
+Optimism,l2-scaling
+Arbitrum,l2-scaling
+Starknet,l2-scaling
+ZKsync,l2-scaling
+Ripple / XRPL,payments-chains
+Stellar,payments-chains
+Algorand Foundation,enterprise-chains
+Hedera,enterprise-chains
+Tezos,enterprise-chains
+DFINITY / Internet Computer,enterprise-chains

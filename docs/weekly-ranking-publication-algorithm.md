@@ -70,6 +70,15 @@ For each weekly publication, explain:
 - who moved down;
 - what official signal caused the change.
 
+Delta should always compare against the latest published baseline snapshot for
+that direction.
+
+If the direction has no prior published baseline:
+
+- mark it as `first edition`;
+- store the current table as the baseline for the next cycle;
+- do not fabricate movement claims.
+
 ## Step 7. Generate the public publication
 
 Every weekly publication should include:
@@ -123,6 +132,7 @@ Keep:
 
 - source table snapshot;
 - weekly score snapshot;
+- weekly delta baseline snapshot;
 - publication document;
 - links used that week.
 
