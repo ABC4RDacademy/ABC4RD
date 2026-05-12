@@ -179,3 +179,63 @@ compliance-risk-forensics,2026-05-12,AMLBot,17,80
 compliance-risk-forensics,2026-05-12,Cubist,18,79
 compliance-risk-forensics,2026-05-12,Sumsub,19,78
 compliance-risk-forensics,2026-05-12,ComplyAdvantage,20,77
+rwa-tokenization,2026-05-12,Securitize,1,122
+rwa-tokenization,2026-05-12,Ondo Finance,2,116
+rwa-tokenization,2026-05-12,Centrifuge,3,112
+rwa-tokenization,2026-05-12,Superstate,4,109
+rwa-tokenization,2026-05-12,Archax,5,107
+rwa-tokenization,2026-05-12,Tokeny,6,104
+rwa-tokenization,2026-05-12,Polymesh,7,101
+rwa-tokenization,2026-05-12,DigiFT,8,98
+rwa-tokenization,2026-05-12,Taurus,9,95
+rwa-tokenization,2026-05-12,R3,10,93
+rwa-tokenization,2026-05-12,Figure Markets,11,92
+rwa-tokenization,2026-05-12,Provenance Blockchain,12,91
+rwa-tokenization,2026-05-12,Libre,13,90
+rwa-tokenization,2026-05-12,Republic,14,90
+rwa-tokenization,2026-05-12,tZERO,15,88
+rwa-tokenization,2026-05-12,OpenEden,16,87
+rwa-tokenization,2026-05-12,Paxos,17,87
+rwa-tokenization,2026-05-12,Backed,18,82
+rwa-tokenization,2026-05-12,Swarm Markets,19,81
+rwa-tokenization,2026-05-12,Plume Network,20,82
+defi,2026-05-12,Aave,1,122
+defi,2026-05-12,Uniswap,2,121
+defi,2026-05-12,Lido,3,112
+defi,2026-05-12,Morpho,4,111
+defi,2026-05-12,Sky,5,108
+defi,2026-05-12,Curve,6,105
+defi,2026-05-12,Ethena,7,104
+defi,2026-05-12,Pendle,8,101
+defi,2026-05-12,dYdX,9,100
+defi,2026-05-12,Jupiter,10,99
+defi,2026-05-12,Compound,11,96
+defi,2026-05-12,Balancer,12,94
+defi,2026-05-12,CoW DAO,13,94
+defi,2026-05-12,Spark,14,91
+defi,2026-05-12,GMX,15,90
+defi,2026-05-12,Yearn,16,87
+defi,2026-05-12,Euler,17,86
+defi,2026-05-12,Synthetix,18,85
+defi,2026-05-12,Maple,19,84
+defi,2026-05-12,Fluid,20,83
+enterprise-standards-interoperability,2026-05-12,Chainlink,1,120
+enterprise-standards-interoperability,2026-05-12,Digital Asset,2,116
+enterprise-standards-interoperability,2026-05-12,LF Decentralized Trust,3,110
+enterprise-standards-interoperability,2026-05-12,R3,4,108
+enterprise-standards-interoperability,2026-05-12,Hedera,5,107
+enterprise-standards-interoperability,2026-05-12,LayerZero,6,105
+enterprise-standards-interoperability,2026-05-12,Axelar,7,102
+enterprise-standards-interoperability,2026-05-12,Kaleido,8,99
+enterprise-standards-interoperability,2026-05-12,Ownera,9,97
+enterprise-standards-interoperability,2026-05-12,Enterprise Ethereum Alliance,10,95
+enterprise-standards-interoperability,2026-05-12,Hyperledger Besu,11,94
+enterprise-standards-interoperability,2026-05-12,Hyperledger Cacti,12,92
+enterprise-standards-interoperability,2026-05-12,Hyperledger Fabric,13,92
+enterprise-standards-interoperability,2026-05-12,Canton Network,14,92
+enterprise-standards-interoperability,2026-05-12,Quant,15,91
+enterprise-standards-interoperability,2026-05-12,Wormhole,16,90
+enterprise-standards-interoperability,2026-05-12,Polymesh Labs,17,89
+enterprise-standards-interoperability,2026-05-12,Tokeny / ERC-3643,18,88
+enterprise-standards-interoperability,2026-05-12,Hyperledger FireFly,19,86
+enterprise-standards-interoperability,2026-05-12,WalletConnect,20,85

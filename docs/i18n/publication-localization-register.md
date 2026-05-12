@@ -30,6 +30,9 @@ Legend:
 | `2026-05-12-wallets-custody-security-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 | `2026-05-12-data-infrastructure-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 | `2026-05-12-compliance-risk-forensics-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `2026-05-12-rwa-tokenization-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `2026-05-12-defi-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `2026-05-12-enterprise-standards-interoperability-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 
 ## Bulletins
 
