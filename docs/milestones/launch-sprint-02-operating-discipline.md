@@ -1,5 +1,7 @@
 # Launch Sprint 02: Operating Discipline
 
+![Launch sprint two milestone preview](../../assets/article-previews/launch-sprint-02-operating-discipline.svg)
+
 Status: ready to create as GitHub milestone.
 
 ## Purpose

@@ -1,5 +1,7 @@
 # Launch Sprint 01: International Academy Baseline
 
+![Launch sprint one milestone preview](../../assets/article-previews/launch-sprint-01-international-academy-baseline.svg)
+
 Status: ready to create as GitHub milestone.
 
 ## Purpose

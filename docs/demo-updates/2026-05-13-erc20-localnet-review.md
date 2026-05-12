@@ -1,5 +1,7 @@
 # ERC-20 Localnet Demo Review: 2026-05-13
 
+![ERC-20 localnet review preview](../../assets/article-previews/2026-05-13-erc20-localnet-review.svg)
+
 Status: Wednesday demo update draft.
 
 Demo:

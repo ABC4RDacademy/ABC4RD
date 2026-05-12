@@ -1,5 +1,7 @@
 # Course 01 Operating Update: 2026-05-11
 
+![Course operating update preview](../../assets/article-previews/2026-05-11-course-01-operating-update.svg)
+
 Status: Monday course update.
 
 Course:

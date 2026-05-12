@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Course 01 operating update preview</title>
+  <desc id="desc">A thematic preview showing a structured course queue and review flow.</desc>
+  <rect width="1600" height="900" fill="#0f172a"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="120" y="175" font-size="34" fill="#93c5fd" font-weight="700">ABC4RD Course Update</text>
+    <text x="120" y="255" font-size="72" fill="#f8fafc" font-weight="800">Course 01 Operating Queue</text>
+    <text x="120" y="320" font-size="34" fill="#cbd5e1">Bitcoin literacy, review prompts, learner evidence, local demo link</text>
+  </g>
+  <g>
+    <rect x="180" y="430" width="1180" height="90" rx="24" fill="#dbeafe"/>
+    <rect x="180" y="555" width="1180" height="90" rx="24" fill="#ccfbf1"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#17202a">
+    <text x="230" y="485">1. Bitcoin foundations explanation</text>
+    <text x="230" y="610">2. Diagram prompt -> demo prompt -> reflection -> completion evidence</text>
+  </g>
+  <g stroke="#60a5fa" stroke-width="8" opacity="0.45" fill="none" stroke-linecap="round">
+    <path d="M340 710 H1280"/>
+  </g>
+  <g fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="28">
+    <text x="370" y="760">Reviewable</text>
+    <text x="690" y="760">Practical</text>
+    <text x="960" y="760">Localnet-safe</text>
+  </g>
+</svg>

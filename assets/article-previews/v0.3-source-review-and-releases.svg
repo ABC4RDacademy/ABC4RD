@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">v0.3 source review and releases milestone preview</title>
+  <desc id="desc">A thematic preview showing source review issues, module expansion, and release preparation.</desc>
+  <rect width="1600" height="900" fill="#111827"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="120" y="175" font-size="34" fill="#93c5fd" font-weight="700">ABC4RD Milestone</text>
+    <text x="120" y="255" font-size="72" fill="#f8fafc" font-weight="800">v0.3 Source Review And Releases</text>
+    <text x="120" y="320" font-size="34" fill="#cbd5e1">Issues, module 03 expansion, release notes, and external contribution signal</text>
+  </g>
+  <g>
+    <rect x="210" y="470" width="260" height="140" rx="26" fill="#dbeafe"/>
+    <rect x="570" y="470" width="260" height="140" rx="26" fill="#ccfbf1"/>
+    <rect x="930" y="470" width="260" height="140" rx="26" fill="#fef3c7"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#17202a" text-anchor="middle">
+    <text x="340" y="550">Source Review</text><text x="700" y="550">Module 03</text><text x="1060" y="550">Release Notes</text>
+  </g>
+</svg>

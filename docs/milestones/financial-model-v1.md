@@ -1,5 +1,7 @@
 # Financial Model v1
 
+![Financial model milestone preview](../../assets/article-previews/financial-model-v1.svg)
+
 Status: active operating milestone.
 
 Goal: define the first ABC4RD Academy revenue model without expanding into
