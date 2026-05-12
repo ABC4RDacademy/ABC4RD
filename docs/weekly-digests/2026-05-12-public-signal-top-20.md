@@ -1,12 +1,12 @@
-# Weekly Digest: Global Public Signal Top 20
+# Weekly Digest: Public Signal Top 20
 
 Date: 2026-05-12
 
-![Global public signal ranking preview](../../assets/article-previews/2026-05-12-global-public-signal-top-20.svg)
+![Public signal ranking preview](../../assets/article-previews/2026-05-12-public-signal-top-20.svg)
 
 ## Purpose
 
-This is ABC4RD Academy's first pilot ranking for global public-signal tracking.
+This is ABC4RD Academy's first pilot ranking for public-signal tracking.
 
 It is not a valuation ranking, investment ranking, or partnership list.
 
@@ -21,20 +21,20 @@ across:
 
 Scoring model:
 
-`TSI + OAI + ESI + EDI + CRI = Weekly Public Signal Score`
+`TSI + OAI + EPI + KAI + CRI = Weekly Public Signal Score`
 
 Where:
 
 - `TSI` = Technical Surface Index
 - `OAI` = Open Activity Index
-- `ESI` = Event Signal Index
-- `EDI` = Education and Documentation Index
+- `EPI` = Event Presence Index
+- `KAI` = Knowledge Access Index
 - `CRI` = Collaboration Readiness Index
 
 Full method:
 
 - [Company Public Signal Index](../company-public-signal-index.md)
-- [Source table](../source-verification/global-company-watchlist-2026-05-12.csv)
+- [Source table](../source-verification/company-watchlist-2026-05-12.csv)
 
 ## Top 20
 

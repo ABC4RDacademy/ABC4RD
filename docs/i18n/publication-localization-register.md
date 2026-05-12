@@ -20,7 +20,7 @@ Legend:
 | `2026-05-08-module-two-update` | source | missing | missing | missing | missing | missing | text-free preview required or localized set |
 | `2026-05-10-ecosystem-integration-update` | source | missing | missing | missing | missing | missing | text-free preview required or localized set |
 | `2026-05-11-abc4rd-infrastructure-launch` | source | missing | missing | missing | missing | missing | text-free preview required or localized set |
-| `2026-05-12-global-public-signal-top-20` | source | missing | missing | missing | missing | missing | text-free preview required or localized set |
+| `2026-05-12-public-signal-top-20` | source | missing | missing | missing | missing | missing | text-free preview required or localized set |
 
 ## Bulletins
 

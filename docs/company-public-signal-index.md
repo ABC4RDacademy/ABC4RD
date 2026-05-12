@@ -85,7 +85,7 @@ Signals:
 - public issue or community workflow;
 - open-source tools, specs, standards, or reference implementations.
 
-### 3. Event Signal Index (ESI)
+### 3. Event Presence Index (EPI)
 
 Measures visible participation in the public ecosystem.
 
@@ -96,7 +96,7 @@ Signals:
 - official workshops, summit sessions, or public talks;
 - official event archives or recurring programs.
 
-### 4. Education and Documentation Index (EDI)
+### 4. Knowledge Access Index (KAI)
 
 Measures whether an outside learner, researcher, or partner can actually learn
 from the entity without private access.
@@ -124,7 +124,7 @@ Signals:
 Base weekly score:
 
 ```text
-Weekly Public Signal Score = TSI + OAI + ESI + EDI + CRI
+Weekly Public Signal Score = TSI + OAI + EPI + KAI + CRI
 ```
 
 Maximum score: `100`
@@ -135,7 +135,7 @@ If two entities have the same total:
 
 1. Higher `TSI` wins.
 2. If still tied, higher `OAI` wins.
-3. If still tied, higher `ESI` wins.
+3. If still tied, higher `EPI` wins.
 4. If still tied, the entity with the newer official signal date wins.
 5. If still tied, alphabetical order.
 

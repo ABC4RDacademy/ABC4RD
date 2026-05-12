@@ -1,6 +1,6 @@
-# Global Index System
+# Index System
 
-ABC4RD Academy needs a ranking system that is global, explainable, and stable.
+ABC4RD Academy needs a ranking system that is explainable and stable.
 
 The purpose is not to create noise. The purpose is to create a public weekly
 signal system that:
@@ -11,17 +11,17 @@ signal system that:
 - can be published regularly;
 - reduces conflict by using named indices and open formulas.
 
-## The Global Indices
+## The Indices
 
-ABC4RD should use a family of named global indices.
+ABC4RD should use a stable family of named indices.
 
 These names should remain stable across years.
 
-### 1. Global Technical Surface Index
+### 1. Technical Surface Index
 
 Short code:
 
-`GTSI`
+`TSI`
 
 Measures the visible technical seriousness of an entity.
 
@@ -32,11 +32,11 @@ Signals:
 - APIs, SDKs, protocol references;
 - technical clarity on the official site.
 
-### 2. Global Open Activity Index
+### 2. Open Activity Index
 
 Short code:
 
-`GOAI`
+`OAI`
 
 Measures public builder-facing openness.
 
@@ -47,11 +47,11 @@ Signals:
 - changelogs and release notes;
 - contribution routes.
 
-### 3. Global Event Presence Index
+### 3. Event Presence Index
 
 Short code:
 
-`GEPI`
+`EPI`
 
 Measures official visibility in public ecosystem events.
 
@@ -64,11 +64,11 @@ Signals:
 - official sponsor pages;
 - official event archives.
 
-### 4. Global Knowledge Access Index
+### 4. Knowledge Access Index
 
 Short code:
 
-`GKAI`
+`KAI`
 
 Measures whether an outsider can learn from the entity through public
 materials.
@@ -82,11 +82,11 @@ Signals:
 - research notes;
 - public technical narratives.
 
-### 5. Global Collaboration Readiness Index
+### 5. Collaboration Readiness Index
 
 Short code:
 
-`GCRI`
+`CRI`
 
 Measures whether ABC4RD can approach the entity in a respectful and structured
 way.
@@ -99,11 +99,11 @@ Signals:
 - public feedback channels;
 - event submission channels.
 
-### 6. Global Trust And Governance Index
+### 6. Trust And Governance Index
 
 Short code:
 
-`GTGI`
+`TGI`
 
 Measures whether the entity looks institutionally stable and publicly legible.
 
@@ -114,11 +114,11 @@ Signals:
 - visible safety, compliance, or trust language;
 - consistency of official statements across platforms.
 
-### 7. Global Momentum Index
+### 7. Momentum Index
 
 Short code:
 
-`GMI`
+`MI`
 
 Measures short-term movement during the current weekly cycle.
 
@@ -138,8 +138,8 @@ Each index is scored from `0` to `20`.
 Base total:
 
 ```text
-Global Weekly Rank Score =
-GTSI + GOAI + GEPI + GKAI + GCRI + GTGI + GMI
+Weekly Rank Score =
+TSI + OAI + EPI + KAI + CRI + TGI + MI
 ```
 
 Maximum score:
@@ -151,9 +151,9 @@ Maximum score:
 This gives ABC4RD two advantages:
 
 1. long-term structure:
-   `GTSI`, `GOAI`, `GEPI`, `GKAI`, `GCRI`, `GTGI`
+   `TSI`, `OAI`, `EPI`, `KAI`, `CRI`, `TGI`
 2. short-term change signal:
-   `GMI`
+   `MI`
 
 That means the ranking is not purely static and not purely hype-driven.
 
@@ -161,7 +161,7 @@ That means the ranking is not purely static and not purely hype-driven.
 
 ABC4RD should publish several ranking families built on the same indices.
 
-### A. Global Blockchain Infrastructure Ranking
+### A. Blockchain Infrastructure Ranking
 
 Examples:
 
@@ -170,7 +170,7 @@ Examples:
 - blockchain developer ecosystems;
 - custody, payments, analytics, tokenization, coordination infrastructure.
 
-### B. Global Open Compute Ranking
+### B. Open Compute Ranking
 
 Examples:
 
@@ -179,7 +179,7 @@ Examples:
 - open hardware and AI infrastructure;
 - reproducible compute ecosystems.
 
-### C. Global Applied Innovation Ranking
+### C. Applied Innovation Ranking
 
 Examples:
 
@@ -189,7 +189,7 @@ Examples:
 - manufacturing systems;
 - scientific and nanomaterials infrastructure.
 
-### D. Global Cross-Sector Top 20
+### D. Cross-Sector Top 20
 
 This is the flagship public list.
 
@@ -200,10 +200,10 @@ family and the same rule set.
 
 If totals are equal:
 
-1. Higher `GTSI`
-2. Higher `GOAI`
-3. Higher `GEPI`
-4. Higher `GTGI`
+1. Higher `TSI`
+2. Higher `OAI`
+3. Higher `EPI`
+4. Higher `TGI`
 5. Newer official signal date
 6. Alphabetical order
 
@@ -237,13 +237,13 @@ languages under the current publication-localization standard.
 
 When publishing externally, use these stable names:
 
-- `Global Technical Surface Index`
-- `Global Open Activity Index`
-- `Global Event Presence Index`
-- `Global Knowledge Access Index`
-- `Global Collaboration Readiness Index`
-- `Global Trust And Governance Index`
-- `Global Momentum Index`
+- `Technical Surface Index`
+- `Open Activity Index`
+- `Event Presence Index`
+- `Knowledge Access Index`
+- `Collaboration Readiness Index`
+- `Trust And Governance Index`
+- `Momentum Index`
 
 These names are clear enough for public explanation and broad enough for
 multi-sector use.

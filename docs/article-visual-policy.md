@@ -142,7 +142,7 @@ Store preview images under:
 
 Suggested naming:
 
-- `2026-05-12-global-public-signal-top-20.svg`
+- `2026-05-12-public-signal-top-20.svg`
 - `trustworthy-computation-essay.svg`
 - `research-bulletin-002.svg`
 

@@ -6,10 +6,10 @@ This is the operating algorithm for ABC4RD Academy weekly rankings.
 
 Pick one basket:
 
-1. Global Blockchain Infrastructure Ranking
-2. Global Open Compute Ranking
-3. Global Applied Innovation Ranking
-4. Global Cross-Sector Top 20
+1. Blockchain Infrastructure Ranking
+2. Open Compute Ranking
+3. Applied Innovation Ranking
+4. Cross-Sector Top 20
 
 Do not mix baskets accidentally.
 
@@ -37,21 +37,21 @@ Store:
 
 For every entity, assign:
 
-- `GTSI`
-- `GOAI`
-- `GEPI`
-- `GKAI`
-- `GCRI`
-- `GTGI`
-- `GMI`
+- `TSI`
+- `OAI`
+- `EPI`
+- `KAI`
+- `CRI`
+- `TGI`
+- `MI`
 
 Each index is `0-20`.
 
 ## Step 4. Calculate the total
 
 ```text
-Global Weekly Rank Score =
-GTSI + GOAI + GEPI + GKAI + GCRI + GTGI + GMI
+Weekly Rank Score =
+TSI + OAI + EPI + KAI + CRI + TGI + MI
 ```
 
 ## Step 5. Sort and cut

@@ -11,7 +11,7 @@ one small thematic preview image stored here or in a clearly related asset path.
 
 Prefer stable descriptive names:
 
-- `2026-05-12-global-public-signal-top-20.svg`
+- `2026-05-12-public-signal-top-20.svg`
 - `research-bulletin-002.svg`
 - `trustworthy-computation-essay.svg`
 
