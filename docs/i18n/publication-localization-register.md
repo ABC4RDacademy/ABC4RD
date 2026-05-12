@@ -33,6 +33,9 @@ Legend:
 | `2026-05-12-rwa-tokenization-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 | `2026-05-12-defi-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 | `2026-05-12-enterprise-standards-interoperability-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `2026-05-12-education-media-events-research-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `2026-05-12-analytics-intelligence-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `2026-05-12-cross-sector-top-20` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 
 ## Bulletins
 
