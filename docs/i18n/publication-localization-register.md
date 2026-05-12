@@ -21,6 +21,9 @@ Legend:
 | `2026-05-10-ecosystem-integration-update` | source | missing | missing | missing | missing | missing | text-free preview required or localized set |
 | `2026-05-11-abc4rd-infrastructure-launch` | source | missing | missing | missing | missing | missing | text-free preview required or localized set |
 | `2026-05-12-public-signal-top-20` | source | missing | missing | missing | missing | missing | text-free preview required or localized set |
+| `2026-05-12-protocols-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `2026-05-12-mining-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `2026-05-12-developer-tools-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 
 ## Bulletins
 
