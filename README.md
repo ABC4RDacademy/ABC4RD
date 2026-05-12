@@ -131,6 +131,8 @@ Use this carefully:
 - [Blockchain use case evaluation framework](docs/blockchain-use-case-evaluation-framework.md)
 - [Blockchain career map](docs/blockchain-career-map.md)
 - [Blockchain research index](docs/blockchain-research-index.md)
+- [Global index system](docs/global-index-system.md)
+- [Weekly ranking publication algorithm](docs/weekly-ranking-publication-algorithm.md)
 - [First PR program](docs/first-pr-program.md)
 - [Website builder lab](labs/website-builder-lab/README.md)
 - [Website builder lab report: 2026-05-10](docs/website-builder-lab-report-2026-05-10.md)

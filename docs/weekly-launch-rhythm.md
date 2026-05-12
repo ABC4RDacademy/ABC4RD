@@ -12,7 +12,7 @@ credential review moving together.
 | --- | --- | --- |
 | Monday | Course or module update | Link to a course file, issue, or pull request |
 | Wednesday | Lab or demo update | Include run instructions, test result, or screenshot |
-| Friday | Research Bulletin | Use source-backed claims and approval checklist |
+| Friday | Research Bulletin plus ranking update | Use source-backed claims, ranking formula, and approval checklist |
 | Monthly | Certificate and review batch | Review evidence before issuing any certificate |
 
 ## Monday: Course Or Module Update
@@ -54,6 +54,13 @@ Output one public bulletin:
 - what students can do next;
 - what needs maintainer approval.
 
+If a ranking basket is active that week, publish alongside it:
+
+- updated Top 20;
+- index formula;
+- delta note;
+- source table reference.
+
 For Launch Sprint 02, the Friday artifact is:
 
 `docs/bulletins/2026-05-15-research-bulletin-002.md`
@@ -77,16 +84,14 @@ For Launch Sprint 02, the monthly certificate artifact is:
 
 ## Language Rule
 
-Translate only public entry points during this sprint:
+Public article-level materials should follow the multilingual publication
+standard tracked under:
 
-- What is ABC4RD Academy;
-- Start here;
-- Course 01 summary;
-- Certificate disclaimer;
-- Bulletin #1 summary.
+`docs/i18n/publication-localization-standard.md`
 
-All non-English translations remain `draft, requires native review` until a
-fluent reviewer approves them.
+and
+
+`docs/i18n/publication-localization-register.md`
 
 Native review uses:
 

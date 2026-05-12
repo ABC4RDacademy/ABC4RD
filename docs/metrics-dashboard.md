@@ -27,6 +27,9 @@ Track:
 - event watch notes;
 - citations added;
 - translations added.
+- ranked entities refreshed;
+- weekly ranking baskets published;
+- Top 20 movement notes published.
 
 ## Review cadence
 
