@@ -27,6 +27,9 @@ Legend:
 | `2026-05-12-exchanges-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 | `2026-05-12-payments-stablecoins-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 | `2026-05-12-dao-governance-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `2026-05-12-wallets-custody-security-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `2026-05-12-data-infrastructure-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `2026-05-12-compliance-risk-forensics-ranking` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 
 ## Bulletins
 

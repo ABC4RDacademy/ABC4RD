@@ -119,3 +119,63 @@ dao-governance-treasury,2026-05-12,Guild.xyz,17,92
 dao-governance-treasury,2026-05-12,Nouns DAO,18,89
 dao-governance-treasury,2026-05-12,CharmVerse,19,88
 dao-governance-treasury,2026-05-12,JokeRace,20,87
+wallets-custody-security,2026-05-12,Fireblocks,1,117
+wallets-custody-security,2026-05-12,BitGo,2,113
+wallets-custody-security,2026-05-12,Ledger,3,107
+wallets-custody-security,2026-05-12,Safe,4,106
+wallets-custody-security,2026-05-12,MetaMask,5,105
+wallets-custody-security,2026-05-12,Trezor,6,101
+wallets-custody-security,2026-05-12,Phantom,7,99
+wallets-custody-security,2026-05-12,Anchorage Digital,8,97
+wallets-custody-security,2026-05-12,Fordefi,9,94
+wallets-custody-security,2026-05-12,Copper,10,93
+wallets-custody-security,2026-05-12,Taurus,11,91
+wallets-custody-security,2026-05-12,Coinbase Wallet,12,90
+wallets-custody-security,2026-05-12,Utila,13,86
+wallets-custody-security,2026-05-12,Zengo,14,86
+wallets-custody-security,2026-05-12,GK8,15,83
+wallets-custody-security,2026-05-12,Turnkey,16,83
+wallets-custody-security,2026-05-12,Casa,17,82
+wallets-custody-security,2026-05-12,OneKey,18,78
+wallets-custody-security,2026-05-12,Openfort,19,76
+wallets-custody-security,2026-05-12,Keystone,20,75
+data-infrastructure,2026-05-12,Alchemy,1,119
+data-infrastructure,2026-05-12,The Graph,2,115
+data-infrastructure,2026-05-12,QuickNode,3,112
+data-infrastructure,2026-05-12,Chainlink,4,111
+data-infrastructure,2026-05-12,Tenderly,5,108
+data-infrastructure,2026-05-12,Etherscan,6,100
+data-infrastructure,2026-05-12,Helius,7,99
+data-infrastructure,2026-05-12,Blockscout,8,99
+data-infrastructure,2026-05-12,Infura,9,98
+data-infrastructure,2026-05-12,Dune,10,98
+data-infrastructure,2026-05-12,Covalent,11,93
+data-infrastructure,2026-05-12,SubQuery,12,92
+data-infrastructure,2026-05-12,Goldsky,13,91
+data-infrastructure,2026-05-12,Chainbase,14,90
+data-infrastructure,2026-05-12,Nansen,15,89
+data-infrastructure,2026-05-12,Flipside,16,88
+data-infrastructure,2026-05-12,Moralis,17,88
+data-infrastructure,2026-05-12,Transpose,18,85
+data-infrastructure,2026-05-12,NodeReal,19,84
+data-infrastructure,2026-05-12,Ankr,20,83
+compliance-risk-forensics,2026-05-12,Chainalysis,1,122
+compliance-risk-forensics,2026-05-12,TRM Labs,2,113
+compliance-risk-forensics,2026-05-12,Elliptic,3,108
+compliance-risk-forensics,2026-05-12,Blockaid,4,106
+compliance-risk-forensics,2026-05-12,Merkle Science,5,102
+compliance-risk-forensics,2026-05-12,Notabene,6,99
+compliance-risk-forensics,2026-05-12,Solidus Labs,7,94
+compliance-risk-forensics,2026-05-12,Hypernative,8,93
+compliance-risk-forensics,2026-05-12,Sardine,9,90
+compliance-risk-forensics,2026-05-12,CertiK,10,89
+compliance-risk-forensics,2026-05-12,Scorechain,11,88
+compliance-risk-forensics,2026-05-12,Crystal Intelligence,12,87
+compliance-risk-forensics,2026-05-12,Forta,13,86
+compliance-risk-forensics,2026-05-12,Hexagate,14,85
+compliance-risk-forensics,2026-05-12,Coinfirm,15,84
+compliance-risk-forensics,2026-05-12,Lukka,16,82
+compliance-risk-forensics,2026-05-12,AMLBot,17,80
+compliance-risk-forensics,2026-05-12,Cubist,18,79
+compliance-risk-forensics,2026-05-12,Sumsub,19,78
+compliance-risk-forensics,2026-05-12,ComplyAdvantage,20,77
