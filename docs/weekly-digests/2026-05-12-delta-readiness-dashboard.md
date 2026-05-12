@@ -72,6 +72,7 @@ For each active direction, the next weekly cycle should publish:
 - [Weekly delta baseline snapshot](../source-verification/weekly-delta-baseline-2026-05-12.csv)
 - [Weekly delta status table](../source-verification/weekly-delta-status-2026-05-12.csv)
 - [Weekly delta note template](../templates/weekly-delta-note-template.md)
+- [Weekly delta automation](../weekly-delta-automation.md)
 - [Ranking hub](../ranking-hub.md)
 
 ## Why This Matters

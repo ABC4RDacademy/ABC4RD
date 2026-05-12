@@ -68,6 +68,7 @@ Legend:
 | Publication | en | ar | zh | fr | ru | es | Preview rule |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `ranking-hub` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `weekly-delta-automation` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 
 ## Releases
 
