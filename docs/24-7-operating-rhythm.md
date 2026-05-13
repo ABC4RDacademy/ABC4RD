@@ -13,6 +13,11 @@ steady public proof of work, not noise.
 | External block | Identify one external docs contribution opportunity |
 | Digest block | Record what changed and what needs review |
 
+Daily control surface:
+
+- [Daily operating dashboard](daily-operating-dashboard.md)
+- [Daily operating package template](templates/daily-operating-package-template.md)
+
 ## Weekly Cycle
 
 - Publish one research digest.

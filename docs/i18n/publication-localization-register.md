@@ -69,6 +69,7 @@ Legend:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `ranking-hub` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 | `weekly-delta-automation` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `daily-operating-dashboard` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 
 ## Releases
 

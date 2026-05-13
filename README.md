@@ -111,6 +111,7 @@ Use this carefully:
 - [Native review checklist](docs/i18n/native-review-checklist.md)
 - [Ranking hub](docs/ranking-hub.md)
 - [Delta readiness dashboard](docs/weekly-digests/2026-05-12-delta-readiness-dashboard.md)
+- [Daily operating dashboard](docs/daily-operating-dashboard.md)
 - [Launch Sprint 01](docs/launch-sprint-01.md)
 - [GitHub launch issues](docs/github-launch-issues.md)
 - [Course 01: Blockchain Academy](docs/courses/blockchain-academy-from-bitcoin-to-verifiable-infrastructure.md)
@@ -312,6 +313,7 @@ Current first sprint: [Launch Sprint 01: ABC4RD Academy Public Baseline](docs/la
 
 - [ABC4RD operating loop](docs/operating-loop.md)
 - [Operating dashboard](docs/operating-dashboard.md)
+- [Daily operating dashboard](docs/daily-operating-dashboard.md)
 - [Platform sync](docs/platform-sync.md)
 - [Jira/GitHub/GitLab task routing](docs/jira-github-gitlab-task-routing.md)
 - [Site information architecture](docs/site-information-architecture.md)
