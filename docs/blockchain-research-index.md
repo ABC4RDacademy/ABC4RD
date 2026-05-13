@@ -48,3 +48,12 @@ Each entry should include:
 Do not add papers or reports from unclear reposts. Use official publisher,
 university, standards body, project, or author links whenever possible.
 
+## Ranking Layer
+
+ABC4RD now connects research navigation to a public ranking and publication
+system:
+
+- [Ranking hub](ranking-hub.md)
+- [Index system](index-system.md)
+- [Weekly ranking publication algorithm](weekly-ranking-publication-algorithm.md)
+- [Delta readiness dashboard](weekly-digests/2026-05-12-delta-readiness-dashboard.md)

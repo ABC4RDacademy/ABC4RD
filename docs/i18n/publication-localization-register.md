@@ -63,6 +63,12 @@ Legend:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `2026-05-13-erc20-localnet-review` | source | missing | missing | missing | missing | missing | text-free preview required or localized set |
 
+## Daily Packages
+
+| Publication | en | ar | zh | fr | ru | es | Preview rule |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `2026-05-13-daily-operating-package` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+
 ## Core Pages
 
 | Publication | en | ar | zh | fr | ru | es | Preview rule |
