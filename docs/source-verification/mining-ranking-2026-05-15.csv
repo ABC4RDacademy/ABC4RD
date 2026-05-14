@@ -1,0 +1,21 @@
+rank,entity,sector,entity_type,official_url,official_docs,github_url,official_signal_url,TSI,OAI,EPI,KAI,CRI,TGI,MI,total,status,next_action
+1,Hut 8,mining,company,https://www.hut8.com/,,,"https://www.hut8.com/news-insights/press-releases/hut-8-reports-first-quarter-2026-results",16,8,14,12,14,16,18,98,verified,Track earnings and AI infrastructure lease signals
+2,MARA,mining,company,https://www.mara.com/,,https://github.com/marathondh,https://ir.mara.com/news-events/press-releases,16,8,13,11,13,15,17,93,verified,Track digital infrastructure and treasury updates
+3,Braiins,mining,company,https://braiins.com/,https://braiins.com/os/,https://github.com/braiins,https://braiins.com/blog,15,17,9,15,12,13,12,93,verified,Track mining software and automation updates
+4,Riot,mining,company,https://www.riotplatforms.com/,,https://github.com/riotblockchain,https://www.riotplatforms.com/riot-platforms-reports-first-quarter-2026-financial-results-and-strategic-highlights/,15,8,13,11,13,15,17,92,verified,Track data center and mining operations signals
+5,Luxor,mining,company,https://luxor.tech/,https://docs.luxor.tech/,https://github.com/luxor-tech,https://luxor.tech/blog,14,14,10,13,12,12,13,88,verified,Track mining marketplace and pool tooling
+6,TeraWulf,mining,company,https://www.terawulf.com/,,,"https://investors.terawulf.com/news-events/press-releases/detail/140/terawulf-reports-first-quarter-2026-results/",15,7,12,10,12,14,17,87,verified,Track HPC transition and power-campus execution
+7,Foundry,mining,company,https://foundrydigital.com/,,,https://foundrydigital.com/insights/,14,13,10,12,12,13,13,87,verified,Track pool and institutional mining research
+8,Bitdeer,mining,company,https://www.bitdeer.com/,,,"https://ir.bitdeer.com/news-releases/news-release-details/bitdeer-announces-march-2026-production-and-operations-update",16,7,12,10,12,14,16,87,verified,Track production reports and infrastructure expansion
+9,CleanSpark,mining,company,https://www.cleanspark.com/,,,"https://investors.cleanspark.com/news/news-details/2026/CleanSpark-Delivers-181-Million-in-Q1-Revenue-Strengthens-Balance-Sheet-and-Advances-Multi-Gigawatt-AI-Infrastructure-Platform/default.aspx",15,7,11,10,12,14,15,84,verified,Track power portfolio and operations updates
+10,Ocean,mining,project,https://ocean.xyz/,,https://github.com/oceanxyz,https://ocean.xyz/,14,10,10,11,11,12,14,82,verified,Track pool transparency and protocol-facing mining updates
+11,Core Scientific,mining,company,https://www.corescientific.com/,,,"https://investors.corescientific.com/news-events/press-releases",15,7,11,9,11,14,15,82,verified,Track hosting and compute infrastructure updates
+12,IREN,mining,company,https://iren.com/,,,"https://investors.iren.com/overview/default.aspx",15,7,10,9,11,14,14,80,verified,Track operating footprint and investor-facing updates
+13,Cipher Mining,mining,company,https://www.ciphermining.com/,,,"https://investors.ciphermining.com/news-events/press-releases",15,7,10,9,11,14,14,80,verified,Track power and miner fleet updates
+14,NiceHash,mining,company,https://www.nicehash.com/,https://www.nicehash.com/docs/,,"https://www.nicehash.com/blog",13,8,10,11,11,12,12,77,verified,Track marketplace and miner software notes
+15,Bitmain,mining,company,https://www.bitmain.com/,,https://github.com/bitmaintech,https://www.bitmain.com/news.htm,18,10,8,9,10,11,8,74,verified,Track hardware launches and pool ecosystem updates
+16,Canaan,mining,company,https://www.canaan.io/,,,https://www.canaan.io/news,16,8,8,8,10,12,11,73,verified,Track ASIC and corporate updates
+17,F2Pool,mining,company,https://f2pool.io/,,,https://f2pool.io/,14,6,10,8,10,11,10,69,verified,Track pool-facing public signal quality
+18,Antpool,mining,company,https://www.antpool.com/,,,https://www.antpool.com/,15,6,9,8,10,11,10,69,verified,Track pool operations and public route clarity
+19,ViaBTC,mining,company,https://www.viabtc.com/,,,https://www.viabtc.com/,14,6,9,8,10,11,10,68,verified,Track pool and service surface improvements
+20,MicroBT,mining,company,https://www.microbt.com/,,,https://www.microbt.com/,17,7,7,8,9,11,9,68,verified,Track hardware and service surface updates

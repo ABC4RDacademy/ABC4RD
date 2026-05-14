@@ -23,6 +23,7 @@ It gives readers one place to find:
 ## Current Flagship List
 
 - [Cross-Sector Top 20](weekly-digests/2026-05-12-cross-sector-top-20.md)
+- [Weekly ranking release: 2026-05-15](weekly-digests/2026-05-15-weekly-ranking-release.md)
 
 This is now the main cross-sector public list. It is built from the
 highest-scoring entities across the currently published sector rankings.
@@ -52,23 +53,27 @@ highest-scoring entities across the currently published sector rankings.
 - [Delta readiness dashboard](weekly-digests/2026-05-12-delta-readiness-dashboard.md)
 - [Weekly delta baseline snapshot](source-verification/weekly-delta-baseline-2026-05-12.csv)
 - [Weekly delta status table](source-verification/weekly-delta-status-2026-05-12.csv)
+- [Weekly delta status table: 2026-05-15](source-verification/weekly-delta-status-2026-05-15.csv)
 - [Weekly delta automation](weekly-delta-automation.md)
 - [Weekly publication preflight: 2026-05-15](weekly-publication-preflight-2026-05-15.md)
 
 ## Baseline Status
 
-All currently published direction tables dated `2026-05-12` are first-edition
-public baselines.
+The `2026-05-12` direction tables remain the first-edition public baselines.
+
+The `2026-05-15` cycle now adds the first dated current-cycle snapshot layer
+and the first full published delta-note set.
 
 That means:
 
 - the scores are real;
 - the source tables are real;
 - the public publication is active;
-- but week-over-week movement is not yet published, because there is not yet a
-  second dated official cycle to compare against.
+- the current-cycle publication layer now exists;
+- but no movement should be inferred unless a later pass publishes true
+  rescored changes against this dated snapshot.
 
-The next Friday cycle will be the first true delta-ready update.
+The next rescored Friday cycle will be the first movement-ready update.
 
 ## How Weekly Delta Will Work
 
