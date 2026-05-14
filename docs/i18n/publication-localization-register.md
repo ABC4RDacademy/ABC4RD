@@ -68,6 +68,7 @@ Legend:
 | Publication | en | ar | zh | fr | ru | es | Preview rule |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `2026-05-13-daily-operating-package` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `2026-05-14-daily-operating-package` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 
 ## Core Pages
 
@@ -76,6 +77,7 @@ Legend:
 | `ranking-hub` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 | `weekly-delta-automation` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 | `daily-operating-dashboard` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `weekly-publication-preflight-2026-05-15` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 
 ## Releases
 
