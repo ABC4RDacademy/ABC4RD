@@ -81,6 +81,7 @@ Legend:
 | `daily-operating-dashboard` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 | `weekly-publication-preflight-2026-05-15` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 | `weekly-rescoring-priority-2026-05-22` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
+| `weekly-rescoring-source-queue-2026-05-22` | source | draft | draft | draft | draft | draft | text-free preview required or localized set |
 
 ## Releases
 
