@@ -117,6 +117,7 @@ Use this carefully:
 - [Daily operating package: 2026-05-15](docs/daily-packages/2026-05-15-daily-operating-package.md)
 - [Weekly rescoring priority: 2026-05-22](docs/weekly-rescoring-priority-2026-05-22.md)
 - [Weekly rescoring source queue: 2026-05-22](docs/weekly-rescoring-source-queue-2026-05-22.md)
+- [Localization recovery priority: 2026-05-16](docs/localization-recovery-priority-2026-05-16.md)
 - [Launch Sprint 01](docs/launch-sprint-01.md)
 - [GitHub launch issues](docs/github-launch-issues.md)
 - [Course 01: Blockchain Academy](docs/courses/blockchain-academy-from-bitcoin-to-verifiable-infrastructure.md)

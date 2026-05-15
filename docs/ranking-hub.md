@@ -58,6 +58,7 @@ highest-scoring entities across the currently published sector rankings.
 - [Weekly publication preflight: 2026-05-15](weekly-publication-preflight-2026-05-15.md)
 - [Weekly rescoring priority: 2026-05-22](weekly-rescoring-priority-2026-05-22.md)
 - [Weekly rescoring source queue: 2026-05-22](weekly-rescoring-source-queue-2026-05-22.md)
+- [Localization recovery priority: 2026-05-16](localization-recovery-priority-2026-05-16.md)
 
 ## Baseline Status
 
