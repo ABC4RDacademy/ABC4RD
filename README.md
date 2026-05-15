@@ -115,6 +115,7 @@ Use this carefully:
 - [Weekly publication preflight: 2026-05-15](docs/weekly-publication-preflight-2026-05-15.md)
 - [Weekly ranking release: 2026-05-15](docs/weekly-digests/2026-05-15-weekly-ranking-release.md)
 - [Daily operating package: 2026-05-15](docs/daily-packages/2026-05-15-daily-operating-package.md)
+- [Weekly rescoring priority: 2026-05-22](docs/weekly-rescoring-priority-2026-05-22.md)
 - [Launch Sprint 01](docs/launch-sprint-01.md)
 - [GitHub launch issues](docs/github-launch-issues.md)
 - [Course 01: Blockchain Academy](docs/courses/blockchain-academy-from-bitcoin-to-verifiable-infrastructure.md)

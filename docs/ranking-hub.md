@@ -56,6 +56,7 @@ highest-scoring entities across the currently published sector rankings.
 - [Weekly delta status table: 2026-05-15](source-verification/weekly-delta-status-2026-05-15.csv)
 - [Weekly delta automation](weekly-delta-automation.md)
 - [Weekly publication preflight: 2026-05-15](weekly-publication-preflight-2026-05-15.md)
+- [Weekly rescoring priority: 2026-05-22](weekly-rescoring-priority-2026-05-22.md)
 
 ## Baseline Status
 
